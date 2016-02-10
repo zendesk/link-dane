@@ -116,7 +116,7 @@ def parseFacility(hash)
                        services: services}
   end
 
-  File.open('Facilite.json', "w") do |f|
+  File.open('Facility.json', "w") do |f|
     f.puts JSON.pretty_generate({ "results": facilitiesJSON})
   end
 
