@@ -1,3 +1,7 @@
+require 'csv'
+require 'byebug'
+
+
 MONDAY = /Mo(n(day)?)?/
 TUESDAY = /Tu(e(sday)?)?/
 WEDNESDAY = /We(d(nesday)?)?/
@@ -5,23 +9,100 @@ THURSDAY = /Th(u(rsday)?)?/
 FRIDAY = /Fr(i(day)?)?/
 SATURDAY = /Sa(t(urday)?)?/
 SUNDAY = /Su(n(day)?)?/
-WEEKDAY_R = /(Mo(n(day)?)?|Tu(e(sday)?)?|We(d(nesday)?)?|Th(u(rsday)?)?|Fr(i(day)?)?|Sa(t(urday)?)?|Su(n(day)?)?)/
-WEEKDAY_RANGE = /(?'start_day'#{WEEKDAY_R})-(?<end_day>#{WEEKDAY_R})/
+WEEKDAY = /#{MONDAY}|#{TUESDAY}|#{WEDNESDAY}|#{THURSDAY}|#{FRIDAY}|#{SATURDAY}|#{SUNDAY}/
+# WEEKDAY = /(Mo(n(day)?)?|Tu(e(sday)?)?|We(d(nesday)?)?|Th(u(rsday)?)?|Fr(i(day)?)?|Sa(t(urday)?)?|Su(n(day)?)?)/ 
+WEEKDAY_RANGE = /(?<start_day>#{WEEKDAY})\s*-\s*(?<end_day>#{WEEKDAY})/
+WEEKDAY_LIST = /#{WEEKDAY}(, #{WEEKDAY})*(,? and #{WEEKDAY})?/
 TIME_R = /\d?\d:\d\d[ap]m/
-TIME_RANGE_R =  /(?<start_time>#{TIME_R})-(?<end_time>#{TIME_R})/
-FINAL = /(#{WEEKDAY_RANGE}|(?<weekday>#{WEEKDAY_R}))\s*#{TIME_RANGE_R}/
+TIME_RANGE_R =  /(?<start_time>#{TIME_R})\s*-\s*(?<end_time>#{TIME_R})/
+FINAL = /(#{WEEKDAY_RANGE}|(?<weekdays>#{WEEKDAY_LIST}|[Dd]aily)),?\s*#{TIME_RANGE_R}/
 
-hours_array = ['Monday-Friday 9:00am-1:00pm', 'Monday-Thursday 9:00am-5:00pm', 'Monday - Friday 5:30am -1 2:00pm;   Saturday 5:00am - 9:00am', 'Monday-Friday 9:00am-5:00pm with evening hours available by appointment. Some special events on weekends.', 'Monday-Friday 8:30am-4:30pm', 'Monday-Friday 8:00am-4:00pm', '24 hours', 'Monday and Thursday: 7:30am-7:00pm; Tuesday, Wednesday and Friday: 7:30am-5:00pm', 'Monday-Thursday 8:00am-5:00pm; Friday 8:00am-4:00pm', '8:00am- 7:00pm Monday- Thursday, 8:00am- 5:00pm Friday', '8:00am- 7:00pm Monday- Wednesday, 8:00am- 5:00pm Thursday- Friday', 'Monday-Thursday 8:00am-8:00pm, Friday 8:00am-4:30pm', 'Monday-Friday 8:00am-5:00pm', 'Monday-Friday 8:00am-2:30pm', 'Monday-Friday 7:45am-4:30pm', '=', 'Monday-Friday 9:00am-4:00pm', 'Monday-Friday 7:45am-4:15pm', 'Monday-Friday 7:30am-4:00pm', 'Tuesday-Thursday 10:00am-7:00pm; Friday-Saturday 10:00am-5:00pm', 'Monday-Thursday 10:00am-7:00pm; Friday-Saturday 10:00am-5:00pm; Sunday 12:00pm-4:00pm', 'Mondays  5:00pm - 7:00 pm', 'Monday-Friday 8:00am - 4:00pm', 'Monday-Friday 8:00am-4:30pm', 'Monday-Friday 8:30am-4:00pm; some evenings and weekend hours', 'Monday-Friday 5:15am-10:30pm; Saturday 6:00am-7:00pm; Sunday 9:00am-7:00pm', 'Monday-Friday 9:00am-6:00pm', 'Monday, 8:30am-5:00pm; Tuesday, 8:30am-8:00pm; Wednesday-Friday, 8:30am-5:00pm; Play Group: Wednesday, 9:00am-10:30am; Friday, 9:00am-10:30am.', '2nd and 4th Saturday of the month, 10:00am-12:00pm; 3rd Thursday of the month, 5:00pm-7:00pm', 'Monday-Friday 9:00am-5:30pm', 'Monday - Friday 8:00am - 5:00pm', 'Thursday-Sunday 9:30am-11:30am', 'Monday-Thursday 9:00am-9:00pm; Friday 9:00am-6:00pm; Saturday 9:00am-5:00pm; Sunday (October-April) 1:00pm-5:00pm', 'Monday-Wednesday-Friday 1:00pm-9:00pm; Tuesday 10:00am-6:00pm; Thursday 12:00pm-6:00pm; Saturday 9:30am-5:00pm', 'Monday-Friday 9:00am-9:00pm; Saturday 9:00am-5:00pm', 'Monday-Friday 10:00am-8:00pm; Saturday 9:00am-5:00pm', 'Monday-Friday 10:00am-8:00pm; Saturday 10:00am-5:00pm', 'Monday-Thursday 9:00am-9:00pm; Saturday 9:00am-5:00pm; Sunday (October-April) 1:00pm-5:00pm', 'Monday 9:00am-6:00pm; Tuesday 9:00am-8:00pm; Wednesday-Friday 9:00am-6:00pm', 'Varies. Generally 8am-5:30pm, Mon-Friday', 'Monday-Friday 3:00pm-5:30pm', 'Monday - Friday 3:30pm - 5:30pm', '"Monday-Friday 3:00pm-6:00pm on school days;', 'Monday-Friday 1:00pm-5:00pm during the non-school year"', 'Monday-Thursday 8:00am-8:00pm Friday 8:00am-6:00pm Weekends vary', '"Tuesdays 8:00am-4:00pm ', 'Friday 8:00am-2:00pm ', '2nd Saturday of the month 8:00am-2:00pm"', 'Tuesday-Friday 10:00am-1:00pm', 'Monday-Thursday 9:00am-7:00pm; Friday 9:00am-5:00pm; Saturday 9:00am-12:00pm', 'Wednesday 10:00am-12:00pm and 6:00pm-7:30pm', 'Monday-Thursday 10:00am-1:00pm, 2:00pm-7:00pm; Friday 10:00am-5:00pm; Saturday 10:00am-2:00pm', 'Monday-Friday 9:00am-3:00pm', 'Monday-Wednesday 1:00pm-6:00pm; Tuesday-Thursday 9:00am-8:00pm; Friday 1:00pm-5:00pm; Saturday 9:00am-1:00pm', 'Monday-Friday 8:00am-5:00pm, Saturday 8:00am-11:30am', 'Monday-Wednesday-Thursday 8:00am-7:00pm, Tuesday-Friday 8:00am-5:00pm, Saturday 8:00am-12:00pm', 'Monday and Thursday 8:00am-6:00pm, Tuesday Wednsday and Friday 8:00am-5:00pm', 'Monday- Friday 8:00am- 5:00pm', 'Monday- Friday 8:00am-5:00pm', 'Monday- Friday 8:00pm- 5:00pm', 'Monday-Thursday 7:00am-7:00pm, Friday 7:00am-5:00pm, Saturday 8:00am-Noon, Sunday-Holidays Pediatrics only 8:00am-11:00am', 'Monday-Friday 7:00am-5:00pm', 'Monday, Wednesday-Friday 8:00am-5:00pm and Tuesday 8:00am-7:00pm', 'Tuesday-Friday 8:00am-5:00pm; Monday 8:00am-7:00pm', 'Monday-Wednesday-Friday 8:00am-5:00pm; Tuesday-Thursday 8:00am-7:00pm', 'Monday 8:00am-7:00pm; Tuesday-Friday 8:00am-5:00pm', 'Monday-Thursday 9:00am-8:00pm; Friday 1:00pm-5:30pm; Saturday 9:00am-5:00pm; Sunday 1:00pm-5:00pm', 'Monday-Friday 9:00am-5:00pm', 'Monday-Thursday 12:00pm-8:00pm; Tuesday-Wednesday-Friday 9:00am-5:00pm; Saturday 9:00am-1:00pm', 'Monday-Friday 9:00am-4:00pm; Saturday 10:00am-2:00pm', 'Monday-Thursday 9:30am-8:00pm, Friday-Saturday 9:30am-5:30pm, Sunday 12:00pm-3:00pm', 'Monday-Thursday 8:00am-8:00pm, Friday 8:00am-5:00pm', 'Monday-Thursday 8:00am-8:00pm; Friday 8:00am-5:00pm', '8:00am to 4:00pm, Mon. -  Fri.', 'Monday-Thursday 6:00am-9:00pm, Friday 6:00am-8:00pm, Saturday 8:30am-6:00pm, Sunday 8:30am-6:00pm', 'Monday-Friday 8:30am-5:00pm', 'Monday-Friday, 8:00am-5:00pm', 'Monday-Friday 8:00am-4:30pm; Saturday 9:00am-11:30am', 'Monday-Thursday 8:00am-7:00pm; Friday 8:00am-4:30pm', 'Monday-Friday 8:00-4:30pm', '8:00am- 5:00pm Tuesday, Thursday, and Friday. 8:00am-7:00pm Monday and Wednesday', '8:00am- 5:00om Monday- Friday', '8:00am- 5:00pm Monday- Friday', '7:00am- 5:00pm Monday- Friday', '8:00am- 5:00pm Monday- Thursday, 8am-2:30pm Friday', 'Monday-Friday 7:00am- 5:00pm', 'Monday, Friday, Wednesday 7:00am- 5:30pm', 'Monday-Thursday 7:00am-8:30pm, Friday 7:00am-5:00pm', 'Monday-Wednesday 9:00am-7:00pm; Thursday-Friday 9:00am-5:00pm; Saturday 9:00am-3:00pm', 'Monday-Thursday 10:00am-12:00pm, 2:00pm-7:00pm; Friday 10:00am-5:00pm; Saturday 10:00am-1:00pm', '"Client Hours: ', 'See website for current hours."', 'Monday-Thursday 9:00am-9:00pm; Friday 9:00am-6:00pm; Saturday 9:00am-5:00pm; Sunday 1:00pm-5:00pm (September-May)', 'Thursdays from 9:00am-11:00am and 4:00pm-6:00pm', 'Monday-Thursday 8:30am-4:00pm; Friday 8:30am-1:00pm', 'Monday-Tuesday-Thursday-Friday 9:00am-12:00pm and 1:00pm-4:30pm; closed the week after Christmas and the week following Easter', 'Monday-Wednesday 9:00am-8:00pm; Thursday-Friday 9:00am-6:00pm; Saturday 9:00am-5:00pm; Sunday (September-May) 1:00pm-5:00pm', 'Monday-Thursday 9:30am-8:00pm; Friday 9:30am-5:30pm; Saturday 9:30am-5:00pm', 'Monday-Thursday 9:00am-8:00pm, Friday 9:00am-6:00pm, Saturday 9:00am-3:00pm', 'Monday-Wednesday-Thursday 9:00am-8:00pm; Tuesday-Friday 9:00am-5:00pm; Saturday 10:00am-2:00pm', 'Monday-Thursday 8:30am-3:30pm, Friday 8:30am-11:00am', 'Monday-Thursday 9:00am-9:00pm; Friday-Saturday 9:00am-5:00pm', 'Monday-Thursday 9:00am-9:00pm; Friday-Saturday 9:00am-5:00pm; Sunday (Labor Day to Memorial Day) 1:00pm-5:00pm', 'Monday-Thursday 9:00am-9:00pm, Friday 9:00am-5:00pm, Saturday 9:00am-4:00pm', 'Monday-Thursday 9:00am-9:00pm; Friday 9:00am-5:00pm; Saturday 10:00am-5:00pm', 'Monday-Friday 8:00am-9:00pm', 'Monday - Friday 8:30am - 3:30pm', 'Monday-Thursday 8:00am-4:30pm, Friday 8:00am-12:00pm', '"Monday - Friday 10:00am - 3:00', 'pm. ', 'Sunday women space 11:00am - 3:00pm"', 'Monday-Friday 9:30am-5:30pm, Summer: Monday-Friday 9:00am-5:00pm', 'Monday-Friday, 8:00am-4:00pm', 'Monday- Friday 9:00am- 5:30am', 'Monday-Wednesday-Friday 10:00am-2:00pm; Monday-Thursday 5:00pm-7:00pm; Saturday 9:00am-12:00pm.', '"School year hours: Monday-Friday 9:00am-5:00pm', 'Summer hours: Monday-Friday 8:00am-3:00pm"', '"Secretary Hours: Wednesday 8:00am-12:00pm; Thursday 12:00pm-6:00pm', 'Business Hours: Monday - Friday 8:00am - 4:30pm; Shelter Hours: 5:00pm - 8:00am nightly', 'Monday - Friday 8:00am - 4:30pm', 'Monday - Thursday 9:00am-12:00pm, 1:00pm - 3:00pm; Friday  - 10:00am - 1:00pm', 'Monday-Friday 9:00am-12:00pm', 'Monday-Wednesday-Friday 10:00am-2:00pm; Tuesday-Thursday 5:00pm-7:00pm; Saturday 9:00am-12:00pm', 'Monday-Friday 9:00am-4:30pm', 'Monday-Friday 8:30am-6:00pm', 'Monday-Thursday 8:30am - 8:00pm; Friday 8:30am - 1:00pm', 'Monday-Wednesday-Friday 8:00am-10:00pm; Tuesday-Thursday 6:00am-10:00pm; Saturday 8:00am-8:00pm; Sunday 11:00am-6:00pm', 'Monday-Saturday 9:00am-7:00pm and Sunday 10:30am-6:00pm.', 'Monday-Saturday from 9:00am-7:00pm, Sunday 11:00am-5:00pm', 'Monday-Friday 9:00am-3:30pm', 'Sunday 11:00am-5:00pm, Monday-Wednesday 9:00am-6:00pm, Thursday-Saturday 9:00am-7:00pm.', 'Daily 10:00am-5:00pm', 'Monday-Saturday 9:00am-6:00pm and Sunday 11:00am-5:00pm.', 'Monday-Saturday 9:00am-7:30pm and Sunday 10:00-5:30pm.', 'Monday-Friday 8:30am-7:00pm; Saturday 10:00am-4:00pm', 'Monday-Friday 10:00am-8:00pm', 'Monday & Wednesday 9:00am - 6:00pm, Tuesday & Thursday 9:00am - 7:30pm, Friday 9:00am - 9:00pm', 'Summer (April 1-October 31): Daily 8:00pm-8:00am; Winter (November 1-March 31): Daily 5:00pm-8:00am', 'Summer (April 1- October 31): Monday-Friday 8:30am-4:30pm; Winter (November 1-March 31): 7 days, 8:30am-4:30pm. Donation center open from 10am-2pm Monday-Friday. Only accepting certain donation items during this time. Call 608-258-4840 to speak to donation center coordinator.', 'Thursday 6:30pm -8:00pm', 'Mondays 5pm to 7pm', 'Saturdays 10am to 12pm"', 'Open for food distribution 3:00pm - 7:00pm on last Thursday of most months; check obfp.org for dates for November and December distributions.  Access to Pantry can be arranged via email contact for urgent, unscheduled needs.', '"1st Monday, 11:30am-1:30pm', '2nd Saturday, 9:00am-11:00am', '3rd Wednesday, 10:00am-12:00pm', '4th Tuesday, 4:30pm-6:30pm."', 'Monday-Friday 8:00am-6:00pm', 'Tuesday-Thursday 11:00am-1:00pm, 3rd Saturday of the month 9:00am-11:00am', '6:00am-6:00pm', 'Monday-Thursday 9:00am-8:00pm; Friday 9:00am-9:00pm; Summer: Monday-Friday 9:30am-4:30pm, Tuesday-Thursday 5:30pm-8:00pm', '"Medical Clinic ', 'Monday - Friday: 8:00 a.m. - 5:00 p.m.', 'Dental Clinic ', 'Monday - Thursday: 7:00 a.m. - 5:00 p.m.', 'Friday: 7:00 a.m. - 4:00 p.m."', '"Monday, Tuesday, Wednesday and Friday: 7:30 a.m. - 5:00 p.m.', 'Thursday: 7:30 a.m. - 7:00 p.m."', 'Monday-Friday 8:00am-3:30pm', 'Tuesday-Friday 9:00am-3:00pm; Summer 9:00am-12:00pm', 'Monday-Friday 10:00am-7:00pm; Saturday 12:00pm-4:00pm', 'Monday-Friday 9:00am-9:00pm', 'Monday-Friday 9:00am-8:00pm', 'Monday-Friday 8:00am-8:00pm', '"Monday-Thursday 9:00am-3:30pm', 'Sunday 8:00am-12:00pm"', 'Monday-Friday 7:00am-10:00pm; Saturday 7:00am-3:00pm', 'Saturday 9:00am-12:00pm; closed holiday weekends', 'Monday-Friday, 8:30am-4:30pm', '"School Year: Monday-Friday 7:30am-4:30pm', 'Summer: Monday-Thursday 7:30am-4:30pm, Friday 7:30am-12:15pm"', '"Administrative Hours: Monday-Friday 8:30am-4:30pm', 'Help Line: 24 hours a day, 7 days a week"', 'Monday-Friday 10:00am-4:30pm', '1st and 3rd Thursday of each month. 1:00pm-5:00pm', 'Monday-Thursday 9:00am-9:00pm, Friday-Saturday 10:00am-6:00pm, Sunday 1:00pm-5:00pm (September-May)', 'Laundromat is otherwise open 7 days a week, 6:00am-Midnight for customers other than Project Bubbles. Project Bubbles operates Tuesdays and Fridays 9:00am - 1:00pm. Last laundry loads must be in by noon.', '7:45am to 4:30pm, Mon. -  Fri.', 'Monday - Friday 9:00am - 3:30pm']
-i=0
-hours_array.each do |hours| 
-    flag = false
-    hours.split(/;/).each do |h|
-        FINAL.match(h) do |m|
-            flag = true
-            puts m.inspect
-            i = i+1
-            # puts "#{i}/181"
-        end
-        puts "UNABLE TO PARSE:: #{h}" unless flag
+FLAG = {missing: "NO_DATA", match: "", no_match: "NOT_PARSEABLE", twenty_four: "Confirm 24 hours"  }
+
+def parseable?(hours)
+  hours.split(/;/).each do |h|
+    FINAL.match(h.strip) do |m|
+        # puts m.inspect
+        return true
     end
+    # puts "UNABLE TO PARSE:: #{h}"
+    return false
+  end
 end
+
+def is_24hours?(hours)
+  /24 [hH]ours/.match(hours) do |h|
+    return true
+  end
+  return false
+end
+
+def check_hours(hours)
+  if !hours
+    return FLAG[:missing]
+  elsif is_24hours?(hours)
+    return FLAG[:twenty_four]
+  elsif parseable?(hours)
+    return FLAG[:match]
+  else
+    return FLAG[:no_match]
+  end
+end
+
+
+def mark_unparseable_hours(*args)
+
+
+    filename = 'toJsonJan24.csv'
+
+    # Load the original CSV file
+    ph_up, bh_up, bh_missing, ph_missing = 0, 0, 0, 0
+    rows = CSV.read(filename, headers: true, encoding: "ISO-8859-1", return_headers: false).collect do |row|
+      hash = row.to_hash
+
+      building_hours = hash["BUILDING HOURS"]
+      program_hours = hash["PROGRAM HOURS"]
+      # Assign a flag for building and program hours
+      bh_flag = check_hours(building_hours)
+      ph_flag = check_hours(program_hours)
+
+      
+      # Calculate statistics
+      if bh_flag == FLAG[:no_match]
+        bh_up = bh_up + 1
+        # puts "BH: #{building_hours}"
+      elsif bh_flag == FLAG[:missing]
+        bh_missing = bh_missing + 1
+      end
+      if ph_flag == FLAG[:no_match]
+        ph_up = ph_up + 1
+        # puts "PH: #{program_hours}"
+      elsif ph_flag == FLAG[:missing]
+        ph_missing = ph_missing + 1
+      end
+
+      # Merge additional data as a hash.
+      hash.merge('Building Hours FLAG' => bh_flag, 'Program Hours FLAG' => ph_flag)
+    end
+    puts "PH unparseable: #{ph_up}"
+    puts "BH unparseable: #{bh_up}"
+    puts "BH missing: #{bh_missing}"
+    puts "PH missing: #{ph_missing}"
+    puts "Total rows: #{rows.count}"
+
+    # # Extract column names from first row of data
+    column_names = rows.first.keys
+    txt = CSV.generate do |csv|
+      csv << column_names
+      rows.each do |row|
+        # Extract values for row of data
+        csv << row.values
+      end
+    end
+
+    # Write to new csv file
+    File.open('marked_hours.csv', 'w') { |file| file.write(txt) }
+        
+end
+
+mark_unparseable_hours
