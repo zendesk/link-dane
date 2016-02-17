@@ -8,6 +8,6 @@
  Users can be added straight into the data browser by providing a name, email and password (which is then hidden). Add a user and then copy its `objectId` for use in the next step.
 1. **Set Permissions**
 
- Next, you can set permissions on a per object basis. For Copenhelp, that includes the `Facility` class and the `Service` class. Select the class in the Parse data browser and click the ‘More’ menu and select ‘Set permissions.’
+ Next, you can set permissions on a per object basis. For Link-Dane, that includes the `Facility` class and the `Service` class. Select the class in the Parse data browser and click the ‘More’ menu and select ‘Set permissions.’
 
  Here you can click on the actions that should not be public, one at a time. Click Update, then uncheck “Any user can perform this action.” In the users box below, add the `objectId` of the user that you created before.

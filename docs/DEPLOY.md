@@ -1,6 +1,6 @@
-# Deploying Copenhelp
+# Deploying Link-Dane
 
-Copenhelp has two major components, a parse.com backend and a static HTML/js/css component.
+Link-Dane has two major components, a parse.com backend and a static HTML/js/css component.
 We've gone with a combination of S3 and [fast.ly](http://www.fastly.com) to serve the static components,
 although really any old hosting provider could do.
 
@@ -20,7 +20,7 @@ $ curl -s https://www.parse.com/downloads/cloud_code/installer.sh | sudo /bin/ba
 ensure that you've run grunt -- it will generate the necessary parse configs:
 
 ```
-$ cd copenhelp
+$ cd link-dane
 $ grunt
 ```
 
@@ -31,8 +31,8 @@ $ cd server
 $ parse list
 
 Associated apps are:
-* Copenhelp
-  Copenhelp -- Development
+* Link-Dane
+  Link-Dane -- Development
 
 ```
 
