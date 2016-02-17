@@ -1,12 +1,22 @@
 #filter {
   button {
-    @include gray-button;
+    @include white-button;
   }
 
   .categories {
     .chevron-container {
       display: none;
     }
+  }
+
+  .extra-top,
+  .categories-header.extra-top {
+    margin-top:10px;
+  }
+
+  .categories button {
+    margin-bottom: 10px;
+    
   }
 
   .filter {
@@ -48,13 +58,14 @@
     color: #c09853;
     padding: 8px 35px 8px 14px;
     margin-bottom: 15px;
+    margin-top: 20px;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
     background-color: #fcf8e3;
     border: 1px solid #fbeed5;
     border-radius: 4px;
   }
 
-  padding: $navbar-height+15px 20px 0 20px;
+  padding: 15px 20px 0 20px;
 
   .search {
     input[type=submit], button {
@@ -64,6 +75,9 @@
       text-shadow: none;
       height: 50px;
       font-size: 20px;
+      margin-top: 20px;
     }
   }
+
 }
+

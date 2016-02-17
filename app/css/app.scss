@@ -50,6 +50,17 @@ ul {
   border: 1px solid #1c5e79;
 }
 
+.ui-switch-middle {
+  background: rgba(0,0,0,0);
+  height: 30px;
+}
+
+.ui-switch,
+.ui-switch,
+.ui-switch-mask {
+  min-height:35px;
+}
+
 footer {
   max-width: 650px;
   margin: 0 auto;

@@ -5,7 +5,8 @@ test('lists categories on home page', function() {
         'Food',
         'Medical',
         'Hygiene',
-        'Computer'
+        'Computer',
+        'Community'
       ];
 
   deepEqual(actual, expected);
