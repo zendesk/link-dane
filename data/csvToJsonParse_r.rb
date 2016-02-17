@@ -7,6 +7,9 @@ require 'geocoder'
 require 'net/http'
 require 'optparse'
 
+PHONE_NUMBER = /(\(\d{3}\)[ -]\d{3}-\d{4})|(\(211\))/
+PHONE_NUM_DESC = /\(\D+\)/
+
 begin
 
   ARGV << '-h' if ARGV.empty?
@@ -27,6 +30,7 @@ begin
     end
   end.parse!
 
+  raise OptionParser::MissingArgument if $options[:fileName].nil?
   raise OptionParser::MissingArgument if $options[:entityToParse].nil?
   raise OptionParser::MissingArgument if $options[:geocode].nil?
 
@@ -141,7 +145,7 @@ def googleGeoCode(address, city, state, zip)
 end
 
 def parseFacility(hash)
-  puts "Staring Facility Parse"
+  puts "Starting Facility Parse"
   facilitiesJSON =[]
   sitesServices = hash
 
@@ -159,11 +163,25 @@ def parseFacility(hash)
       services << {__type: "Pointer", className: "Service", objectId: [row['AgencyID'],row['SiteID'],serviceID].join('_')}
     end
 
-    unless row['Program Contact 2'].nil?
-      phoneNumbers = [{info:"", number: row['Program Contact 2']}]
+    if row['Program Contact 2'].nil? and row['Contact 1 Phone']
+      parsed_c1p = row['Contact 1 Phone'].match(PHONE_NUMBER)[0].to_s.strip
+      phoneNumbers = [{info:"", number: parsed_c1p}]
+    elsif !row['Program Contact 2'].nil?
+      parsed_pc2 = row['Program Contact 2'].match(PHONE_NUMBER)[0].to_s.strip
+      parsed_pc2_desc = row['Program Contact 2'].match(PHONE_NUM_DESC)
+      debug "PAR: #{parsed_pc2_desc.inspect}"
+      if !parsed_pc2_desc.nil?
+        parsed_pc2_desc_trim = parsed_pc2_desc.to_s[1..-2]
+        debug "PAT: #{parsed_pc2_desc_trim}"
+      else
+        parsed_pc2_desc_trim = ""
+      end
+      phoneNumbers = [[{info:parsed_pc2_desc_trim, number: parsed_pc2}]]
     else
-      phoneNumbers = [{info:"", number: row['Contact 1 Phone']}]
+      phoneNumbers = [{"info":"","number":""}]
     end
+
+    puts phoneNumbers
 
     location = {__type: "GeoPoint", latitude: site['location'][0], longitude: site['location'][1]}
 
@@ -175,7 +193,7 @@ def parseFacility(hash)
                        address: row['Address 1'],
                        city: row['City'],
                        phoneNumbers: phoneNumbers,
-                       website: row["Web Site"],
+                       website: !row["Web Site"].nil? ? row["Web Site"] : "",
                        location: location,
                        services: services}
     # "address","age","categories","city","gender","name","notes","objectId","phoneNumbers","services","website"
@@ -189,7 +207,7 @@ end
 
 
 def parseService
-  puts "Staring Service Parse"
+  puts "Starting Service Parse"
   servicesJSON =[]
 
   CSV.foreach($options[:fileName], encoding: "ISO-8859-1", headers: true, return_headers: false) do |row|
@@ -212,7 +230,7 @@ def parseService
   File.open('Service.json', "w") do |f|
     f.puts JSON.pretty_generate({ "results": servicesJSON})
   end
-puts "Done with Service Parse"
+  puts "Done with Service Parse"
 end
 
 def debug(str)

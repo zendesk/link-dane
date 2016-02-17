@@ -1,0 +1,3828 @@
+---
+UWDC62857:
+  '1':
+    services:
+    - '70221'
+    address: 116 W Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0739499
+    - -89.3861161
+UWDC62865:
+  '1':
+    services:
+    - '70225'
+    address: 617 N Segoe Rd
+    city: Madison
+    state: WI
+    zipCode: '53705'
+    location:
+    - 43.0734346
+    - -89.4562814
+UWDC62871:
+  '1':
+    services:
+    - '95391'
+    address: 5109 World Dairy Drive
+    city: Madison
+    state: WI
+    zipCode: '53718'
+    location:
+    - 43.0563361
+    - -89.2934126
+UWDC62875:
+  '1':
+    services:
+    - '98881'
+    address: 2300 S Park St Ste 2022
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0412025
+    - -89.3952894
+UWDC62879:
+  '1':
+    services:
+    - '70241'
+    - '70242'
+    address: 1011 Nichols Rd
+    city: Monona
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.06383750000001
+    - -89.3407117
+UWDC62885:
+  '1':
+    services:
+    - '70246'
+    - '70247'
+    - '70249'
+    address: 333 S Madison St
+    city: Waunakee
+    state: WI
+    zipCode: '53597'
+    location:
+    - 43.1890888
+    - -89.44933089999999
+UWDC62918:
+  '1':
+    services:
+    - '70305'
+    - '70306'
+    - '70309'
+    - '70310'
+    - '70321'
+    - '98238'
+    address: 202 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.0656478
+    - -89.4016975
+  '12':
+    services:
+    - '70318'
+    address: 2690 Research Park Drive, Ste. F
+    city: Fitchburg
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0007145
+    - -89.4250207
+  '14':
+    services:
+    - '70318'
+    address: 2275 Deming Way Ste 220
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.0992294
+    - -89.5187102
+  '16':
+    services:
+    - '70318'
+    address: 100 Silverado Dr
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.9188756
+    - -89.24639909999999
+  '17':
+    services:
+    - '70318'
+    address: 4200 Savannah Dr
+    city: De Forest
+    state: WI
+    zipCode: '53532'
+    location:
+    - 43.1939721
+    - -89.32257419999999
+  '18':
+    services:
+    - '70318'
+    address: 6408 Copps Ave
+    city: Monona
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.048916
+    - -89.30929490000001
+  '2':
+    services:
+    - '70317'
+    address: 1015 Gammon Ln
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.04358020000001
+    - -89.5029459
+  '3':
+    services:
+    - '70318'
+    address: 7780 Elmwood Ave Ste 201
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.0963559
+    - -89.5150093
+  '4':
+    services:
+    - '70322'
+    address: 8001 Raymond Rd
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.0195234
+    - -89.5250856
+  '5':
+    services:
+    - '70318'
+    address: 3102 Meriter Way
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.0173114
+    - -89.52761679999999
+  '8':
+    services:
+    - '70318'
+    address: 345 W Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0713555
+    - -89.3880001
+UWDC62935:
+  '1':
+    services:
+    - '70330'
+    address: 2126 N Sherman Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.122572
+    - -89.36425299999999
+UWDC62945:
+  '1':
+    services:
+    - '98271'
+    address: 2705 East Washington Avenue
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1014458
+    - -89.3466844
+UWDC62968:
+  '1':
+    services:
+    - '70363'
+    - '70371'
+    address: 1819 Aberg Ave Ste C
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1134374
+    - -89.3610296
+UWDC62992:
+  '2':
+    services:
+    - '70408'
+    address: 2127 East Springs Drive
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1271682
+    - -89.292515
+  '3':
+    services:
+    - '70408'
+    address: 2501 Royal Avenue
+    city: Monona
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0417876
+    - -89.3534455
+  '4':
+    services:
+    - '70408'
+    address: 4530 Verona Road
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0381307
+    - -89.4572245
+  '6':
+    services:
+    - '70408'
+    address: 2902 American Legion Drive
+    city: Portage
+    state: WI
+    zipCode: '53901'
+    location:
+    - 43.5681372
+    - -89.4725314
+  '8':
+    services:
+    - '70408'
+    address: 6291 Mckee Road
+    city: Fitchburg
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.0151101
+    - -89.4801816
+  '9':
+    services:
+    - '70408'
+    address: 2111 McCoy Road
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.1744802
+    - -89.2486751
+UWDC63025:
+  '1':
+    services:
+    - '70520'
+    address: 517 N Segoe Rd Ste 309
+    city: Madison
+    state: WI
+    zipCode: '537053172'
+    location:
+    - 43.071948
+    - -89.4552418
+  '2':
+    services:
+    - '70524'
+    - '70525'
+    address: 602 Sawyer Terrace
+    city: Madison
+    state: WI
+    zipCode: '53705'
+    location:
+    - 43.0733595
+    - -89.4553756
+  '3':
+    services:
+    - '70527'
+    address: Lussier Community Center
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.0718858
+    - -89.5167298
+UWDC63039:
+  '1':
+    services:
+    - '70544'
+    address: 545 W Dayton St
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0706552
+    - -89.3952692
+  '2':
+    services:
+    - '70542'
+    - '70543'
+    address: 4711 Pflaum Rd
+    city: Madison
+    state: WI
+    zipCode: '53718'
+    location:
+    - 43.0616788
+    - -89.3005314
+UWDC63060:
+  '1':
+    services:
+    - '70555'
+    address: 210 Martin Luther King Jr Blvd Rm 200
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0723061
+    - -89.382375
+UWDC63083:
+  '1':
+    services:
+    - '70583'
+    - '70588'
+    - '96802'
+    address: 5395 E Cheryl Pkwy
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0039249
+    - -89.4152683
+  '2':
+    services:
+    - '70580'
+    address: 122 Junction Rd
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.0607872
+    - -89.52801180000002
+  '3':
+    services:
+    - '70580'
+    address: 2402 East Springs Drive
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1302151
+    - -89.2963592
+UWDC63089:
+  '1':
+    services:
+    - '70594'
+    - '93115'
+    - '95829'
+    address: 18 Rickel Road
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.17879620000001
+    - -89.24059869999999
+  '4':
+    services:
+    - '70595'
+    - '97034'
+    address: 1632 W Main St
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.1783069
+    - -89.241085
+UWDC63156:
+  '1':
+    services:
+    - '70668'
+    address: 2880 University Ave
+    city: Madison
+    state: WI
+    zipCode: '53705'
+    location:
+    - 43.0768712
+    - -89.4382081
+UWDC63194:
+  '1':
+    services:
+    - '85719'
+    address: 4142 Monona Dr
+    city: Madison
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.078285
+    - -89.324063
+  '2':
+    services:
+    - '70688'
+    address: 250 Femrite Dr
+    city: Monona
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.0531925
+    - -89.3228711
+  '3':
+    services:
+    - '70692'
+    address: 1501 Lake Point Drive
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.047748
+    - -89.340268
+UWDC63198:
+  '1':
+    services:
+    - '70693'
+    - '94117'
+    address: 1625 Northport Dr Ste 125
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.13163890000001
+    - -89.3696923
+UWDC63203:
+  '2':
+    services:
+    - '70709'
+    address: 2025 Taft St
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.043178
+    - -89.392443
+  '3':
+    services:
+    - '70711'
+    address: 330 W Mifflin St
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0731321
+    - -89.3895617
+  '4':
+    services:
+    - '70712'
+    address: 540 W Olin Ave Rm 137
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.055003
+    - -89.39102299999999
+UWDC63213:
+  '1':
+    services:
+    - '70731'
+    - '89422'
+    address: 330 W Mifflin St
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0731321
+    - -89.3895617
+UWDC63215:
+  '5':
+    services:
+    - '70739'
+    address: 1470 Don Simon Drive
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.1613282
+    - -89.2630262
+  '9':
+    services:
+    - '70736'
+    address: 711 Cottage Grove Rd
+    city: Madison
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.08320250000001
+    - -89.31442779999999
+UWDC63241:
+  '1':
+    services:
+    - '70748'
+    address: 2711 Allen Blvd Ste 300
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.1044659
+    - -89.48599100000001
+UWDC63259:
+  '1':
+    services:
+    - '70759'
+    address: 601 Bayview
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.5463088
+    - -89.30164560000001
+UWDC63276:
+  '1':
+    services:
+    - '70768'
+    address: 24 W Main St
+    city: Belleville
+    state: WI
+    zipCode: '53508'
+    location:
+    - 42.859443
+    - -89.53477
+UWDC63282:
+  '7':
+    services:
+    - '96244'
+    address: 1221 Henry Ave
+    city: Beloit
+    state: WI
+    zipCode: '53511'
+    location:
+    - 42.5226506
+    - -89.0226584
+UWDC63312:
+  '1':
+    services:
+    - '70821'
+    address: 102 E Lincoln St
+    city: Mount Horeb
+    state: WI
+    zipCode: '53572'
+    location:
+    - 43.007151
+    - -89.739043
+UWDC63320:
+  '1':
+    services:
+    - '70826'
+    - '70831'
+    - '70832'
+    - '99096'
+    address: 505 N Main St
+    city: DeForest
+    state: WI
+    zipCode: '53532'
+    location:
+    - 43.2534224
+    - -89.3433215
+UWDC63336:
+  '1':
+    services:
+    - '70847'
+    address: 9770 Silicon Prairie Parkway
+    city: Verona
+    state: WI
+    zipCode: '53593'
+    location:
+    - 43.0585804
+    - -89.55871069999999
+UWDC63360:
+  '1':
+    services:
+    - '70880'
+    address: 2970 Chapel Valley Road, Suite 203
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0167152
+    - -89.43120599999999
+UWDC63370:
+  '2':
+    services:
+    - '70905'
+    address: 6434 Enterprise Lane
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.058139
+    - -89.49049099999999
+UWDC63410:
+  '1':
+    services:
+    - '70944'
+    - '70948'
+    address: 2540 E Mifflin St
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.10131699999999
+    - -89.34984899999999
+UWDC63415:
+  '1':
+    services:
+    - '70953'
+    - '70961'
+    address: 201 W. Mifflin St.
+    city: Madison
+    state: WI
+    zipCode: '537033210'
+    location:
+    - 43.0733968
+    - -89.3872555
+  '2':
+    services:
+    - '70960'
+    address: 1705 Monroe St
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.06592939999999
+    - -89.41519079999999
+  '4':
+    services:
+    - '70959'
+    address: 2222 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0414617
+    - -89.39446579999999
+  '5':
+    services:
+    - '70958'
+    address: 2707 E Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1014967
+    - -89.3464583
+  '6':
+    services:
+    - '70957'
+    address: 2845 N Sherman Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1276876
+    - -89.3630139
+  '7':
+    services:
+    - '70956'
+    address: 4340 Tokay Blvd
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.053875
+    - -89.4502948
+  '8':
+    services:
+    - '70955'
+    address: 5740 Raymond Rd
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0324932
+    - -89.4790302
+  '9':
+    services:
+    - '70954'
+    address: 733 N High Point Rd
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.075992
+    - -89.5178942
+UWDC63425:
+  '10':
+    services:
+    - '70967'
+    - '70970'
+    - '98883'
+    address: 5734 Raymond Rd
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0319866
+    - -89.4783447
+  '11':
+    services:
+    - '70971'
+    address: 510 S Thornton Ave
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0864312
+    - -89.3569007
+  '12':
+    services:
+    - '70971'
+    address: 101 S Gammon Rd
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.0655503
+    - -89.5025321
+  '2':
+    services:
+    - '70971'
+    address: 1402 Wyoming Way
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.14699
+    - -89.369528
+  '3':
+    services:
+    - '70971'
+    address: 1610 Ruskin St
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1180906
+    - -89.3621326
+  '4':
+    services:
+    - '70971'
+    address: 1717 Fish Hatchery Rd
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0487545
+    - -89.4002052
+  '5':
+    services:
+    - '70971'
+    address: 230 Schenk St
+    city: Madison
+    state: WI
+    zipCode: '53714'
+    location:
+    - 43.0919597
+    - -89.3238313
+  '6':
+    services:
+    - '70971'
+    address: 4301 Cherokee Dr
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.04115700000001
+    - -89.44975699999999
+  '7':
+    services:
+    - '70971'
+    address: 501 Pflaum Rd
+    city: Madison
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.061514
+    - -89.3211989
+  '9':
+    services:
+    - '70971'
+    address: 5606 Russett Rd
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0336552
+    - -89.47527190000001
+UWDC63440:
+  '1':
+    services:
+    - '70977'
+    - '70978'
+    address: 226 Madison St
+    city: Marshall
+    state: WI
+    zipCode: '53559'
+    location:
+    - 43.167214
+    - -89.069423
+UWDC63444:
+  '1':
+    services:
+    - '70980'
+    address: 5114 Farwell St
+    city: Mc Farland
+    state: WI
+    zipCode: '53558'
+    location:
+    - 43.014093
+    - -89.294175
+UWDC63452:
+  '1':
+    services:
+    - '70984'
+    - '70987'
+    - '70989'
+    - '70990'
+    address: 7448 Hubbard Ave
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.0958298
+    - -89.5107881
+UWDC63477:
+  '1':
+    services:
+    - '71010'
+    address: 2059 Atwood Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.092277
+    - -89.35260149999999
+  '2':
+    services:
+    - '71007'
+    address: 600-702 Braxton Place
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.067033
+    - -89.398526
+UWDC63486:
+  '1':
+    services:
+    - '71035'
+    address: 1201 McKenna Blvd
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.0407059
+    - -89.5045409
+UWDC63609:
+  '1':
+    services:
+    - '71136'
+    address: 1061 Thousand Oaks Tr
+    city: Verona
+    state: WI
+    zipCode: '53593'
+    location:
+    - 42.9707884
+    - -89.5070665
+UWDC63615:
+  '1':
+    services:
+    - '71141'
+    - '88581'
+    address: 517 N Segoe Rd Ste 200-B
+    city: Madison
+    state: WI
+    zipCode: '53705'
+    location:
+    - 43.071948
+    - -89.4552418
+UWDC63688:
+  '1':
+    services:
+    - '71188'
+    address: 3810 Milwaukee St
+    city: Madison
+    state: WI
+    zipCode: '53714'
+    location:
+    - 43.0987102
+    - -89.31992679999999
+UWDC63731:
+  '1':
+    services:
+    - '71213'
+    address: 130 S Vine St
+    city: Belleville
+    state: WI
+    zipCode: '53508'
+    location:
+    - 42.858275
+    - -89.533627
+UWDC63746:
+  '1':
+    services:
+    - '71226'
+    address: 4619 Jenewein Road
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0284421
+    - -89.4576543
+UWDC63756:
+  '1':
+    services:
+    - '71237'
+    address: 1210 Mills St
+    city: Black Earth
+    state: WI
+    zipCode: '53515'
+    location:
+    - 43.13774
+    - -89.748392
+UWDC63772:
+  '1':
+    services:
+    - '71253'
+    - '71258'
+    - '94622'
+    address: 130 S Vine St
+    city: Belleville
+    state: WI
+    zipCode: '53508'
+    location:
+    - 42.858275
+    - -89.533627
+  '2':
+    services:
+    - '71255'
+    address: 221 Fredrick St
+    city: Belleville
+    state: WI
+    zipCode: '53508'
+    location:
+    - 42.85711999999999
+    - -89.536726
+  '3':
+    services:
+    - '71254'
+    address: 50 Heritage Ct
+    city: Belleville
+    state: WI
+    zipCode: '53508'
+    location:
+    - 42.873462
+    - -89.53398399999999
+UWDC63778:
+  '1':
+    services:
+    - '71262'
+    address: 200 Spring St
+    city: Cambridge
+    state: WI
+    zipCode: '53523'
+    location:
+    - 43.0028687
+    - -89.0174746
+UWDC63791:
+  '10':
+    services:
+    - '71283'
+    address: 753 N Main St
+    city: Oregon
+    state: WI
+    zipCode: '53575'
+    location:
+    - 42.9372713
+    - -89.3840342
+  '11':
+    services:
+    - '71283'
+    address: 1310 Broadway
+    city: Wisconsin Dells
+    state: WI
+    zipCode: '53965'
+    location:
+    - 43.6264269
+    - -89.75719409999999
+  '2':
+    services:
+    - '71283'
+    address: 10 Tower Dr
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.1993372
+    - -89.212105
+  '31':
+    services:
+    - '71283'
+    address: 11051 N Sherman Rd
+    city: Edgerton
+    state: WI
+    zipCode: '53534'
+    location:
+    - 42.83361050000001
+    - -89.0430281
+  '32':
+    services:
+    - '71283'
+    address: 1200 John Q Hammons Dr
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.08278749999999
+    - -89.5247729
+  '33':
+    services:
+    - '71283'
+    address: 2501 W Beltline Hwy
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0344781
+    - -89.42105509999999
+  '34':
+    services:
+    - '71283'
+    address: 250 26th St
+    city: Prairie du Sac
+    state: WI
+    zipCode: '53578'
+    location:
+    - 43.2857633
+    - -89.7545196
+  '35':
+    services:
+    - '71283'
+    address: 1300 S Century Ave
+    city: Waunakee
+    state: WI
+    zipCode: '53597'
+    location:
+    - 43.1733285
+    - -89.4611266
+  '4':
+    services:
+    - '71283'
+    address: 103 Lake St
+    city: Deerfield
+    state: WI
+    zipCode: '53531'
+    location:
+    - 43.049259
+    - -89.07419
+  '5':
+    services:
+    - '71283'
+    address: 1313 Fish Hatchery Rd
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.05283170000001
+    - -89.398232
+  '6':
+    services:
+    - '71276'
+    - '71277'
+    - '71283'
+    address: 1821 S Stoughton Rd
+    city: Madison
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.0721135
+    - -89.3087484
+  '7':
+    services:
+    - '71283'
+    address: 202 S Century Ave
+    city: Waunakee
+    state: WI
+    zipCode: '53597'
+    location:
+    - 43.1902225
+    - -89.46126489999999
+  '8':
+    services:
+    - '71283'
+    address: 225 Church St
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.9201176
+    - -89.21025999999999
+  '9':
+    services:
+    - '71277'
+    - '71283'
+    address: 752 N High Point Rd
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.0770591
+    - -89.5196769
+UWDC63813:
+  '1':
+    services:
+    - '71286'
+    address: 1819 Aberg Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1134374
+    - -89.3610296
+UWDC63834:
+  '2':
+    services:
+    - '71308'
+    - '76002'
+    address: 3051 Cahill Main
+    city: Fitchburg
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0214548
+    - -89.4204283
+  '3':
+    services:
+    - '71308'
+    - '76002'
+    address: 5249 E Terrace Dr
+    city: Madison
+    state: WI
+    zipCode: '53718'
+    location:
+    - 43.1447352
+    - -89.28888339999999
+  '4':
+    services:
+    - '71307'
+    - '71308'
+    - '76002'
+    address: 675 W Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0671763
+    - -89.3941588
+  '5':
+    services:
+    - '71308'
+    address: 815 S Main St
+    city: DeForest
+    state: WI
+    zipCode: '53532'
+    location:
+    - 43.2363557
+    - -89.3430933
+  '6':
+    services:
+    - '71308'
+    - '76002'
+    address: 8202 Excelsior Dr
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.080639
+    - -89.5249714
+UWDC63843:
+  '1':
+    services:
+    - '71312'
+    address: 203 Library St
+    city: DeForest
+    state: WI
+    zipCode: '53532'
+    location:
+    - 43.247024
+    - -89.3419828
+UWDC63845:
+  '1':
+    services:
+    - '71314'
+    address: 2802 Walton Commons Lane
+    city: Madison
+    state: WI
+    zipCode: '53718'
+    location:
+    - 43.0580703
+    - -89.2908728
+  '3':
+    services:
+    - '85318'
+    address: 1111 8th St
+    city: Baraboo
+    state: WI
+    zipCode: '53913'
+    location:
+    - 43.47499699999999
+    - -89.72489
+UWDC63859:
+  '1':
+    services:
+    - '87190'
+    address: 199 Kennedy Rd
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1402292
+    - -89.38647329999999
+UWDC63865:
+  '1':
+    services:
+    - '71336'
+    address: 12 W Nelson St
+    city: Deerfield
+    state: WI
+    zipCode: '53531'
+    location:
+    - 43.0545276
+    - -89.07568189999999
+UWDC63867:
+  '2':
+    services:
+    - '71340'
+    address: 4 N Hancock St
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0775507
+    - -89.38055709999999
+UWDC63874:
+  '2':
+    services:
+    - '71345'
+    address: 116 W Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0739499
+    - -89.3861161
+  '3':
+    services:
+    - '71346'
+    address: 2009 E Dayton St
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.0951198
+    - -89.3589865
+  '4':
+    services:
+    - '71347'
+    address: 2202 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0420518
+    - -89.39411419999999
+  '5':
+    services:
+    - '71343'
+    address: 306 N Brooks St
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.0724354
+    - -89.40295449999999
+  '6':
+    services:
+    - '71348'
+    address: 630 E Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0795459
+    - -89.3780355
+  '8':
+    services:
+    - '102169'
+    address: 2120 Fordem Avenue
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.10057390000001
+    - -89.36455649999999
+UWDC63888:
+  '1':
+    services:
+    - '71352'
+    address: 5920 Milwaukee St
+    city: McFarland
+    state: WI
+    zipCode: '53558'
+    location:
+    - 43.01360080000001
+    - -89.2882995
+UWDC63899:
+  '1':
+    services:
+    - '71383'
+    address: 625 W Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0679572
+    - -89.39297719999999
+  '6':
+    services:
+    - '71374'
+    - '71387'
+    address: 710 John Nolen Drive
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.046947
+    - -89.37358809999999
+UWDC63940:
+  '1':
+    services:
+    - '71407'
+    - '71411'
+    - '94529'
+    address: 1837 Bourbon Road
+    city: Cross Plains
+    state: WI
+    zipCode: '53528'
+    location:
+    - 43.1116234
+    - -89.650444
+UWDC63946:
+  '1':
+    services:
+    - '71423'
+    - '71424'
+    - '71425'
+    address: 219 Park St
+    city: Oregon
+    state: WI
+    zipCode: '53575'
+    location:
+    - 42.926113
+    - -89.382107
+UWDC63954:
+  '1':
+    services:
+    - '100202'
+    - '71435'
+    - '71441'
+    - '71442'
+    - '71444'
+    - '93388'
+    address: 149 Waubesa Street
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.09701889999999
+    - -89.3436886
+UWDC63992:
+  '1':
+    services:
+    - '71489'
+    - '71491'
+    - '86377'
+    - '86378'
+    - '86380'
+    - '93459'
+    address: 107 N Grove St
+    city: Mount Horeb
+    state: WI
+    zipCode: '53572'
+    location:
+    - 43.0095872
+    - -89.73997609999999
+UWDC64003:
+  '1':
+    services:
+    - '71496'
+    - '71505'
+    - '94687'
+    address: 700 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.059273
+    - -89.40151300000001
+  '3':
+    services:
+    - '71501'
+    address: 2440 Atwood Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.0948
+    - -89.3458185
+  '4':
+    services:
+    - '71500'
+    address: 4633 D Verona Rd
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.0337879
+    - -89.4566677
+  '8':
+    services:
+    - '71496'
+    address: 2840 O'Keeffe Ave
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.1587333
+    - -89.2685884
+  '9':
+    services:
+    - '87756'
+    address: 3400 E Racine St
+    city: Janesville
+    state: WI
+    zipCode: '53546'
+    location:
+    - 42.66899069999999
+    - -88.97739
+UWDC64012:
+  '1':
+    services:
+    - '71515'
+    - '71516'
+    address: 248 W Main St
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.9170749
+    - -89.222906
+UWDC64026:
+  '11':
+    services:
+    - '71529'
+    address: 1121 BellWest Blvd
+    city: Belleville
+    state: WI
+    zipCode: '53508'
+    location:
+    - 42.8626438
+    - -89.5588142
+  '12':
+    services:
+    - '71529'
+    address: 2418 Brewery Rd
+    city: Cross Plains
+    state: WI
+    zipCode: '53528'
+    location:
+    - 43.11208
+    - -89.6399579
+  '13':
+    services:
+    - '71547'
+    address: 1102 S. Park Street
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.054839
+    - -89.39761999999999
+  '14':
+    services:
+    - '71529'
+    address: 2880 University Ave
+    city: Madison
+    state: WI
+    zipCode: '53705'
+    location:
+    - 43.0768712
+    - -89.4382081
+  '15':
+    services:
+    - '71529'
+    address: 3209 Dryden Dr
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.12898759999999
+    - -89.35704050000001
+  '16':
+    services:
+    - '71532'
+    address: 2030 Pinehurst Drive
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.0973166
+    - -89.54092659999999
+  '17':
+    services:
+    - '71529'
+    - '71533'
+    address: 4122 East Towne Blvd
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1244906
+    - -89.3120302
+  '18':
+    services:
+    - '71529'
+    address: 451 Junction Rd
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.0701592
+    - -89.5236102
+  '19':
+    services:
+    - '71529'
+    address: 500 Westlawn Dr
+    city: Cottage Grove
+    state: WI
+    zipCode: '53527'
+    location:
+    - 43.0872278
+    - -89.2053081
+  '2':
+    services:
+    - '71529'
+    address: 1 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.067096
+    - -89.3999219
+  '20':
+    services:
+    - '71529'
+    address: 1050 E Broadway
+    city: Monona
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.0481456
+    - -89.3155985
+  '22':
+    services:
+    - '71529'
+    address: 5249 E Terrace Dr
+    city: Madison
+    state: WI
+    zipCode: '53718'
+    location:
+    - 43.1447352
+    - -89.28888339999999
+  '23':
+    services:
+    - '71529'
+    address: 5543 E Cheryl Pkwy
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0045466
+    - -89.4271429
+  '24':
+    services:
+    - '71529'
+    address: 600 N 8th St
+    city: Mount Horeb
+    state: WI
+    zipCode: '53572'
+    location:
+    - 43.017599
+    - -89.7275824
+  '27':
+    services:
+    - '71529'
+    address: 621 Science Dr
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0543468
+    - -89.46971769999999
+  '28':
+    services:
+    - '71529'
+    - '71533'
+    address: 7102 Mineral Point Rd
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.061378
+    - -89.5058036
+  '29':
+    services:
+    - '71529'
+    address: 5618 Odana Rd
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.0505721
+    - -89.4777228
+  '3':
+    services:
+    - '71529'
+    address: 4131 Meridian Dr
+    city: Windsor
+    state: WI
+    zipCode: '53598'
+    location:
+    - 43.1961082
+    - -89.3312986
+  '30':
+    services:
+    - '71536'
+    - '71539'
+    address: 600 Highland Ave Ste 200
+    city: Madison
+    state: WI
+    zipCode: '53792'
+    location:
+    - 43.0763931
+    - -89.4321717
+  '35':
+    services:
+    - '71529'
+    address: 2349 Deming Way
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.1001882
+    - -89.5169894
+  '36':
+    services:
+    - '71529'
+    address: 780 Regent
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.0680698
+    - -89.39872659999999
+  '37':
+    services:
+    - '71529'
+    address: 2241 Pinehurst Dr
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.099688
+    - -89.539203
+  '38':
+    services:
+    - '71529'
+    address: 750 University Row
+    city: Madison
+    state: WI
+    zipCode: '53705'
+    location:
+    - 43.0768949
+    - -89.4694514
+  '39':
+    services:
+    - '71529'
+    address: 2365 Deming Way
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.1005999
+    - -89.5172261
+  '4':
+    services:
+    - '71529'
+    address: 100 N Nine Mound Rd
+    city: Verona
+    state: WI
+    zipCode: '53593'
+    location:
+    - 42.9888643
+    - -89.5490019
+  '40':
+    services:
+    - '71529'
+    address: 6220 University Ave
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.0909725
+    - -89.4869427
+  '41':
+    services:
+    - '71529'
+    address: 1726 Eagan Rd
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.121828
+    - -89.3095269
+  '42':
+    services:
+    - '71529'
+    address: 8042 Watts Rd
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.0539845
+    - -89.5204303
+  '43':
+    services:
+    - '71529'
+    address: 6630 University Ave
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.0965498
+    - -89.49482669999999
+  '44':
+    services:
+    - '100310'
+    - '71529'
+    address: 4600 American Pkwy
+    city: Madison
+    state: WI
+    zipCode: '53718'
+    location:
+    - 43.148283
+    - -89.291387
+  '5':
+    services:
+    - '71529'
+    address: 1001 Nygaard St
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.9265671
+    - -89.2484143
+  '7':
+    services:
+    - '71529'
+    address: 2651 Windsor St
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.1864215
+    - -89.2659406
+  '8':
+    services:
+    - '71529'
+    address: 137 S Main St
+    city: Oregon
+    state: WI
+    zipCode: '53575'
+    location:
+    - 42.9255039
+    - -89.385525
+  '9':
+    services:
+    - '71529'
+    address: 20 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.0671051
+    - -89.4015877
+UWDC64138:
+  '1':
+    services:
+    - '71635'
+    address: 605 Waterloo Rd
+    city: Marshall
+    state: WI
+    zipCode: '53559'
+    location:
+    - 43.1680544
+    - -89.05240189999999
+UWDC64155:
+  '1':
+    services:
+    - '71659'
+    address: 102 Brodhead St
+    city: Mazomanie
+    state: WI
+    zipCode: '53560'
+    location:
+    - 43.1751999
+    - -89.79351
+UWDC64201:
+  '1':
+    services:
+    - '71697'
+    address: 5307 Hough Street
+    city: Mc Farland
+    state: WI
+    zipCode: '53558'
+    location:
+    - 43.0147261
+    - -89.2894772
+UWDC64227:
+  '1':
+    services:
+    - '71715'
+    address: 208 South Century Avenue
+    city: Waunakee
+    state: WI
+    zipCode: '53597'
+    location:
+    - 43.188521
+    - -89.46131
+UWDC64244:
+  '1':
+    services:
+    - '71726'
+    address: 7425 Hubbard Ave
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.094959
+    - -89.5092899
+UWDC64272:
+  '1':
+    services:
+    - '71745'
+    - '71746'
+    address: 11010 Blackhawk Dr
+    city: Blue Mounds
+    state: WI
+    zipCode: '53517'
+    location:
+    - 43.009483
+    - -89.832493
+  '2':
+    services:
+    - '71744'
+    address: 2962 Church St
+    city: Blue Mounds
+    state: WI
+    zipCode: '53517'
+    location:
+    - 43.017655
+    - -89.83047499999999
+UWDC64291:
+  '1':
+    services:
+    - '71761'
+    - '71763'
+    - '71765'
+    address: 301 Blankenheim Lane
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.183155
+    - -89.2053098
+  '2':
+    services:
+    - '71766'
+    address: 226 Madison St
+    city: Marshall
+    state: WI
+    zipCode: '53559'
+    location:
+    - 43.167214
+    - -89.069423
+UWDC64319:
+  '2':
+    services:
+    - '71802'
+    - '78050'
+    - '79316'
+    - '93079'
+    address: 2705 E Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1014458
+    - -89.3466844
+  '3':
+    services:
+    - '71802'
+    address: 2230 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0417843
+    - -89.39412039999999
+  '7':
+    services:
+    - '71786'
+    - '79316'
+    address: 2300 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0412025
+    - -89.3952894
+UWDC64330:
+  '1':
+    services:
+    - '71816'
+    address: 6425 Odana Rd Ste 13
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.053878
+    - -89.490768
+UWDC64332:
+  '1':
+    services:
+    - '71817'
+    address: 1000 Nichols Rd
+    city: Monona
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.063669
+    - -89.34110799999999
+UWDC64354:
+  '1':
+    services:
+    - '71829'
+    address: 105 Perimeter St
+    city: Mount Horeb
+    state: WI
+    zipCode: '53572'
+    location:
+    - 43.0081257
+    - -89.71979379999999
+UWDC64376:
+  '1':
+    services:
+    - '71841'
+    address: 256 Brook St
+    city: Oregon
+    state: WI
+    zipCode: '53575'
+    location:
+    - 42.926014
+    - -89.38155069999999
+UWDC64403:
+  '1':
+    services:
+    - '71856'
+    address: 2107 Julius St
+    city: Cross Plains
+    state: WI
+    zipCode: '53528'
+    location:
+    - 43.1138216
+    - -89.6464444
+UWDC64409:
+  '1':
+    services:
+    - '71859'
+    address: 329 North St
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.10409
+    - -89.349659
+UWDC64510:
+  '1':
+    services:
+    - '71923'
+    address: 304 South Fourth Street
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.9164927
+    - -89.2181487
+UWDC64553:
+  '1':
+    services:
+    - '71955'
+    address: 1350 Linnerud Dr
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.1756527
+    - -89.23550879999999
+UWDC64619:
+  '1':
+    services:
+    - '71996'
+    address: 500 Silent St
+    city: Verona
+    state: WI
+    zipCode: '53593'
+    location:
+    - 42.9973964
+    - -89.5280009
+UWDC64643:
+  '1':
+    services:
+    - '72009'
+    address: 710 South St
+    city: Waunakee
+    state: WI
+    zipCode: '53597'
+    location:
+    - 43.18497379999999
+    - -89.45584819999999
+UWDC64687:
+  '1':
+    services:
+    - '102391'
+    - '72051'
+    address: 2720 Rimrock Rd
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.032263
+    - -89.381642
+UWDC64709:
+  '1':
+    services:
+    - '72069'
+    address: 2401 Atwood Avenue
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.0935359
+    - -89.34660919999999
+UWDC64731:
+  '1':
+    services:
+    - '72091'
+    - '96900'
+    address: 5700 Pheasant Hill Rd
+    city: Monona
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.0579566
+    - -89.3300526
+UWDC64852:
+  '1':
+    services:
+    - '100352'
+    - '72267'
+    - '95490'
+    - '95492'
+    address: 312 Wisconsin Ave
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0768261
+    - -89.38778049999999
+UWDC65077:
+  '1':
+    services:
+    - '72487'
+    address: 4001 Mandrake Road
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1369572
+    - -89.3774361
+UWDC65122:
+  '1':
+    services:
+    - '72543'
+    address: 2 South Ingersoll Street
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0847589
+    - -89.3697333
+UWDC65187:
+  '1':
+    services:
+    - '72604'
+    - '72605'
+    address: 1917 Lake Point Dr
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0480332
+    - -89.3471241
+UWDC65393:
+  '1':
+    services:
+    - '100873'
+    - '72813'
+    - '72814'
+    - '72816'
+    - '72818'
+    - '72821'
+    - '76314'
+    address: 1862 Beld Street
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0460167
+    - -89.3935334
+UWDC65395:
+  '1':
+    services:
+    - '72822'
+    - '72823'
+    address: 2802 Dairy Drive
+    city: Madison
+    state: WI
+    zipCode: '53718'
+    location:
+    - 43.0582648
+    - -89.2958251
+  '10':
+    services:
+    - '95235'
+    address: 1250 East Racine Street
+    city: Janesville
+    state: WI
+    zipCode: '53545'
+    location:
+    - 42.6777509
+    - -89.00734469999999
+  '13':
+    services:
+    - '95239'
+    address: 15815 HWY 81
+    city: Darlington
+    state: WI
+    zipCode: '53530'
+    location:
+    - 42.667985
+    - -90.1277957
+  '14':
+    services:
+    - '95283'
+    address: 229 West Grand Avenue
+    city: Beloit
+    state: WI
+    zipCode: '53511'
+    location:
+    - 42.5017886
+    - -89.0399796
+  '15':
+    services:
+    - '95284'
+    address: 726 Main Street
+    city: Highland
+    state: WI
+    zipCode: '53543'
+    location:
+    - 43.0477549
+    - -90.3791375
+  '16':
+    services:
+    - '95299'
+    address: 755 Braxton Place
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.0655069
+    - -89.398538
+  '17':
+    services:
+    - '95457'
+    address: 612 North Randall Avenue
+    city: Janesville
+    state: WI
+    zipCode: '53545'
+    location:
+    - 42.6919029
+    - -89.00242949999999
+  '18':
+    services:
+    - '95318'
+    address: 501 First Street
+    city: Monroe
+    state: WI
+    zipCode: '53566'
+    location:
+    - 42.6074479
+    - -89.65865409999999
+  '20':
+    services:
+    - '102028'
+    address: 405 East LeGrand Street
+    city: Boscobel
+    state: WI
+    zipCode: '53805'
+    location:
+    - 43.13746769999999
+    - -90.7007216
+  '22':
+    services:
+    - '102024'
+    address: 231 North Wyalusing Street
+    city: Patch Grove
+    state: WI
+    zipCode: '53817'
+    location:
+    - 42.94014490000001
+    - -90.97402699999999
+  '23':
+    services:
+    - '102022'
+    address: 26700 Fellowship Lane
+    city: Richland Center
+    state: WI
+    zipCode: '53581'
+    location:
+    - 43.3137643
+    - -90.38214219999999
+  '24':
+    services:
+    - '102018'
+    address: 1800 Block Of Milwaukee Street
+    city: Sparta
+    state: WI
+    zipCode: '54656'
+    location:
+    - 43.9456599
+    - -90.789081
+  '4':
+    services:
+    - '95197'
+    address: 1705 Center Street
+    city: Black Earth
+    state: WI
+    zipCode: '53515'
+    location:
+    - 43.132985
+    - -89.74614199999999
+  '5':
+    services:
+    - '95198'
+    address: 605 Madison Street
+    city: Marshall
+    state: WI
+    zipCode: '53559'
+    location:
+    - 43.16487499999999
+    - -89.07332199999999
+  '6':
+    services:
+    - '95199'
+    address: 1862 Beld Street
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0460167
+    - -89.3935334
+  '7':
+    services:
+    - '95201'
+    address: 3245 East Washington Avenue
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1103486
+    - -89.33362240000001
+  '8':
+    services:
+    - '95227'
+    address: 1917 Lake Point Drive
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0480332
+    - -89.3471241
+  '9':
+    services:
+    - '95233'
+    address: 18 Rickel Road
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.17879620000001
+    - -89.24059869999999
+UWDC65401:
+  '1':
+    services:
+    - '72826'
+    - '72827'
+    - '72836'
+    address: 3 W Deerfield St
+    city: Deerfield
+    state: WI
+    zipCode: '53531'
+    location:
+    - 43.0528988
+    - -89.076222
+UWDC65419:
+  '1':
+    services:
+    - '72857'
+    address: 910 Femrite Dr
+    city: Monona
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.0513507
+    - -89.3148429
+UWDC65423:
+  '1':
+    services:
+    - '72865'
+    - '72866'
+    - '72867'
+    - '72868'
+    - '87898'
+    address: 630 East Washington Avenue
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0795459
+    - -89.3780355
+  '3':
+    services:
+    - '72862'
+    - '95646'
+    address: 3030 Darbo Dr
+    city: Madison
+    state: WI
+    zipCode: '53714'
+    location:
+    - 43.1038577
+    - -89.33891559999999
+UWDC65429:
+  '1':
+    services:
+    - '72871'
+    address: 5210 Odana Road
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.05121159999999
+    - -89.46837359999999
+UWDC65431:
+  '2':
+    services:
+    - '72872'
+    address: 520 S Fourth St
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.9147094
+    - -89.21796309999999
+UWDC65435:
+  '1':
+    services:
+    - '72878'
+    address: 525 Lincoln Avenue
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.92283800000001
+    - -89.232759
+UWDC65439:
+  '1':
+    services:
+    - '72891'
+    address: 18 Rickel Road
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.17879620000001
+    - -89.24059869999999
+UWDC65441:
+  '1':
+    services:
+    - '100324'
+    - '72894'
+    - '72900'
+    - '72901'
+    address: 3502 Parmenter Street
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.11319719999999
+    - -89.5104691
+  '3':
+    services:
+    - '91796'
+    address: 602 Sawyer Terrace
+    city: Madison
+    state: WI
+    zipCode: '53705'
+    location:
+    - 43.0733595
+    - -89.4553756
+  '4':
+    services:
+    - '91795'
+    address: 6710 Elmwood Avenue
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.0961978
+    - -89.4973873
+UWDC65453:
+  '1':
+    services:
+    - '95826'
+    - '95827'
+    address: 1334 Dewey Court
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0866358
+    - -89.3627692
+UWDC65468:
+  '1':
+    services:
+    - '72927'
+    address: 8317 Elderberry Road
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.0668349
+    - -89.526056
+UWDC65486:
+  '2':
+    services:
+    - '96252'
+    address: 1219 N Sherman Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1130861
+    - -89.363768
+UWDC65490:
+  '1':
+    services:
+    - '72949'
+    address: 1200 East Verona Avenue
+    city: Verona
+    state: WI
+    zipCode: '53593'
+    location:
+    - 42.9953369
+    - -89.5144263
+UWDC65492:
+  '1':
+    services:
+    - '72951'
+    - '72954'
+    - '72955'
+    - '72956'
+    - '72958'
+    address: 953 Jenifer Street
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.079804
+    - -89.36701699999999
+UWDC65513:
+  '2':
+    services:
+    - '100467'
+    address: 1301 Wayridge Drive
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.116681
+    - -89.29873599999999
+UWDC65548:
+  '1':
+    services:
+    - '73034'
+    address: 1118 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.0542891
+    - -89.3970707
+UWDC65580:
+  '1':
+    services:
+    - '73069'
+    address: 1625 Northport Drive
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.13163890000001
+    - -89.3696923
+UWDC65582:
+  '1':
+    services:
+    - '73070'
+    address: 5701 Raymond Road
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.031184
+    - -89.477786
+UWDC65584:
+  '1':
+    services:
+    - '73073'
+    address: 3511 Milwaukee Street
+    city: Madison
+    state: WI
+    zipCode: '53714'
+    location:
+    - 43.097857
+    - -89.32555099999999
+UWDC65586:
+  '10':
+    services:
+    - '73088'
+    address: 513 West Verona Avenue
+    city: Verona
+    state: WI
+    zipCode: '53593'
+    location:
+    - 42.9878365
+    - -89.544372
+  '2':
+    services:
+    - '73088'
+    address: 1509 Highway 51
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.917649
+    - -89.239126
+  '4':
+    services:
+    - '73076'
+    - '73078'
+    - '73080'
+    - '73082'
+    address: 2033 Fish Hatchery Road
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0431
+    - -89.4031862
+  '5':
+    services:
+    - '73088'
+    address: 1309 Williamson Street
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.084566
+    - -89.361932
+  '6':
+    services:
+    - '73085'
+    address: 1900 South Park Street
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0447294
+    - -89.3952226
+  '7':
+    services:
+    - '73088'
+    address: 213 South Klein Drive
+    city: Waunakee
+    state: WI
+    zipCode: '53597'
+    location:
+    - 43.1902149
+    - -89.46391299999999
+  '8':
+    services:
+    - '73077'
+    address: 221 South Baldwin Street
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.085387
+    - -89.3636765
+  '9':
+    services:
+    - '73088'
+    address: 6301 Odana Road
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.0533057
+    - -89.4884941
+UWDC65596:
+  '1':
+    services:
+    - '73092'
+    - '73093'
+    - '73096'
+    - '73097'
+    - '98879'
+    address: 55 South Gammon Road
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.0663468
+    - -89.5020014
+UWDC65598:
+  '1':
+    services:
+    - '73098'
+    address: 9 Brodhead St
+    city: Mazomanie
+    state: WI
+    zipCode: '53560'
+    location:
+    - 43.17652330000001
+    - -89.79417939999999
+UWDC65600:
+  '2':
+    services:
+    - '73099'
+    address: 2029 Fisher Street
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.043235
+    - -89.391538
+UWDC65605:
+  '1':
+    services:
+    - '73104'
+    address: 29 South Mills Street
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.0667627
+    - -89.40378369999999
+UWDC65607:
+  '1':
+    services:
+    - '73109'
+    - '73111'
+    - '73112'
+    address: 2201 Darwin Road
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.128543
+    - -89.35335099999999
+UWDC65609:
+  '1':
+    services:
+    - '73114'
+    - '73115'
+    address: 605 Spruce St
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.052632
+    - -89.392573
+UWDC65611:
+  '1':
+    services:
+    - '73117'
+    address: 229 N Main St
+    city: Cottage Grove
+    state: WI
+    zipCode: '53527'
+    location:
+    - 43.079288
+    - -89.200942
+UWDC65615:
+  '2':
+    services:
+    - '73122'
+    address: 116 W Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0739499
+    - -89.3861161
+  '3':
+    services:
+    - '73119'
+    - '73123'
+    - '98886'
+    address: 1490 Martin St
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.043416
+    - -89.40567
+  '6':
+    services:
+    - '73125'
+    address: 4006 Nakoosa Trail
+    city: Madison
+    state: WI
+    zipCode: '53714'
+    location:
+    - 43.1088322
+    - -89.31584509999999
+UWDC65620:
+  '1':
+    services:
+    - '73128'
+    address: 4434 Second St
+    city: Windsor
+    state: WI
+    zipCode: '53598'
+    location:
+    - 43.21868
+    - -89.33901999999999
+UWDC65624:
+  '1':
+    services:
+    - '73131'
+    - '73133'
+    - '94661'
+    address: 5915 Milwaukee St
+    city: McFarland
+    state: WI
+    zipCode: '53558'
+    location:
+    - 43.0131057
+    - -89.28687889999999
+  '2':
+    services:
+    - '73132'
+    - '94661'
+    address: 200 Spring St
+    city: Cambridge
+    state: WI
+    zipCode: '53523'
+    location:
+    - 43.0028687
+    - -89.0174746
+UWDC65629:
+  '1':
+    services:
+    - '73138'
+    address: 102 E Lincoln St Unit D
+    city: Mount Horeb
+    state: WI
+    zipCode: '53572'
+    location:
+    - 43.007151
+    - -89.739043
+UWDC65631:
+  '1':
+    services:
+    - '73142'
+    address: 1092 Union Rd Unit 8
+    city: Oregon
+    state: WI
+    zipCode: '53575'
+    location:
+    - 42.914038
+    - -89.387198
+UWDC65633:
+  '2':
+    services:
+    - '73143'
+    address: 806B S. Division St
+    city: Waunakee
+    state: WI
+    zipCode: '53597'
+    location:
+    - 43.1850829
+    - -89.4464247
+UWDC65635:
+  '1':
+    services:
+    - '73145'
+    - '73146'
+    address: 211 South St
+    city: Cambridge
+    state: WI
+    zipCode: '53523'
+    location:
+    - 43.00224
+    - -89.015979
+  '2':
+    services:
+    - '87410'
+    address: 403 Blue Jay Way
+    city: Cambridge
+    state: WI
+    zipCode: '53523'
+    location:
+    - 43.0071386
+    - -89.0098385
+UWDC65641:
+  '1':
+    services:
+    - '73153'
+    - '73154'
+    address: 7475 Mineral Point Rd Ste 18
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.0589985
+    - -89.51260669999999
+UWDC65654:
+  '1':
+    services:
+    - '73168'
+    - '73171'
+    - '73172'
+    - '73175'
+    - '94147'
+    address: 1717 N Stoughton Road
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1222114
+    - -89.3237834
+  '2':
+    services:
+    - '73171'
+    - '94413'
+    address: 114 E Main Street
+    city: Watertown
+    state: WI
+    zipCode: '53094'
+    location:
+    - 43.19446
+    - -88.723327
+UWDC65688:
+  '3':
+    services:
+    - '79122'
+    address: 2300 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0412025
+    - -89.3952894
+UWDC65719:
+  '10':
+    services:
+    - '73229'
+    address: 305 E Holum St
+    city: DeForest
+    state: WI
+    zipCode: '53532'
+    location:
+    - 43.2473832
+    - -89.34037440000002
+  '11':
+    services:
+    - '73229'
+    address: 427 S Main St
+    city: Verona
+    state: WI
+    zipCode: '53593'
+    location:
+    - 42.9837202
+    - -89.5329548
+  '12':
+    services:
+    - '73229'
+    address: 18 Rickel Rd
+    city: Sun Prairie
+    state: WI
+    zipCode: '53590'
+    location:
+    - 43.17879620000001
+    - -89.24059869999999
+  '13':
+    services:
+    - '73229'
+    address: 5810 Russett Rd Ste 1
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0330749
+    - -89.48068699999999
+  '14':
+    services:
+    - '73229'
+    address: 614 Vera Ct
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1362228
+    - -89.3850873
+  '15':
+    services:
+    - '73229'
+    address: 3301 Leopold Way Ste 112
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0264329
+    - -89.42357969999999
+  '16':
+    services:
+    - '73229'
+    address: 7 Straubel Ct Ste 502
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1171759
+    - -89.3299437
+  '18':
+    services:
+    - '73229'
+    address: 7011 Flower Lane Apt. A
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.0669873
+    - -89.5066015
+  '19':
+    services:
+    - '73229'
+    address: 149 Waubesa St
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.09701889999999
+    - -89.3436886
+  '2':
+    services:
+    - '73229'
+    address: 101 School Dr
+    city: Waunakee
+    state: WI
+    zipCode: '53597'
+    location:
+    - 43.1842575
+    - -89.4555998
+  '3':
+    services:
+    - '73229'
+    address: 9 Brodhead St
+    city: Mazomanie
+    state: WI
+    zipCode: '53560'
+    location:
+    - 43.17652330000001
+    - -89.79417939999999
+  '4':
+    services:
+    - '73229'
+    address: 125 Veterans Rd
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.918074
+    - -89.200147
+  '5':
+    services:
+    - '73229'
+    address: 276 Soden Dr
+    city: Oregon
+    state: WI
+    zipCode: '53575'
+    location:
+    - 42.9297191
+    - -89.38191309999999
+  '6':
+    services:
+    - '73229'
+    address: 217 Deer Valley Rd Apt 2
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0333551
+    - -89.387794
+  '7':
+    services:
+    - '73229'
+    address: 2225 Allied Dr Ste 2
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0295448
+    - -89.45909669999999
+  '8':
+    services:
+    - '73229'
+    address: 810 W Badger Rd
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.039158
+    - -89.39536
+  '9':
+    services:
+    - '73229'
+    address: 3030 Darbo Dr
+    city: Madison
+    state: WI
+    zipCode: '53714'
+    location:
+    - 43.1038577
+    - -89.33891559999999
+UWDC65757:
+  '1':
+    services:
+    - '73243'
+    - '73251'
+    - '88737'
+    - '96492'
+    - '98869'
+    address: 8 Straubel Court
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1185277
+    - -89.3287048
+UWDC65763:
+  '1':
+    services:
+    - '73256'
+    - '73257'
+    - '92548'
+    address: 614 Vera Court
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1362228
+    - -89.3850873
+UWDC65779:
+  '1':
+    services:
+    - '73272'
+    address: 3434 E Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.114542
+    - -89.329791
+  '2':
+    services:
+    - '73272'
+    address: 2202 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0420518
+    - -89.39411419999999
+  '4':
+    services:
+    - '73272'
+    address: 1102 S Park St
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.054839
+    - -89.39761999999999
+UWDC65788:
+  '1':
+    services:
+    - '94635'
+    address: 8025 Excelsior Dr Ste 110
+    city: Madison
+    state: WI
+    zipCode: '53717'
+    location:
+    - 43.0769667
+    - -89.52619279999999
+UWDC65790:
+  '1':
+    services:
+    - '73276'
+    address: 600-702 Braxton Place
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.067033
+    - -89.398526
+UWDC65798:
+  '1':
+    services:
+    - '73280'
+    address: 310 East Washington Street
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.91791750000001
+    - -89.2173905
+UWDC65831:
+  '1':
+    services:
+    - '73320'
+    address: 4402 Femrite Dr
+    city: Monona
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.0513853
+    - -89.3070056
+UWDC65838:
+  '1':
+    services:
+    - '73325'
+    - '98884'
+    address: 600 Williamson St Ste P-1
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.07706779999999
+    - -89.3744
+UWDC65840:
+  '1':
+    services:
+    - '73331'
+    address: 1927 Northport Dr
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1277535
+    - -89.35851319999999
+UWDC65863:
+  '1':
+    services:
+    - '77974'
+    address: 2120 Fordem Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.10057390000001
+    - -89.36455649999999
+UWDC65879:
+  '1':
+    services:
+    - '73370'
+    address: 2001 Taft Street
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0441087
+    - -89.39255179999999
+  '2':
+    services:
+    - '73367'
+    - '73370'
+    address: 4619 Jenewein Rd
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0284421
+    - -89.4576543
+UWDC65882:
+  '1':
+    services:
+    - '73374'
+    address: 101 East Mifflin Street Suite 100
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0764718
+    - -89.3838256
+UWDC65885:
+  '1':
+    services:
+    - '73387'
+    - '90121'
+    - '95864'
+    address: 203 Wisconsin Avenue
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0769248
+    - -89.3860741
+UWDC65887:
+  '1':
+    services:
+    - '73398'
+    - '94425'
+    address: 2865 N Sherman Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1279425
+    - -89.36351560000001
+UWDC65896:
+  '1':
+    services:
+    - '89964'
+    address: 115 W Doty St Rm 2107
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0719117
+    - -89.38344339999999
+UWDC65910:
+  '1':
+    services:
+    - '73430'
+    - '73431'
+    - '73432'
+    - '73433'
+    address: 5510 East Lacy Road
+    city: Fitchburg
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0023305
+    - -89.42339609999999
+UWDC65928:
+  '10':
+    services:
+    - '73456'
+    address: 1705 Hoffman Street
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1212487
+    - -89.3314482
+  '2':
+    services:
+    - '73458'
+    address: 211 N Carroll Street
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.075988
+    - -89.3872567
+UWDC65948:
+  '1':
+    services:
+    - '73470'
+    - '73472'
+    address: 1862 Beld Street
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0460167
+    - -89.3935334
+UWDC65951:
+  '1':
+    services:
+    - '73475'
+    address: 128 E Olin Ave Ste 202
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0529865
+    - -89.3812583
+UWDC65959:
+  '1':
+    services:
+    - '73486'
+    - '73487'
+    - '73488'
+    - '73490'
+    address: 108 Paoli Street
+    city: Verona
+    state: WI
+    zipCode: '53593'
+    location:
+    - 42.9857516
+    - -89.5353329
+UWDC65996:
+  '1':
+    services:
+    - '73518'
+    address: 310 South Ingersoll Street
+    city: Madison
+    state: WI
+    zipCode: '537033739'
+    location:
+    - 43.082258
+    - -89.36677399999999
+UWDC66020:
+  '1':
+    services:
+    - '73539'
+    - '73542'
+    - '73543'
+    - '94807'
+    - '96379'
+    - '98888'
+    address: 900 Ridge Street
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.920811
+    - -89.2102759
+UWDC66067:
+  '2':
+    services:
+    - '73658'
+    - '87774'
+    address: 1819 Aberg Avenue
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1134374
+    - -89.3610296
+  '8':
+    services:
+    - '73622'
+    - '73658'
+    address: 125 Veterans Road
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.918074
+    - -89.200147
+UWDC66084:
+  '1':
+    services:
+    - '100468'
+    address: 7106 South Ave
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.094204
+    - -89.50329529999999
+UWDC66088:
+  '1':
+    services:
+    - '73672'
+    address: 2102 Fordem Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.0994219
+    - -89.36468300000001
+UWDC66113:
+  '1':
+    services:
+    - '73693'
+    address: 6633 University Ave
+    city: Middleton
+    state: WI
+    zipCode: '53562'
+    location:
+    - 43.0959933
+    - -89.49566659999999
+UWDC67325:
+  '1':
+    services:
+    - '75826'
+    address: 4205 Monona Dr
+    city: Monona
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.07557790000001
+    - -89.3265455
+UWDC70491:
+  '1':
+    services:
+    - '79476'
+    address: 343 East Main Street
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.9166159
+    - -89.21731679999999
+UWDC70829:
+  '2':
+    services:
+    - '79824'
+    address: 953 Jenifer
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.079804
+    - -89.36701699999999
+  '3':
+    services:
+    - '79824'
+    address: 600-702 Braxton Place
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.067033
+    - -89.398526
+  '4':
+    services:
+    - '79824'
+    address: 600-702 Braxton Place
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.067033
+    - -89.398526
+  '5':
+    services:
+    - '79824'
+    address: 829 W. Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.0635268
+    - -89.3998737
+  '6':
+    services:
+    - '79824'
+    address: 400 E Broadway
+    city: Monona
+    state: WI
+    zipCode: '53716'
+    location:
+    - 43.046618
+    - -89.3195099
+  '7':
+    services:
+    - '79824'
+    address: 600-702 Braxton Place
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.067033
+    - -89.398526
+  '8':
+    services:
+    - '79824'
+    address: 810 West Badger Road
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.039158
+    - -89.39536
+UWDC70968:
+  '1':
+    services:
+    - '80040'
+    address: 5530 Lacy Rd
+    city: Madison
+    state: WI
+    zipCode: '53711'
+    location:
+    - 43.0016397
+    - -89.42487369999999
+UWDC75380:
+  '1':
+    services:
+    - '85063'
+    address: 6333 Odana Road
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.05421399999999
+    - -89.490017
+UWDC77069:
+  '1':
+    services:
+    - '87116'
+    address: 630 E Washington Ave
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0795459
+    - -89.3780355
+UWDC77681:
+  '1':
+    services:
+    - '87884'
+    address: Affiliated Laundry
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0833196
+    - -89.3724769
+UWDC79109:
+  '1':
+    services:
+    - '89693'
+    address: 600-702 Braxton Place
+    city: Madison
+    state: WI
+    zipCode: '53715'
+    location:
+    - 43.067033
+    - -89.398526
+UWDC80481:
+  '1':
+    services:
+    - '91656'
+    address: 2509 Mcdivitt Road
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.03257500000001
+    - -89.420844
+UWDC80665:
+  '1':
+    services:
+    - '91893'
+    address: 2865 N Sherman Ave
+    city: Madison
+    state: WI
+    zipCode: '53704'
+    location:
+    - 43.1279425
+    - -89.36351560000001
+UWDC80931:
+  '1':
+    services:
+    - '92163'
+    address: 501 E Badger Rd
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0377051
+    - -89.3773544
+UWDC80990:
+  '1':
+    services:
+    - '92191'
+    address: 702 N Blackhawk Ave Ste 215
+    city: Madison
+    state: WI
+    zipCode: '53705'
+    location:
+    - 43.07434809999999
+    - -89.4470695
+UWDC81225:
+  '1':
+    services:
+    - '92457'
+    address: 602 Acewood Boulevad
+    city: Madison
+    state: WI
+    zipCode: '53714'
+    location:
+    - 43.0891413
+    - -89.30295000000001
+UWDC81718:
+  '1':
+    services:
+    - '92753'
+    - '92754'
+    address: 1317 Applegate Rd
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.032174
+    - -89.40453699999999
+UWDC82447:
+  '1':
+    services:
+    - '93845'
+    - '98858'
+    address: 223 Jefferson St Ste 1
+    city: Cambridge
+    state: WI
+    zipCode: '53523'
+    location:
+    - 43.0087693
+    - -89.0166251
+UWDC82659:
+  '1':
+    services:
+    - '94154'
+    address: 525 Lincoln Ave
+    city: Stoughton
+    state: WI
+    zipCode: '53589'
+    location:
+    - 42.92283800000001
+    - -89.232759
+UWDC82678:
+  '1':
+    services:
+    - '94183'
+    address: 5752 Tokay Blvd Ste 500
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.05417449999999
+    - -89.4810784
+UWDC82684:
+  '1':
+    services:
+    - '94187'
+    address: 2810 Crossroads Drive Suite 1900
+    city: Madison
+    state: WI
+    zipCode: '53718'
+    location:
+    - 43.1347489
+    - -89.2905852
+UWDC82759:
+  '1':
+    services:
+    - '94281'
+    address: 518 N Franklin Ave
+    city: Madison
+    state: WI
+    zipCode: '53705'
+    location:
+    - 43.07315579999999
+    - -89.4367797
+UWDC83587:
+  '1':
+    services:
+    - '95305'
+    address: 145 E Badger Road
+    city: Madison
+    state: WI
+    zipCode: '53713'
+    location:
+    - 43.0373613
+    - -89.3830935
+UWDC83627:
+  '1':
+    services:
+    - '95363'
+    address: 7601 Ganser Way Suite 200
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.059314
+    - -89.514685
+UWDC83816:
+  '1':
+    services:
+    - '95545'
+    address: 5801 Research Park Blvd Suite 400
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.054462
+    - -89.47840800000002
+UWDC83897:
+  '1':
+    services:
+    - '95655'
+    address: 402 Gammon Place Suite 110
+    city: Madison
+    state: WI
+    zipCode: '53719'
+    location:
+    - 43.0601799
+    - -89.5021968
+UWDC84133:
+  '1':
+    services:
+    - '95853'
+    address: 1202 Williamson St
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0835322
+    - -89.36434109999999
+UWDC84723:
+  '1':
+    services:
+    - '100026'
+    address: 2825 University Avenue
+    city: Madison
+    state: WI
+    zipCode: '53705'
+    location:
+    - 43.0741404
+    - -89.43742569999999
+WIST40111:
+  '1':
+    services:
+    - '47707'
+    address: 1202 Williamson Street
+    city: Madison
+    state: WI
+    zipCode: '53703'
+    location:
+    - 43.0835322
+    - -89.36434109999999
