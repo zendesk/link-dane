@@ -30,6 +30,26 @@
   }
 }
 
+@mixin white-button {
+  font-size: 20px;
+  font-weight: bold;
+
+  user-select: none;
+  text-align: left;
+
+  border: 1px solid #eee;
+  background: #FFF;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1), 0 2px 5px rgba(0, 0, 0, 0.1);
+
+  &:active {
+    background:darken(#d9d9d9, 8%);
+  }
+
+  &.active {
+    background:darken(#d9d9d9, 8%);
+  }
+}
+
 @mixin blue-button {
   font-size: 14px;
   font-weight: bold;
@@ -291,6 +311,18 @@ li {
 
 .map {
   padding: 1px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-33 {
+  width: 33.3%;
 }
 
 .directions {

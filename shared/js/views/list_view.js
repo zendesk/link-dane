@@ -275,6 +275,8 @@ var ListView = Backbone.View.extend({
     var switches = [{selector: '#sort-toggle', val: sort},
                     {selector: '#open-toggle', val: currentParams.filter.open ? 'yes' : 'no'}];
 
+    console.log(switches);
+
     switches.forEach(function(sw) {
       if ( this.$(sw.selector).length > 0 ) {
         this.$(sw.selector)
