@@ -4,5 +4,5 @@ module.exports = [
   { icon: 'plus',    key: 'medical',    title: 'Medical' },
   { icon: 'droplet', key: 'hygiene',    title: 'Hygiene' },
   { icon: 'desktop', key: 'technology', title: 'Computer' },
-  { icon: 'link', key: 'community', title: 'Community' }
+  { icon: 'users', 	 key: 'community', 	title: 'Community' }
 ];
