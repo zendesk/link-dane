@@ -9,14 +9,12 @@
       "address": "116 W Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 255-5147"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 255-5147"
+        }
       ],
-      "website": "www.graceec.org",
+      "website": "http://www.graceec.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0739499,
@@ -39,14 +37,12 @@
       "address": "617 N Segoe Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Business Office",
-            "number": "(608) 236-9000"
-          }
-        ]
+        {
+          "info": "Business Office",
+          "number": "(608) 236-9000"
+        }
       ],
-      "website": "www.amerifamwellness.com",
+      "website": "http://www.amerifamwellness.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0734346,
@@ -69,14 +65,12 @@
       "address": "5109 World Dairy Drive",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 242-0220"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 242-0220"
+        }
       ],
-      "website": "www.crchealth.com",
+      "website": "http://www.crchealth.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0563361,
@@ -99,14 +93,12 @@
       "address": "2300 S Park St Ste 2022",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 256-0906"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 256-0906"
+        }
       ],
-      "website": "www.emum.org",
+      "website": "http://www.emum.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0412025,
@@ -129,14 +121,12 @@
       "address": "1011 Nichols Rd",
       "city": "Monona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Front Desk-Receptionist",
-            "number": "(608) 222-3415"
-          }
-        ]
+        {
+          "info": "Front Desk-Receptionist",
+          "number": "(608) 222-3415"
+        }
       ],
-      "website": "www.mymonona.com/seniorcenter",
+      "website": "http://www.mymonona.com/seniorcenter",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.06383750000001,
@@ -164,12 +154,10 @@
       "address": "333 S Madison St",
       "city": "Waunakee",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 849-8385"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 849-8385"
+        }
       ],
       "website": "http://www.waunakee.com/seniorcenter",
       "location": {
@@ -204,14 +192,12 @@
       "address": "202 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Intake",
-            "number": "(608) 417-6000"
-          }
-        ]
+        {
+          "info": "Intake",
+          "number": "(608) 417-6000"
+        }
       ],
-      "website": "www.meriter.com",
+      "website": "http://www.meriter.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0656478,
@@ -259,12 +245,10 @@
       "address": "2690 Research Park Drive, Ste. F",
       "city": "Fitchburg",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 414-8585"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 414-8585"
+        }
       ],
       "website": "http://www.meriter.com/clinics/fitchburg-clinic",
       "location": {
@@ -289,12 +273,10 @@
       "address": "2275 Deming Way Ste 220",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 417-8388"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 417-8388"
+        }
       ],
       "website": "http://www.meriter.com/clinics/deming-way-clinic",
       "location": {
@@ -319,12 +301,10 @@
       "address": "100 Silverado Dr",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 417-8700"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 417-8700"
+        }
       ],
       "website": "",
       "location": {
@@ -349,12 +329,10 @@
       "address": "4200 Savannah Dr",
       "city": "De Forest",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 417-3300"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 417-3300"
+        }
       ],
       "website": "",
       "location": {
@@ -379,12 +357,10 @@
       "address": "6408 Copps Ave",
       "city": "Monona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 417-3000"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 417-3000"
+        }
       ],
       "website": "",
       "location": {
@@ -409,12 +385,10 @@
       "address": "1015 Gammon Ln",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "NewStart Duty Nurse",
-            "number": "(608) 417-8144"
-          }
-        ]
+        {
+          "info": "NewStart Duty Nurse",
+          "number": "(608) 417-8144"
+        }
       ],
       "website": "",
       "location": {
@@ -439,12 +413,10 @@
       "address": "7780 Elmwood Ave Ste 201",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 417-3434"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 417-3434"
+        }
       ],
       "website": "http://www.meriter.com/clinics/middleton-clinic",
       "location": {
@@ -469,12 +441,10 @@
       "address": "8001 Raymond Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Intake",
-            "number": "(608) 417-8777"
-          }
-        ]
+        {
+          "info": "Intake",
+          "number": "(608) 417-8777"
+        }
       ],
       "website": "",
       "location": {
@@ -499,12 +469,10 @@
       "address": "3102 Meriter Way",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 417-8800"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 417-8800"
+        }
       ],
       "website": "http://www.meriter.com/clinics/mckee-clinic",
       "location": {
@@ -529,12 +497,10 @@
       "address": "345 W Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 417-8300"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 417-8300"
+        }
       ],
       "website": "http://www.meriter.com/clinics/west-washington-clinic",
       "location": {
@@ -559,14 +525,12 @@
       "address": "2126 N Sherman Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 244-8077"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 244-8077"
+        }
       ],
-      "website": "www.stpaulmadison.org",
+      "website": "http://www.stpaulmadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.122572,
@@ -589,14 +553,12 @@
       "address": "2705 East Washington Avenue",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Appointment",
-            "number": "(608) 261-1455"
-          }
-        ]
+        {
+          "info": "Appointment",
+          "number": "(608) 261-1455"
+        }
       ],
-      "website": "www.ckfwi.org",
+      "website": "http://www.ckfwi.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1014458,
@@ -619,14 +581,12 @@
       "address": "1819 Aberg Ave Ste C",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 242-4900"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 242-4900"
+        }
       ],
-      "website": "jobcenterofwisconsin.com",
+      "website": "http://jobcenterofwisconsin.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1134374,
@@ -654,14 +614,12 @@
       "address": "2127 East Springs Drive",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 246-3147"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 246-3147"
+        }
       ],
-      "website": "www.goodwillscwi.org",
+      "website": "http://www.goodwillscwi.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1271682,
@@ -684,14 +642,12 @@
       "address": "2501 Royal Avenue",
       "city": "Monona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 224-0781"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 224-0781"
+        }
       ],
-      "website": "www.goodwillscwi.org",
+      "website": "http://www.goodwillscwi.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0417876,
@@ -714,14 +670,12 @@
       "address": "4530 Verona Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 271-4687"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 271-4687"
+        }
       ],
-      "website": "www.goodwillscwi.org",
+      "website": "http://www.goodwillscwi.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0381307,
@@ -744,14 +698,12 @@
       "address": "2902 American Legion Drive",
       "city": "Portage",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 745-0616"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 745-0616"
+        }
       ],
-      "website": "www.goodwillscwi.org",
+      "website": "http://www.goodwillscwi.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.5681372,
@@ -774,14 +726,12 @@
       "address": "6291 Mckee Road",
       "city": "Fitchburg",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 268-5160"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 268-5160"
+        }
       ],
-      "website": "www.goodwillscwi.org",
+      "website": "http://www.goodwillscwi.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0151101,
@@ -804,14 +754,12 @@
       "address": "2111 McCoy Road",
       "city": "Sun Prairie",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 318-5560"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 318-5560"
+        }
       ],
-      "website": "www.goodwillscwi.org",
+      "website": "http://www.goodwillscwi.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1744802,
@@ -834,14 +782,12 @@
       "address": "517 N Segoe Rd Ste 309",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 238-7368"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 238-7368"
+        }
       ],
-      "website": "www.wmseniorcenter.org",
+      "website": "http://www.wmseniorcenter.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.071948,
@@ -864,14 +810,12 @@
       "address": "602 Sawyer Terrace",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 238-0196"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 238-0196"
+        }
       ],
-      "website": "www.wmseniorcenter.org",
+      "website": "http://www.wmseniorcenter.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0733595,
@@ -899,12 +843,10 @@
       "address": "Lussier Community Center",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 238-7368"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 238-7368"
+        }
       ],
       "website": "",
       "location": {
@@ -929,14 +871,12 @@
       "address": "545 W Dayton St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 204-6683"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 204-6683"
+        }
       ],
-      "website": "www.mmsd.org",
+      "website": "http://www.mmsd.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0706552,
@@ -959,14 +899,12 @@
       "address": "4711 Pflaum Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 204-4007"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 204-4007"
+        }
       ],
-      "website": "foodsvcweb.madison.k12.wi.us/menus",
+      "website": "http://foodsvcweb.madison.k12.wi.us/menus",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0616788,
@@ -994,14 +932,12 @@
       "address": "210 Martin Luther King Jr Blvd Rm 200",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 246-3339"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 246-3339"
+        }
       ],
-      "website": "www.countyofdane.com/juvenilecourt/",
+      "website": "http://www.countyofdane.com/juvenilecourt/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0723061,
@@ -1024,14 +960,12 @@
       "address": "5395 E Cheryl Pkwy",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Director of Inpatient Unit",
-            "number": "(608) 276-4660"
-          }
-        ]
+        {
+          "info": "Director of Inpatient Unit",
+          "number": "(608) 276-4660"
+        }
       ],
-      "website": "www.agracehospicecare.org/",
+      "website": "http://www.agracehospicecare.org/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0039249,
@@ -1064,12 +998,10 @@
       "address": "122 Junction Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Retail Manager",
-            "number": "(608) 833-4556"
-          }
-        ]
+        {
+          "info": "Retail Manager",
+          "number": "(608) 833-4556"
+        }
       ],
       "website": "",
       "location": {
@@ -1094,12 +1026,10 @@
       "address": "2402 East Springs Drive",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 327-7200"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 327-7200"
+        }
       ],
       "website": "",
       "location": {
@@ -1124,14 +1054,12 @@
       "address": "18 Rickel Road",
       "city": "Sun Prairie",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 825-3875"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 825-3875"
+        }
       ],
-      "website": "www.sunshineplace.org",
+      "website": "http://www.sunshineplace.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.17879620000001,
@@ -1164,14 +1092,12 @@
       "address": "1632 W Main St",
       "city": "Sun Prairie",
       "phoneNumbers": [
-        [
-          {
-            "info": "Sunshine Place Business Office",
-            "number": "(608) 825-3875"
-          }
-        ]
+        {
+          "info": "Sunshine Place Business Office",
+          "number": "(608) 825-3875"
+        }
       ],
-      "website": "www.sunshinesupper.org",
+      "website": "http://www.sunshinesupper.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1783069,
@@ -1227,14 +1153,12 @@
       "address": "4142 Monona Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 223-3100"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 223-3100"
+        }
       ],
-      "website": "www.emmca.org",
+      "website": "http://www.emmca.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.078285,
@@ -1257,14 +1181,12 @@
       "address": "250 Femrite Dr",
       "city": "Monona",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 223-3100"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 223-3100"
+        }
       ],
-      "website": "www.emmca.org",
+      "website": "http://www.emmca.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0531925,
@@ -1287,14 +1209,12 @@
       "address": "1501 Lake Point Drive",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Nutrition Site Manager",
-            "number": "(608) 223-3100"
-          }
-        ]
+        {
+          "info": "Nutrition Site Manager",
+          "number": "(608) 223-3100"
+        }
       ],
-      "website": "www.emmca.org",
+      "website": "http://www.emmca.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.047748,
@@ -1317,14 +1237,12 @@
       "address": "1625 Northport Dr Ste 125",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 243-5252"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 243-5252"
+        }
       ],
-      "website": "www.nescoinc.org",
+      "website": "http://www.nescoinc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.13163890000001,
@@ -1352,12 +1270,10 @@
       "address": "2025 Taft St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Rides reservation",
-            "number": "(608) 294-8747"
-          }
-        ]
+        {
+          "info": "Rides reservation",
+          "number": "(608) 294-8747"
+        }
       ],
       "website": "",
       "location": {
@@ -1382,12 +1298,10 @@
       "address": "330 W Mifflin St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Rides Reservation",
-            "number": "(608) 294-8747"
-          }
-        ]
+        {
+          "info": "Rides Reservation",
+          "number": "(608) 294-8747"
+        }
       ],
       "website": "",
       "location": {
@@ -1412,12 +1326,10 @@
       "address": "540 W Olin Ave Rm 137",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Rides Reservation",
-            "number": "(608) 294-8747"
-          }
-        ]
+        {
+          "info": "Rides Reservation",
+          "number": "(608) 294-8747"
+        }
       ],
       "website": "",
       "location": {
@@ -1442,14 +1354,12 @@
       "address": "330 W Mifflin St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 266-6581"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 266-6581"
+        }
       ],
-      "website": "www.MadisonSeniorCenter.org",
+      "website": "http://www.MadisonSeniorCenter.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0731321,
@@ -1482,7 +1392,7 @@
           "number": ""
         }
       ],
-      "website": "www.ymcadanecounty.org",
+      "website": "http://www.ymcadanecounty.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1613282,
@@ -1505,14 +1415,12 @@
       "address": "711 Cottage Grove Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 221-1571"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 221-1571"
+        }
       ],
-      "website": "www.ymcadanecounty.org",
+      "website": "http://www.ymcadanecounty.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.08320250000001,
@@ -1535,14 +1443,12 @@
       "address": "2711 Allen Blvd Ste 300",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic Coordinator",
-            "number": "(608) 827-2308"
-          }
-        ]
+        {
+          "info": "Clinic Coordinator",
+          "number": "(608) 827-2308"
+        }
       ],
-      "website": "www.deancare.com/Foundation/",
+      "website": "http://www.deancare.com/Foundation/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1044659,
@@ -1570,7 +1476,7 @@
           "number": "(608) 256-7808"
         }
       ],
-      "website": "www.bayviewfoundation.org",
+      "website": "http://www.bayviewfoundation.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.5463088,
@@ -1593,14 +1499,12 @@
       "address": "24 W Main St",
       "city": "Belleville",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 424-3341"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 424-3341"
+        }
       ],
-      "website": "www.bellevillewi.org",
+      "website": "http://www.bellevillewi.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.859443,
@@ -1623,14 +1527,12 @@
       "address": "1221 Henry Ave",
       "city": "Beloit",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 365-8553"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 365-8553"
+        }
       ],
-      "website": "www.cssw.org",
+      "website": "http://www.cssw.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.5226506,
@@ -1653,14 +1555,12 @@
       "address": "102 E Lincoln St",
       "city": "Mount Horeb",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 437-6114"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 437-6114"
+        }
       ],
-      "website": "cclothescloset.org",
+      "website": "http://cclothescloset.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.007151,
@@ -1683,14 +1583,12 @@
       "address": "505 N Main St",
       "city": "DeForest",
       "phoneNumbers": [
-        [
-          {
-            "info": "Case Managers",
-            "number": "(608) 846-9469"
-          }
-        ]
+        {
+          "info": "Case Managers",
+          "number": "(608) 846-9469"
+        }
       ],
-      "website": "www.thecommunitycornerstone.org",
+      "website": "http://www.thecommunitycornerstone.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.2534224,
@@ -1728,14 +1626,12 @@
       "address": "9770 Silicon Prairie Parkway",
       "city": "Verona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 831-7330"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 831-7330"
+        }
       ],
-      "website": "www.fullcompass.com",
+      "website": "http://www.fullcompass.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0585804,
@@ -1758,14 +1654,12 @@
       "address": "2970 Chapel Valley Road, Suite 203",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 274-2097"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 274-2097"
+        }
       ],
-      "website": "www.independentlivinginc.org",
+      "website": "http://www.independentlivinginc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0167152,
@@ -1788,14 +1682,12 @@
       "address": "6434 Enterprise Lane",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Director of Senior Programs",
-            "number": "(608) 278-1808"
-          }
-        ]
+        {
+          "info": "Director of Senior Programs",
+          "number": "(608) 278-1808"
+        }
       ],
-      "website": "www.jssmadison.org",
+      "website": "http://www.jssmadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.058139,
@@ -1818,12 +1710,10 @@
       "address": "2540 E Mifflin St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 241-1522"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 241-1522"
+        }
       ],
       "website": "",
       "location": {
@@ -1853,14 +1743,12 @@
       "address": "201 W. Mifflin St.",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 266-6300"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 266-6300"
+        }
       ],
-      "website": "www.madisonpubliclibrary.org/central",
+      "website": "http://www.madisonpubliclibrary.org/central",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0733968,
@@ -1888,14 +1776,12 @@
       "address": "1705 Monroe St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 266-6390"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 266-6390"
+        }
       ],
-      "website": "www.madisonpubliclibrary.org",
+      "website": "http://www.madisonpubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.06592939999999,
@@ -1918,14 +1804,12 @@
       "address": "2222 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 266-6395"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 266-6395"
+        }
       ],
-      "website": "www.madisonpubliclibrary.org",
+      "website": "http://www.madisonpubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0414617,
@@ -1948,14 +1832,12 @@
       "address": "2707 E Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 246-4548"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 246-4548"
+        }
       ],
-      "website": "www.madisonpubliclibrary.org",
+      "website": "http://www.madisonpubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1014967,
@@ -1978,14 +1860,12 @@
       "address": "2845 N Sherman Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 246-4547"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 246-4547"
+        }
       ],
-      "website": "www.madisonpubliclibrary.org",
+      "website": "http://www.madisonpubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1276876,
@@ -2008,14 +1888,12 @@
       "address": "4340 Tokay Blvd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 266-6385"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 266-6385"
+        }
       ],
-      "website": "www.madisonpubliclibrary.org",
+      "website": "http://www.madisonpubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.053875,
@@ -2038,14 +1916,12 @@
       "address": "5740 Raymond Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 288-6160"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 288-6160"
+        }
       ],
-      "website": "www.madisonpubliclibrary.org",
+      "website": "http://www.madisonpubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0324932,
@@ -2068,14 +1944,12 @@
       "address": "733 N High Point Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 824-1780"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 824-1780"
+        }
       ],
-      "website": "www.madisonpubliclibrary.org",
+      "website": "http://www.madisonpubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.075992,
@@ -2098,12 +1972,10 @@
       "address": "5734 Raymond Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 467-8918"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 467-8918"
+        }
       ],
       "website": "",
       "location": {
@@ -2138,14 +2010,12 @@
       "address": "510 S Thornton Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 204-6863"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 204-6863"
+        }
       ],
-      "website": "www.mscr.org",
+      "website": "http://www.mscr.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0864312,
@@ -2168,12 +2038,10 @@
       "address": "101 S Gammon Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 663-6427"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 663-6427"
+        }
       ],
       "website": "",
       "location": {
@@ -2198,12 +2066,10 @@
       "address": "1402 Wyoming Way",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 204-4376"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 204-4376"
+        }
       ],
       "website": "",
       "location": {
@@ -2228,12 +2094,10 @@
       "address": "1610 Ruskin St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 204-2132"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 204-2132"
+        }
       ],
       "website": "",
       "location": {
@@ -2258,14 +2122,12 @@
       "address": "1717 Fish Hatchery Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 204-1369"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 204-1369"
+        }
       ],
-      "website": "www.mscr.org",
+      "website": "http://www.mscr.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0487545,
@@ -2288,12 +2150,10 @@
       "address": "230 Schenk St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 204-4506"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 204-4506"
+        }
       ],
       "website": "",
       "location": {
@@ -2318,14 +2178,12 @@
       "address": "4301 Cherokee Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 204-1273"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 204-1273"
+        }
       ],
-      "website": "www.mscr.org",
+      "website": "http://www.mscr.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.04115700000001,
@@ -2348,14 +2206,12 @@
       "address": "501 Pflaum Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 204-4029"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 204-4029"
+        }
       ],
-      "website": "www.mscr.org",
+      "website": "http://www.mscr.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.061514,
@@ -2378,14 +2234,12 @@
       "address": "5606 Russett Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 204-4763"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 204-4763"
+        }
       ],
-      "website": "www.mscr.org",
+      "website": "http://www.mscr.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0336552,
@@ -2408,14 +2262,12 @@
       "address": "226 Madison St",
       "city": "Marshall",
       "phoneNumbers": [
-        [
-          {
-            "info": "Program Director",
-            "number": "(608) 655-4980"
-          }
-        ]
+        {
+          "info": "Program Director",
+          "number": "(608) 655-4980"
+        }
       ],
-      "website": "mysite.verizon.net/macyc",
+      "website": "http://mysite.verizon.net/macyc",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.167214,
@@ -2443,14 +2295,12 @@
       "address": "5114 Farwell St",
       "city": "Mc Farland",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 838-3839"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 838-3839"
+        }
       ],
-      "website": "www.McFarlandYouthCenter.org",
+      "website": "http://www.McFarlandYouthCenter.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.014093,
@@ -2473,14 +2323,12 @@
       "address": "7448 Hubbard Ave",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Front Desk-Receptionist",
-            "number": "(608) 831-2373"
-          }
-        ]
+        {
+          "info": "Front Desk-Receptionist",
+          "number": "(608) 831-2373"
+        }
       ],
-      "website": "www.middletonseniorcenter.com",
+      "website": "http://www.middletonseniorcenter.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0958298,
@@ -2518,14 +2366,12 @@
       "address": "2059 Atwood Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 246-4380"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 246-4380"
+        }
       ],
-      "website": "www.unitedwaydanecounty.org",
+      "website": "http://www.unitedwaydanecounty.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.092277,
@@ -2548,14 +2394,12 @@
       "address": null,
       "city": null,
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(211)"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(211)"
+        }
       ],
-      "website": "www.unitedwaydanecounty.org/2-1-1",
+      "website": "http://www.unitedwaydanecounty.org/2-1-1",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.067033,
@@ -2578,14 +2422,12 @@
       "address": "1201 McKenna Blvd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 276-9782"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 276-9782"
+        }
       ],
-      "website": "www.wisconsinyouthcompany.org",
+      "website": "http://www.wisconsinyouthcompany.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0407059,
@@ -2608,14 +2450,12 @@
       "address": "1061 Thousand Oaks Tr",
       "city": "Verona",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 497-4436"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 497-4436"
+        }
       ],
-      "website": "www.bussvc.wisc.edu/swap/swap.html",
+      "website": "http://www.bussvc.wisc.edu/swap/swap.html",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9707884,
@@ -2638,14 +2478,12 @@
       "address": "517 N Segoe Rd Ste 200-B",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 233-0222"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 233-0222"
+        }
       ],
-      "website": "bltsinc.org",
+      "website": "http://bltsinc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.071948,
@@ -2673,14 +2511,12 @@
       "address": "3810 Milwaukee St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Information & Referral staff",
-            "number": "(608) 242-8484"
-          }
-        ]
+        {
+          "info": "Information & Referral staff",
+          "number": "(608) 242-8484"
+        }
       ],
-      "website": "www.accesstoind.org",
+      "website": "http://www.accesstoind.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0987102,
@@ -2703,14 +2539,12 @@
       "address": "130 S Vine St",
       "city": "Belleville",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 424-1812"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 424-1812"
+        }
       ],
-      "website": "www.bellevillelibrary-wi.org",
+      "website": "http://www.bellevillelibrary-wi.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.858275,
@@ -2733,14 +2567,12 @@
       "address": "4619 Jenewein Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 204-9722"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 204-9722"
+        }
       ],
-      "website": "alliedfoodpantry.wix.com/allied-food-pantry",
+      "website": "http://alliedfoodpantry.wix.com/allied-food-pantry",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0284421,
@@ -2763,14 +2595,12 @@
       "address": "1210 Mills St",
       "city": "Black Earth",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 767-2563"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 767-2563"
+        }
       ],
-      "website": "www.bepubliclibrary.org",
+      "website": "http://www.bepubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.13774,
@@ -2793,14 +2623,12 @@
       "address": "130 S Vine St",
       "city": "Belleville",
       "phoneNumbers": [
-        [
-          {
-            "info": "Director",
-            "number": "(608) 424-6007"
-          }
-        ]
+        {
+          "info": "Director",
+          "number": "(608) 424-6007"
+        }
       ],
-      "website": "www.bellevillewi.org/",
+      "website": "http://www.bellevillewi.org/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.858275,
@@ -2833,12 +2661,10 @@
       "address": "221 Fredrick St",
       "city": "Belleville",
       "phoneNumbers": [
-        [
-          {
-            "info": "Nutrition Site Coordinator",
-            "number": "(608) 424-6007"
-          }
-        ]
+        {
+          "info": "Nutrition Site Coordinator",
+          "number": "(608) 424-6007"
+        }
       ],
       "website": "",
       "location": {
@@ -2863,12 +2689,10 @@
       "address": "50 Heritage Ct",
       "city": "Belleville",
       "phoneNumbers": [
-        [
-          {
-            "info": "Nutrition Site Coordinator",
-            "number": "(608) 424-6007"
-          }
-        ]
+        {
+          "info": "Nutrition Site Coordinator",
+          "number": "(608) 424-6007"
+        }
       ],
       "website": "",
       "location": {
@@ -2893,14 +2717,12 @@
       "address": "200 Spring St",
       "city": "Cambridge",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 423-3900"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 423-3900"
+        }
       ],
-      "website": "www.cambridgelib.org",
+      "website": "http://www.cambridgelib.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0028687,
@@ -2923,12 +2745,10 @@
       "address": "753 N Main St",
       "city": "Oregon",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 824-4000"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 824-4000"
+        }
       ],
       "website": "",
       "location": {
@@ -2953,12 +2773,10 @@
       "address": "1310 Broadway",
       "city": "Wisconsin Dells",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 835-2222"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 835-2222"
+        }
       ],
       "website": "",
       "location": {
@@ -2983,12 +2801,10 @@
       "address": "10 Tower Dr",
       "city": "Sun Prairie",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 825-3500"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 825-3500"
+        }
       ],
       "website": "",
       "location": {
@@ -3013,12 +2829,10 @@
       "address": "11051 N Sherman Rd",
       "city": "Edgerton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 884-3354"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 884-3354"
+        }
       ],
       "website": "",
       "location": {
@@ -3043,12 +2857,10 @@
       "address": "1200 John Q Hammons Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 410-2700"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 410-2700"
+        }
       ],
       "website": "",
       "location": {
@@ -3073,12 +2885,10 @@
       "address": "2501 W Beltline Hwy",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 288-6600"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 288-6600"
+        }
       ],
       "website": "",
       "location": {
@@ -3103,12 +2913,10 @@
       "address": "250 26th St",
       "city": "Prairie du Sac",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 643-7899"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 643-7899"
+        }
       ],
       "website": "",
       "location": {
@@ -3133,12 +2941,10 @@
       "address": "1300 S Century Ave",
       "city": "Waunakee",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 849-4315"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 849-4315"
+        }
       ],
       "website": "",
       "location": {
@@ -3163,12 +2969,10 @@
       "address": "103 Lake St",
       "city": "Deerfield",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 764-5487"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 764-5487"
+        }
       ],
       "website": "",
       "location": {
@@ -3193,12 +2997,10 @@
       "address": "1313 Fish Hatchery Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 252-8000"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 252-8000"
+        }
       ],
       "website": "",
       "location": {
@@ -3223,12 +3025,10 @@
       "address": "1821 S Stoughton Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 260-6463"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 260-6463"
+        }
       ],
       "website": "",
       "location": {
@@ -3263,12 +3063,10 @@
       "address": "202 S Century Ave",
       "city": "Waunakee",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 260-6000"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 260-6000"
+        }
       ],
       "website": "",
       "location": {
@@ -3293,12 +3091,10 @@
       "address": "225 Church St",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 877-2700"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 877-2700"
+        }
       ],
       "website": "",
       "location": {
@@ -3323,12 +3119,10 @@
       "address": "752 N High Point Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 877-2700"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 877-2700"
+        }
       ],
       "website": "",
       "location": {
@@ -3358,14 +3152,12 @@
       "address": "1819 Aberg Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 266-4419"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 266-4419"
+        }
       ],
-      "website": "www.dcls.info",
+      "website": "http://www.dcls.info",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1134374,
@@ -3388,14 +3180,12 @@
       "address": "3051 Cahill Main",
       "city": "Fitchburg",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 661-7200"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 661-7200"
+        }
       ],
-      "website": "www.ghcscw.com",
+      "website": "http://www.ghcscw.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0214548,
@@ -3423,14 +3213,12 @@
       "address": "5249 E Terrace Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 222-9777"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 222-9777"
+        }
       ],
-      "website": "www.ghcscw.com",
+      "website": "http://www.ghcscw.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1447352,
@@ -3458,14 +3246,12 @@
       "address": "675 W Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 257-9700"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 257-9700"
+        }
       ],
-      "website": "www.ghcscw.com",
+      "website": "http://www.ghcscw.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0671763,
@@ -3498,14 +3284,12 @@
       "address": "815 S Main St",
       "city": "DeForest",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 846-4787"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 846-4787"
+        }
       ],
-      "website": "www.ghcscw.com",
+      "website": "http://www.ghcscw.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.2363557,
@@ -3528,14 +3312,12 @@
       "address": "8202 Excelsior Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 831-1766"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 831-1766"
+        }
       ],
-      "website": "www.ghcscw.com",
+      "website": "http://www.ghcscw.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.080639,
@@ -3563,14 +3345,12 @@
       "address": "203 Library St",
       "city": "DeForest",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 846-5482"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 846-5482"
+        }
       ],
-      "website": "www.deforest.lib.wi.us",
+      "website": "http://www.deforest.lib.wi.us",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.247024,
@@ -3598,7 +3378,7 @@
           "number": "(608) 276-1017"
         }
       ],
-      "website": "www.homehealthunited.org",
+      "website": "http://www.homehealthunited.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0580703,
@@ -3621,14 +3401,12 @@
       "address": "1111 8th St",
       "city": "Baraboo",
       "phoneNumbers": [
-        [
-          {
-            "info": "Toll Free",
-            "number": "(800) 924-2273"
-          }
-        ]
+        {
+          "info": "Toll Free",
+          "number": "(800) 924-2273"
+        }
       ],
-      "website": "wwwHomeHealthUnited.org",
+      "website": "http://wwwHomeHealthUnited.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.47499699999999,
@@ -3651,14 +3429,12 @@
       "address": "199 Kennedy Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 244-0767"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 244-0767"
+        }
       ],
-      "website": "www.khcommunitycenter.org",
+      "website": "http://www.khcommunitycenter.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1402292,
@@ -3681,14 +3457,12 @@
       "address": "12 W Nelson St",
       "city": "Deerfield",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 764-8102"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 764-8102"
+        }
       ],
-      "website": "www.scls.lib.wi.us/deerfield",
+      "website": "http://www.scls.lib.wi.us/deerfield",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0545276,
@@ -3711,12 +3485,10 @@
       "address": "4 N Hancock St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Program Manager",
-            "number": "(608) 251-6901"
-          }
-        ]
+        {
+          "info": "Program Manager",
+          "number": "(608) 251-6901"
+        }
       ],
       "website": "",
       "location": {
@@ -3741,12 +3513,10 @@
       "address": "116 W Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 265-4972"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 265-4972"
+        }
       ],
       "website": "",
       "location": {
@@ -3771,12 +3541,10 @@
       "address": "2009 E Dayton St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 265-4972"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 265-4972"
+        }
       ],
       "website": "",
       "location": {
@@ -3801,12 +3569,10 @@
       "address": "2202 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 265-4972"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 265-4972"
+        }
       ],
       "website": "",
       "location": {
@@ -3831,12 +3597,10 @@
       "address": "306 N Brooks St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 265-4972"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 265-4972"
+        }
       ],
       "website": "",
       "location": {
@@ -3861,12 +3625,10 @@
       "address": "630 E Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 265-4972"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 265-4972"
+        }
       ],
       "website": "",
       "location": {
@@ -3891,12 +3653,10 @@
       "address": "2120 Fordem Avenue",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Center for Families Main Desk",
-            "number": "(608) 241-5150"
-          }
-        ]
+        {
+          "info": "Center for Families Main Desk",
+          "number": "(608) 241-5150"
+        }
       ],
       "website": "",
       "location": {
@@ -3921,14 +3681,12 @@
       "address": "5920 Milwaukee St",
       "city": "McFarland",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 838-9030"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 838-9030"
+        }
       ],
-      "website": "www.mcfarlandlibrary.org",
+      "website": "http://www.mcfarlandlibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.01360080000001,
@@ -3951,14 +3709,12 @@
       "address": "625 W Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 280-2700"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 280-2700"
+        }
       ],
-      "website": "www.journeymhc.org",
+      "website": "http://www.journeymhc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0679572,
@@ -3981,12 +3737,10 @@
       "address": "710 John Nolen Drive",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 280-2630"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 280-2630"
+        }
       ],
       "website": "",
       "location": {
@@ -4016,14 +3770,12 @@
       "address": "1837 Bourbon Road",
       "city": "Cross Plains",
       "phoneNumbers": [
-        [
-          {
-            "info": "Activity Coordinator",
-            "number": "(608) 798-6937"
-          }
-        ]
+        {
+          "info": "Activity Coordinator",
+          "number": "(608) 798-6937"
+        }
       ],
-      "website": "www.nwdss.org",
+      "website": "http://www.nwdss.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1116234,
@@ -4056,14 +3808,12 @@
       "address": "219 Park St",
       "city": "Oregon",
       "phoneNumbers": [
-        [
-          {
-            "info": "Director",
-            "number": "(608) 835-5801"
-          }
-        ]
+        {
+          "info": "Director",
+          "number": "(608) 835-5801"
+        }
       ],
-      "website": "www.oregonareaseniorcenterwisconsin.com",
+      "website": "http://www.oregonareaseniorcenterwisconsin.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.926113,
@@ -4096,14 +3846,12 @@
       "address": "149 Waubesa Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 241-1574"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 241-1574"
+        }
       ],
-      "website": "www.goodmancenter.org",
+      "website": "http://www.goodmancenter.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.09701889999999,
@@ -4151,14 +3899,12 @@
       "address": "107 N Grove St",
       "city": "Mount Horeb",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 437-6902"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 437-6902"
+        }
       ],
-      "website": "www.mounthorebwi.info/",
+      "website": "http://www.mounthorebwi.info/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0095872,
@@ -4206,14 +3952,12 @@
       "address": "700 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 258-6800"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 258-6800"
+        }
       ],
-      "website": "www.stmarysmadison.com",
+      "website": "http://www.stmarysmadison.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.059273,
@@ -4246,12 +3990,10 @@
       "address": "2440 Atwood Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Director",
-            "number": "(608) 249-4450"
-          }
-        ]
+        {
+          "info": "Director",
+          "number": "(608) 249-4450"
+        }
       ],
       "website": "",
       "location": {
@@ -4276,12 +4018,10 @@
       "address": "4633 D Verona Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Nurse Practitioner",
-            "number": "(608) 446-3344"
-          }
-        ]
+        {
+          "info": "Nurse Practitioner",
+          "number": "(608) 446-3344"
+        }
       ],
       "website": "",
       "location": {
@@ -4306,12 +4046,10 @@
       "address": "2840 O'Keeffe Ave",
       "city": "Sun Prairie",
       "phoneNumbers": [
-        [
-          {
-            "info": "Emergency Room",
-            "number": "(608) 229-8484"
-          }
-        ]
+        {
+          "info": "Emergency Room",
+          "number": "(608) 229-8484"
+        }
       ],
       "website": "",
       "location": {
@@ -4341,7 +4079,7 @@
           "number": "(608) 373-8000"
         }
       ],
-      "website": "www.stmarysjanesville.com",
+      "website": "http://www.stmarysjanesville.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.66899069999999,
@@ -4364,14 +4102,12 @@
       "address": "248 W Main St",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Nutrition Manager",
-            "number": "(608) 873-8585"
-          }
-        ]
+        {
+          "info": "Nutrition Manager",
+          "number": "(608) 873-8585"
+        }
       ],
-      "website": "www.ci.stoughton.wi.us/senior",
+      "website": "http://www.ci.stoughton.wi.us/senior",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9170749,
@@ -4399,12 +4135,10 @@
       "address": "1121 BellWest Blvd",
       "city": "Belleville",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 424-3384"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 424-3384"
+        }
       ],
       "website": "",
       "location": {
@@ -4429,12 +4163,10 @@
       "address": "2418 Brewery Rd",
       "city": "Cross Plains",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 798-3344"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 798-3344"
+        }
       ],
       "website": "",
       "location": {
@@ -4459,12 +4191,10 @@
       "address": "1102 S. Park Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Program Director",
-            "number": "(608) 282-8270"
-          }
-        ]
+        {
+          "info": "Program Director",
+          "number": "(608) 282-8270"
+        }
       ],
       "website": "",
       "location": {
@@ -4489,12 +4219,10 @@
       "address": "2880 University Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 263-9339"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 263-9339"
+        }
       ],
       "website": "",
       "location": {
@@ -4519,12 +4247,10 @@
       "address": "3209 Dryden Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 241-9020"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 241-9020"
+        }
       ],
       "website": "",
       "location": {
@@ -4549,12 +4275,10 @@
       "address": "2030 Pinehurst Drive",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 203-2273"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 203-2273"
+        }
       ],
       "website": "",
       "location": {
@@ -4579,12 +4303,10 @@
       "address": "4122 East Towne Blvd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 242-6865"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 242-6865"
+        }
       ],
       "website": "",
       "location": {
@@ -4614,12 +4336,10 @@
       "address": "451 Junction Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 265-7700"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 265-7700"
+        }
       ],
       "website": "",
       "location": {
@@ -4644,12 +4364,10 @@
       "address": "500 Westlawn Dr",
       "city": "Cottage Grove",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 839-3104"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 839-3104"
+        }
       ],
       "website": "",
       "location": {
@@ -4674,12 +4392,10 @@
       "address": "1 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 287-2200"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 287-2200"
+        }
       ],
       "website": "",
       "location": {
@@ -4704,12 +4420,10 @@
       "address": "1050 E Broadway",
       "city": "Monona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 222-8944"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 222-8944"
+        }
       ],
       "website": "",
       "location": {
@@ -4734,12 +4448,10 @@
       "address": "5249 E Terrace Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 265-1295"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 265-1295"
+        }
       ],
       "website": "",
       "location": {
@@ -4764,12 +4476,10 @@
       "address": "5543 E Cheryl Pkwy",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 274-5300"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 274-5300"
+        }
       ],
       "website": "",
       "location": {
@@ -4794,12 +4504,10 @@
       "address": "600 N 8th St",
       "city": "Mount Horeb",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 437-3064"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 437-3064"
+        }
       ],
       "website": "",
       "location": {
@@ -4824,12 +4532,10 @@
       "address": "621 Science Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 265-8303"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 265-8303"
+        }
       ],
       "website": "",
       "location": {
@@ -4854,12 +4560,10 @@
       "address": "7102 Mineral Point Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 828-7676"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 828-7676"
+        }
       ],
       "website": "",
       "location": {
@@ -4889,12 +4593,10 @@
       "address": "5618 Odana Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 274-1100"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 274-1100"
+        }
       ],
       "website": "",
       "location": {
@@ -4919,12 +4621,10 @@
       "address": "4131 Meridian Dr",
       "city": "Windsor",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 846-3741"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 846-3741"
+        }
       ],
       "website": "",
       "location": {
@@ -4949,12 +4649,10 @@
       "address": "600 Highland Ave Ste 200",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 263-6400"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 263-6400"
+        }
       ],
       "website": "",
       "location": {
@@ -4984,12 +4682,10 @@
       "address": "2349 Deming Way",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 824-3930"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 824-3930"
+        }
       ],
       "website": "",
       "location": {
@@ -5014,12 +4710,10 @@
       "address": "780 Regent",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 257-4286"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 257-4286"
+        }
       ],
       "website": "",
       "location": {
@@ -5044,12 +4738,10 @@
       "address": "2241 Pinehurst Dr",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 831-8555"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 831-8555"
+        }
       ],
       "website": "",
       "location": {
@@ -5074,12 +4766,10 @@
       "address": "750 University Row",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 890-5000"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 890-5000"
+        }
       ],
       "website": "",
       "location": {
@@ -5104,12 +4794,10 @@
       "address": "2365 Deming Way",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 824-6160"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 824-6160"
+        }
       ],
       "website": "",
       "location": {
@@ -5134,12 +4822,10 @@
       "address": "100 N Nine Mound Rd",
       "city": "Verona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 845-9531"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 845-9531"
+        }
       ],
       "website": "",
       "location": {
@@ -5164,12 +4850,10 @@
       "address": "6220 University Ave",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 263-0583"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 263-0583"
+        }
       ],
       "website": "",
       "location": {
@@ -5194,12 +4878,10 @@
       "address": "1726 Eagan Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 265-1221"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 265-1221"
+        }
       ],
       "website": "",
       "location": {
@@ -5224,12 +4906,10 @@
       "address": "8042 Watts Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 265-7500"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 265-7500"
+        }
       ],
       "website": "",
       "location": {
@@ -5254,12 +4934,10 @@
       "address": "6630 University Ave",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 263-8412"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 263-8412"
+        }
       ],
       "website": "",
       "location": {
@@ -5284,12 +4962,10 @@
       "address": "4600 American Pkwy",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 243-3003"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 243-3003"
+        }
       ],
       "website": "",
       "location": {
@@ -5319,12 +4995,10 @@
       "address": "1001 Nygaard St",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 877-2660"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 877-2660"
+        }
       ],
       "website": "",
       "location": {
@@ -5349,12 +5023,10 @@
       "address": "2651 Windsor St",
       "city": "Sun Prairie",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 837-2206"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 837-2206"
+        }
       ],
       "website": "",
       "location": {
@@ -5379,12 +5051,10 @@
       "address": "137 S Main St",
       "city": "Oregon",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 835-5588"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 835-5588"
+        }
       ],
       "website": "",
       "location": {
@@ -5409,12 +5079,10 @@
       "address": "20 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 827-2000"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 827-2000"
+        }
       ],
       "website": "",
       "location": {
@@ -5439,14 +5107,12 @@
       "address": "605 Waterloo Rd",
       "city": "Marshall",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 655-3123"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 655-3123"
+        }
       ],
-      "website": "www.marlib.org",
+      "website": "http://www.marlib.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1680544,
@@ -5469,12 +5135,10 @@
       "address": "102 Brodhead St",
       "city": "Mazomanie",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 795-2104"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 795-2104"
+        }
       ],
       "website": "http://www.scls.lib.wi.us/mazomanie/",
       "location": {
@@ -5499,14 +5163,12 @@
       "address": "5307 Hough Street",
       "city": "Mc Farland",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 658-0927"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 658-0927"
+        }
       ],
-      "website": "www.mcfarlandfoodpantry.com",
+      "website": "http://www.mcfarlandfoodpantry.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0147261,
@@ -5529,14 +5191,12 @@
       "address": "208 South Century Avenue",
       "city": "Waunakee",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 849-5740"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 849-5740"
+        }
       ],
-      "website": "www.waunakeeneighborhoodconnection.com",
+      "website": "http://www.waunakeeneighborhoodconnection.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.188521,
@@ -5559,14 +5219,12 @@
       "address": "7425 Hubbard Ave",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Announcement Line",
-            "number": "(608) 827-7400"
-          }
-        ]
+        {
+          "info": "Announcement Line",
+          "number": "(608) 827-7400"
+        }
       ],
-      "website": "www.midlibrary.org",
+      "website": "http://www.midlibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.094959,
@@ -5589,14 +5247,12 @@
       "address": "11010 Blackhawk Dr",
       "city": "Blue Mounds",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 437-8680"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 437-8680"
+        }
       ],
-      "website": "www.countrysidecommunitiescenter.org",
+      "website": "http://www.countrysidecommunitiescenter.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.009483,
@@ -5624,12 +5280,10 @@
       "address": "2962 Church St",
       "city": "Blue Mounds",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 437-5224"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 437-5224"
+        }
       ],
       "website": "",
       "location": {
@@ -5654,14 +5308,12 @@
       "address": "301 Blankenheim Lane",
       "city": "Sun Prairie",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 837-4611"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 837-4611"
+        }
       ],
-      "website": "www.colonialclub.org",
+      "website": "http://www.colonialclub.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.183155,
@@ -5694,14 +5346,12 @@
       "address": "226 Madison St",
       "city": "Marshall",
       "phoneNumbers": [
-        [
-          {
-            "info": "Nutrition Coordinator",
-            "number": "(608) 837-4611"
-          }
-        ]
+        {
+          "info": "Nutrition Coordinator",
+          "number": "(608) 837-4611"
+        }
       ],
-      "website": "www.colonialclub.org",
+      "website": "http://www.colonialclub.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.167214,
@@ -5724,14 +5374,12 @@
       "address": "2705 E Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Reception",
-            "number": "(608) 266-4821"
-          }
-        ]
+        {
+          "info": "Reception",
+          "number": "(608) 266-4821"
+        }
       ],
-      "website": "www.publichealthmdc.com",
+      "website": "http://www.publichealthmdc.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1014458,
@@ -5769,14 +5417,12 @@
       "address": "2230 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic Information",
-            "number": "(608) 267-1111"
-          }
-        ]
+        {
+          "info": "Clinic Information",
+          "number": "(608) 267-1111"
+        }
       ],
-      "website": "www.publichealthmdc.com",
+      "website": "http://www.publichealthmdc.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0417843,
@@ -5799,12 +5445,10 @@
       "address": "2300 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Spanish Line",
-            "number": "(608) 266-4821"
-          }
-        ]
+        {
+          "info": "Spanish Line",
+          "number": "(608) 266-4821"
+        }
       ],
       "website": "",
       "location": {
@@ -5834,14 +5478,12 @@
       "address": "6425 Odana Rd Ste 13",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 819-8544"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 819-8544"
+        }
       ],
-      "website": "www.ourladyofhopeclinic.org",
+      "website": "http://www.ourladyofhopeclinic.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.053878,
@@ -5864,14 +5506,12 @@
       "address": "1000 Nichols Rd",
       "city": "Monona",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 222-6127"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 222-6127"
+        }
       ],
-      "website": "www.mononalibrary.org",
+      "website": "http://www.mononalibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.063669,
@@ -5894,14 +5534,12 @@
       "address": "105 Perimeter St",
       "city": "Mount Horeb",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 437-5021"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 437-5021"
+        }
       ],
-      "website": "www.mhpl.org",
+      "website": "http://www.mhpl.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0081257,
@@ -5924,14 +5562,12 @@
       "address": "256 Brook St",
       "city": "Oregon",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 835-3656"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 835-3656"
+        }
       ],
-      "website": "www.oregonpubliclibrary.org",
+      "website": "http://www.oregonpubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.926014,
@@ -5954,14 +5590,12 @@
       "address": "2107 Julius St",
       "city": "Cross Plains",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 798-3881"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 798-3881"
+        }
       ],
-      "website": "www.scls.lib.wi.us/csp",
+      "website": "http://www.scls.lib.wi.us/csp",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1138216,
@@ -5984,14 +5618,12 @@
       "address": "329 North St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 249-9222"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 249-9222"
+        }
       ],
-      "website": "www.bashfordchurch.org",
+      "website": "http://www.bashfordchurch.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.10409,
@@ -6014,14 +5646,12 @@
       "address": "304 South Fourth Street",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 873-6281"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 873-6281"
+        }
       ],
-      "website": "www.stoughtonpubliclibrary.org",
+      "website": "http://www.stoughtonpubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9164927,
@@ -6044,14 +5674,12 @@
       "address": "1350 Linnerud Dr",
       "city": "Sun Prairie",
       "phoneNumbers": [
-        [
-          {
-            "info": "Information Desk",
-            "number": "(608) 825-0702"
-          }
-        ]
+        {
+          "info": "Information Desk",
+          "number": "(608) 825-0702"
+        }
       ],
-      "website": "www.sunprairiepubliclibrary.org",
+      "website": "http://www.sunprairiepubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1756527,
@@ -6074,14 +5702,12 @@
       "address": "500 Silent St",
       "city": "Verona",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 845-7180"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 845-7180"
+        }
       ],
-      "website": "www.veronapubliclibrary.org",
+      "website": "http://www.veronapubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9973964,
@@ -6104,14 +5730,12 @@
       "address": "710 South St",
       "city": "Waunakee",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 849-4217"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 849-4217"
+        }
       ],
-      "website": "www.waunakeepubliclibrary.org",
+      "website": "http://www.waunakeepubliclibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.18497379999999,
@@ -6134,14 +5758,12 @@
       "address": "2720 Rimrock Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Intake",
-            "number": "(608) 251-1126"
-          }
-        ]
+        {
+          "info": "Intake",
+          "number": "(608) 251-1126"
+        }
       ],
-      "website": "www.briarpatch.org",
+      "website": "http://www.briarpatch.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.032263,
@@ -6169,14 +5791,12 @@
       "address": "2401 Atwood Avenue",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 772-3146"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 772-3146"
+        }
       ],
-      "website": "pepartnership.net",
+      "website": "http://pepartnership.net",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0935359,
@@ -6199,14 +5819,12 @@
       "address": "5700 Pheasant Hill Rd",
       "city": "Monona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 441-1123"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 441-1123"
+        }
       ],
-      "website": "www.ststephensmonona.com",
+      "website": "http://www.ststephensmonona.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0579566,
@@ -6234,14 +5852,12 @@
       "address": "312 Wisconsin Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Cellular",
-            "number": "(608) 421-3127"
-          }
-        ]
+        {
+          "info": "Cellular",
+          "number": "(608) 421-3127"
+        }
       ],
-      "website": "www.bethel-madison.org",
+      "website": "http://www.bethel-madison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0768261,
@@ -6279,14 +5895,12 @@
       "address": "4001 Mandrake Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 244-6181"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 244-6181"
+        }
       ],
-      "website": "www.lakeviewlutheranchurch.org",
+      "website": "http://www.lakeviewlutheranchurch.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1369572,
@@ -6309,12 +5923,10 @@
       "address": "2 South Ingersoll Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Program Director",
-            "number": "(608) 249-7477"
-          }
-        ]
+        {
+          "info": "Program Director",
+          "number": "(608) 249-7477"
+        }
       ],
       "website": "",
       "location": {
@@ -6339,14 +5951,12 @@
       "address": "1917 Lake Point Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 441-6991"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 441-6991"
+        }
       ],
-      "website": "www.blwcenter.org/index.html",
+      "website": "http://www.blwcenter.org/index.html",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0480332,
@@ -6374,14 +5984,12 @@
       "address": "1862 Beld Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 661-3512"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 661-3512"
+        }
       ],
-      "website": "www.cmctoday.org",
+      "website": "http://www.cmctoday.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0460167,
@@ -6434,14 +6042,12 @@
       "address": "2802 Dairy Drive",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(877) 366-3635"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(877) 366-3635"
+        }
       ],
-      "website": "www.secondharvestmadison.org",
+      "website": "http://www.secondharvestmadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0582648,
@@ -6474,7 +6080,7 @@
           "number": "(608) 752-8708"
         }
       ],
-      "website": "www.sjv.org",
+      "website": "http://www.sjv.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.6777509,
@@ -6530,7 +6136,7 @@
           "number": ""
         }
       ],
-      "website": "morningstar10.org",
+      "website": "http://morningstar10.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.5017886,
@@ -6558,7 +6164,7 @@
           "number": ""
         }
       ],
-      "website": "www.ssanthonyandphilip.com",
+      "website": "http://www.ssanthonyandphilip.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0477549,
@@ -6894,7 +6500,7 @@
           "number": "(608) 441-6991"
         }
       ],
-      "website": "www.blwcenter.org/index.html",
+      "website": "http://www.blwcenter.org/index.html",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0480332,
@@ -6922,7 +6528,7 @@
           "number": "(608) 837-7796"
         }
       ],
-      "website": "www.sunprairiefoodpantry.com",
+      "website": "http://www.sunprairiefoodpantry.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.17879620000001,
@@ -6945,14 +6551,12 @@
       "address": "3 W Deerfield St",
       "city": "Deerfield",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 764-5935"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 764-5935"
+        }
       ],
-      "website": "www.dccenter.org",
+      "website": "http://www.dccenter.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0528988,
@@ -6985,14 +6589,12 @@
       "address": "910 Femrite Dr",
       "city": "Monona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Cellular",
-            "number": "(608) 438-3180"
-          }
-        ]
+        {
+          "info": "Cellular",
+          "number": "(608) 438-3180"
+        }
       ],
-      "website": "www.madisonadventistchurch.com/community-services",
+      "website": "http://www.madisonadventistchurch.com/community-services",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0513507,
@@ -7015,14 +6617,12 @@
       "address": "630 East Washington Avenue",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Intake--Housing Crisis Hotline",
-            "number": "(855) 510-2323"
-          }
-        ]
+        {
+          "info": "Intake--Housing Crisis Hotline",
+          "number": "(855) 510-2323"
+        }
       ],
-      "website": "www.salvationarmydanecounty.org",
+      "website": "http://www.salvationarmydanecounty.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0795459,
@@ -7065,14 +6665,12 @@
       "address": "3030 Darbo Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 250-2264"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 250-2264"
+        }
       ],
-      "website": "www.salvationarmydanecounty.org",
+      "website": "http://www.salvationarmydanecounty.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1038577,
@@ -7100,14 +6698,12 @@
       "address": "5210 Odana Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 274-0266"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 274-0266"
+        }
       ],
-      "website": "www.westwoodchristian.com",
+      "website": "http://www.westwoodchristian.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.05121159999999,
@@ -7130,12 +6726,10 @@
       "address": "520 S Fourth St",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 873-8103"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 873-8103"
+        }
       ],
       "website": "",
       "location": {
@@ -7160,14 +6754,12 @@
       "address": "525 Lincoln Avenue",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 873-3273"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 873-3273"
+        }
       ],
-      "website": "www.stoughtonumc10.org",
+      "website": "http://www.stoughtonumc10.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.92283800000001,
@@ -7190,14 +6782,12 @@
       "address": "18 Rickel Road",
       "city": "Sun Prairie",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 825-3875"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 825-3875"
+        }
       ],
-      "website": "www.sunprairiefoodpantry.com",
+      "website": "http://www.sunprairiefoodpantry.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.17879620000001,
@@ -7220,14 +6810,12 @@
       "address": "3502 Parmenter Street",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 826-3420"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 826-3420"
+        }
       ],
-      "website": "www.momhelps.org",
+      "website": "http://www.momhelps.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.11319719999999,
@@ -7321,14 +6909,12 @@
       "address": "1334 Dewey Court",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 250-6634"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 250-6634"
+        }
       ],
-      "website": "www.community-partnerships.org",
+      "website": "http://www.community-partnerships.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0866358,
@@ -7356,14 +6942,12 @@
       "address": "8317 Elderberry Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Patient Service Center",
-            "number": "(866) 460-6550"
-          }
-        ]
+        {
+          "info": "Patient Service Center",
+          "number": "(866) 460-6550"
+        }
       ],
-      "website": "www.cancer.org",
+      "website": "http://www.cancer.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0668349,
@@ -7386,14 +6970,12 @@
       "address": "1219 N Sherman Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 204-7015"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 204-7015"
+        }
       ],
-      "website": "www.feedkitchens.org",
+      "website": "http://www.feedkitchens.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1130861,
@@ -7416,14 +6998,12 @@
       "address": "1200 East Verona Avenue",
       "city": "Verona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 848-2499"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 848-2499"
+        }
       ],
-      "website": "www.bpnn.org",
+      "website": "http://www.bpnn.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9953369,
@@ -7446,14 +7026,12 @@
       "address": "953 Jenifer Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Administrative Assistant",
-            "number": "(608) 257-4576"
-          }
-        ]
+        {
+          "info": "Administrative Assistant",
+          "number": "(608) 257-4576"
+        }
       ],
-      "website": "www.wil-mar.org",
+      "website": "http://www.wil-mar.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.079804,
@@ -7496,14 +7074,12 @@
       "address": "1301 Wayridge Drive",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "House Manager",
-            "number": "(608) 422-5240"
-          }
-        ]
+        {
+          "info": "House Manager",
+          "number": "(608) 422-5240"
+        }
       ],
-      "website": "thesolsticehouse.org",
+      "website": "http://thesolsticehouse.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.116681,
@@ -7526,14 +7102,12 @@
       "address": "1118 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 244-3911"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 244-3911"
+        }
       ],
-      "website": "www.litnetwork.org",
+      "website": "http://www.litnetwork.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0542891,
@@ -7556,14 +7130,12 @@
       "address": "1625 Northport Drive",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 245-3690"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 245-3690"
+        }
       ],
-      "website": "www.cityofmadison.com/parks/WPCRC/",
+      "website": "http://www.cityofmadison.com/parks/WPCRC/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.13163890000001,
@@ -7586,14 +7158,12 @@
       "address": "5701 Raymond Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 271-6633"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 271-6633"
+        }
       ],
-      "website": "www.gslcwi.com",
+      "website": "http://www.gslcwi.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.031184,
@@ -7644,12 +7214,10 @@
       "address": "513 West Verona Avenue",
       "city": "Verona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 848-4500"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 848-4500"
+        }
       ],
       "website": "",
       "location": {
@@ -7674,12 +7242,10 @@
       "address": "1509 Highway 51",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 873-3655"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 873-3655"
+        }
       ],
       "website": "",
       "location": {
@@ -7704,14 +7270,12 @@
       "address": "2033 Fish Hatchery Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 257-0919"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 257-0919"
+        }
       ],
-      "website": "www.svdpmadison.org",
+      "website": "http://www.svdpmadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0431,
@@ -7749,12 +7313,10 @@
       "address": "1309 Williamson Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 257-0673"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 257-0673"
+        }
       ],
       "website": "",
       "location": {
@@ -7779,12 +7341,10 @@
       "address": "1900 South Park Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 250-6370"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 250-6370"
+        }
       ],
       "website": "",
       "location": {
@@ -7809,12 +7369,10 @@
       "address": "213 South Klein Drive",
       "city": "Waunakee",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 850-6271"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 850-6271"
+        }
       ],
       "website": "",
       "location": {
@@ -7839,12 +7397,10 @@
       "address": "221 South Baldwin Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 257-2036"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 257-2036"
+        }
       ],
       "website": "",
       "location": {
@@ -7869,12 +7425,10 @@
       "address": "6301 Odana Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 278-2924"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 278-2924"
+        }
       ],
       "website": "",
       "location": {
@@ -7899,14 +7453,12 @@
       "address": "55 South Gammon Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 833-4979"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 833-4979"
+        }
       ],
-      "website": "www.lcecmadison.org",
+      "website": "http://www.lcecmadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0663468,
@@ -7949,12 +7501,10 @@
       "address": "9 Brodhead St",
       "city": "Mazomanie",
       "phoneNumbers": [
-        [
-          {
-            "info": "Other",
-            "number": "(608) 767-3445"
-          }
-        ]
+        {
+          "info": "Other",
+          "number": "(608) 767-3445"
+        }
       ],
       "website": "",
       "location": {
@@ -7979,12 +7529,10 @@
       "address": "2029 Fisher Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 334-4343"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 334-4343"
+        }
       ],
       "website": "",
       "location": {
@@ -8009,14 +7557,12 @@
       "address": "29 South Mills Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 255-5337"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 255-5337"
+        }
       ],
-      "website": "www.neighborhoodhousemadison.org",
+      "website": "http://www.neighborhoodhousemadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0667627,
@@ -8039,14 +7585,12 @@
       "address": "2201 Darwin Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 442-8815"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 442-8815"
+        }
       ],
-      "website": "www.riverfoodpantry.org",
+      "website": "http://www.riverfoodpantry.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.128543,
@@ -8079,14 +7623,12 @@
       "address": "605 Spruce St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 256-8463"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 256-8463"
+        }
       ],
-      "website": "www.stmarksmadison.org",
+      "website": "http://www.stmarksmadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.052632,
@@ -8114,14 +7656,12 @@
       "address": "229 N Main St",
       "city": "Cottage Grove",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 839-4768"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 839-4768"
+        }
       ],
-      "website": "www.brynmawrpc.org",
+      "website": "http://www.brynmawrpc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.079288,
@@ -8144,12 +7684,10 @@
       "address": "116 W Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 255-2960"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 255-2960"
+        }
       ],
       "website": "",
       "location": {
@@ -8174,12 +7712,10 @@
       "address": "1490 Martin St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Emergency Services Director",
-            "number": "(608) 255-4401"
-          }
-        ]
+        {
+          "info": "Emergency Services Director",
+          "number": "(608) 255-4401"
+        }
       ],
       "website": "",
       "location": {
@@ -8214,12 +7750,10 @@
       "address": "4006 Nakoosa Trail",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 241-9447"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 241-9447"
+        }
       ],
       "website": "",
       "location": {
@@ -8244,12 +7778,10 @@
       "address": "4434 Second St",
       "city": "Windsor",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 469-4415"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 469-4415"
+        }
       ],
       "website": "",
       "location": {
@@ -8274,14 +7806,12 @@
       "address": "5915 Milwaukee St",
       "city": "McFarland",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 838-7117"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 838-7117"
+        }
       ],
-      "website": "www.villageofmcfarland.net",
+      "website": "http://www.villageofmcfarland.net",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0131057,
@@ -8314,14 +7844,12 @@
       "address": "200 Spring St",
       "city": "Cambridge",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 423-3712"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 423-3712"
+        }
       ],
-      "website": "www.villageofmcfarland.net",
+      "website": "http://www.villageofmcfarland.net",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0028687,
@@ -8349,14 +7877,12 @@
       "address": "102 E Lincoln St Unit D",
       "city": "Mount Horeb",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 437-7887"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 437-7887"
+        }
       ],
-      "website": "www.food-pantry.org",
+      "website": "http://www.food-pantry.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.007151,
@@ -8379,14 +7905,12 @@
       "address": "1092 Union Rd Unit 8",
       "city": "Oregon",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 835-8572"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 835-8572"
+        }
       ],
-      "website": "www.obfp.org/",
+      "website": "http://www.obfp.org/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.914038,
@@ -8409,14 +7933,12 @@
       "address": "806B S. Division St",
       "city": "Waunakee",
       "phoneNumbers": [
-        [
-          {
-            "info": "Home",
-            "number": "(608) 849-9742"
-          }
-        ]
+        {
+          "info": "Home",
+          "number": "(608) 849-9742"
+        }
       ],
-      "website": "www.waunakeefoodpantry.org",
+      "website": "http://www.waunakeefoodpantry.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1850829,
@@ -8439,14 +7961,12 @@
       "address": "211 South St",
       "city": "Cambridge",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 423-8142"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 423-8142"
+        }
       ],
-      "website": "www.cambridgecap.net",
+      "website": "http://www.cambridgecap.net",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.00224,
@@ -8474,12 +7994,10 @@
       "address": "403 Blue Jay Way",
       "city": "Cambridge",
       "phoneNumbers": [
-        [
-          {
-            "info": "Food Pantry Coordinator",
-            "number": "(608) 423-8142"
-          }
-        ]
+        {
+          "info": "Food Pantry Coordinator",
+          "number": "(608) 423-8142"
+        }
       ],
       "website": "",
       "location": {
@@ -8504,14 +8022,12 @@
       "address": "7475 Mineral Point Rd Ste 18",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Pantry manager",
-            "number": "(608) 333-5259"
-          }
-        ]
+        {
+          "info": "Pantry manager",
+          "number": "(608) 333-5259"
+        }
       ],
-      "website": "www.westmadisonbiblechurch.com",
+      "website": "http://www.westmadisonbiblechurch.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0589985,
@@ -8539,14 +8055,12 @@
       "address": "1717 N Stoughton Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 246-4730"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 246-4730"
+        }
       ],
-      "website": "www.cacscw.org",
+      "website": "http://www.cacscw.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1222114,
@@ -8589,12 +8103,10 @@
       "address": "114 E Main Street",
       "city": "Watertown",
       "phoneNumbers": [
-        [
-          {
-            "info": "Gleaners Program Coordinator",
-            "number": "(608) 246-4730"
-          }
-        ]
+        {
+          "info": "Gleaners Program Coordinator",
+          "number": "(608) 246-4730"
+        }
       ],
       "website": "",
       "location": {
@@ -8624,14 +8136,12 @@
       "address": "2300 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 441-7680"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 441-7680"
+        }
       ],
-      "website": "www.dcpcinc.org",
+      "website": "http://www.dcpcinc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0412025,
@@ -8654,12 +8164,10 @@
       "address": "305 E Holum St",
       "city": "DeForest",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 846-9603"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 846-9603"
+        }
       ],
       "website": "",
       "location": {
@@ -8684,12 +8192,10 @@
       "address": "427 S Main St",
       "city": "Verona",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 848-2108"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 848-2108"
+        }
       ],
       "website": "",
       "location": {
@@ -8714,12 +8220,10 @@
       "address": "18 Rickel Rd",
       "city": "Sun Prairie",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 825-3225"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 825-3225"
+        }
       ],
       "website": "",
       "location": {
@@ -8744,12 +8248,10 @@
       "address": "5810 Russett Rd Ste 1",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 273-6622"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 273-6622"
+        }
       ],
       "website": "",
       "location": {
@@ -8774,12 +8276,10 @@
       "address": "614 Vera Ct",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 240-2045"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 240-2045"
+        }
       ],
       "website": "",
       "location": {
@@ -8804,12 +8304,10 @@
       "address": "3301 Leopold Way Ste 112",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 273-6953"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 273-6953"
+        }
       ],
       "website": "",
       "location": {
@@ -8834,12 +8332,10 @@
       "address": "7 Straubel Ct Ste 502",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 240-2045"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 240-2045"
+        }
       ],
       "website": "",
       "location": {
@@ -8864,12 +8360,10 @@
       "address": "7011 Flower Lane Apt. A",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 848-2108"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 848-2108"
+        }
       ],
       "website": "",
       "location": {
@@ -8894,12 +8388,10 @@
       "address": "149 Waubesa St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 241-1574"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 241-1574"
+        }
       ],
       "website": "",
       "location": {
@@ -8924,12 +8416,10 @@
       "address": "101 School Dr",
       "city": "Waunakee",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 849-2016"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 849-2016"
+        }
       ],
       "website": "",
       "location": {
@@ -8954,12 +8444,10 @@
       "address": "9 Brodhead St",
       "city": "Mazomanie",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 795-2103"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 795-2103"
+        }
       ],
       "website": "",
       "location": {
@@ -8984,12 +8472,10 @@
       "address": "125 Veterans Rd",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 835-4188"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 835-4188"
+        }
       ],
       "website": "",
       "location": {
@@ -9014,12 +8500,10 @@
       "address": "276 Soden Dr",
       "city": "Oregon",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 835-4188"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 835-4188"
+        }
       ],
       "website": "",
       "location": {
@@ -9044,12 +8528,10 @@
       "address": "217 Deer Valley Rd Apt 2",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 273-6676"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 273-6676"
+        }
       ],
       "website": "",
       "location": {
@@ -9074,12 +8556,10 @@
       "address": "2225 Allied Dr Ste 2",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 273-6342"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 273-6342"
+        }
       ],
       "website": "",
       "location": {
@@ -9104,12 +8584,10 @@
       "address": "810 W Badger Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 261-9764"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 261-9764"
+        }
       ],
       "website": "",
       "location": {
@@ -9134,12 +8612,10 @@
       "address": "3030 Darbo Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 246-2967"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 246-2967"
+        }
       ],
       "website": "",
       "location": {
@@ -9164,14 +8640,12 @@
       "address": "8 Straubel Court",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 249-0861"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 249-0861"
+        }
       ],
-      "website": "www.eastmadisoncc.org",
+      "website": "http://www.eastmadisoncc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1185277,
@@ -9214,14 +8688,12 @@
       "address": "614 Vera Court",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 246-8372"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 246-8372"
+        }
       ],
-      "website": "www.veracourt.org",
+      "website": "http://www.veracourt.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1362228,
@@ -9254,14 +8726,12 @@
       "address": "3434 E Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 443-5480"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 443-5480"
+        }
       ],
-      "website": "www.accesscommunityhealthcenters.org",
+      "website": "http://www.accesscommunityhealthcenters.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.114542,
@@ -9289,7 +8759,7 @@
           "number": "(608) 443-5517"
         }
       ],
-      "website": "www.accesscommunityhealthcenters.org",
+      "website": "http://www.accesscommunityhealthcenters.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0420518,
@@ -9312,14 +8782,12 @@
       "address": "1102 S Park St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Clinic",
-            "number": "(608) 263-3111"
-          }
-        ]
+        {
+          "info": "Clinic",
+          "number": "(608) 263-3111"
+        }
       ],
-      "website": "www.accesscommunityhealthcenters.org",
+      "website": "http://www.accesscommunityhealthcenters.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.054839,
@@ -9342,14 +8810,12 @@
       "address": "8025 Excelsior Dr Ste 110",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 663-6154"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 663-6154"
+        }
       ],
-      "website": "www.thefamilycenter.info",
+      "website": "http://www.thefamilycenter.info",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0769667,
@@ -9372,14 +8838,12 @@
       "address": null,
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 833-5472"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 833-5472"
+        }
       ],
-      "website": "www.prolaboredei.org",
+      "website": "http://www.prolaboredei.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.067033,
@@ -9402,14 +8866,12 @@
       "address": "310 East Washington Street",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 873-7761"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 873-7761"
+        }
       ],
-      "website": "www.flcstoughton.com",
+      "website": "http://www.flcstoughton.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.91791750000001,
@@ -9432,14 +8894,12 @@
       "address": "4402 Femrite Dr",
       "city": "Monona",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 222-4900"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 222-4900"
+        }
       ],
-      "website": "www.evangellifecenter.com",
+      "website": "http://www.evangellifecenter.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0513853,
@@ -9462,14 +8922,12 @@
       "address": "600 Williamson St Ste P-1",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 255-8582"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 255-8582"
+        }
       ],
-      "website": "www.lgbtoutreach.org",
+      "website": "http://www.lgbtoutreach.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.07706779999999,
@@ -9497,14 +8955,12 @@
       "address": "1927 Northport Dr",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Program Coordinator",
-            "number": "(608) 513-3866"
-          }
-        ]
+        {
+          "info": "Program Coordinator",
+          "number": "(608) 513-3866"
+        }
       ],
-      "website": "www.packerclc.org",
+      "website": "http://www.packerclc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1277535,
@@ -9527,14 +8983,12 @@
       "address": "2120 Fordem Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Respite Center",
-            "number": "(608) 244-5700"
-          }
-        ]
+        {
+          "info": "Respite Center",
+          "number": "(608) 244-5700"
+        }
       ],
-      "website": "www.centerforfamilies.org",
+      "website": "http://www.centerforfamilies.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.10057390000001,
@@ -9557,14 +9011,12 @@
       "address": "2001 Taft Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Coordinator",
-            "number": "(608) 257-2606"
-          }
-        ]
+        {
+          "info": "Coordinator",
+          "number": "(608) 257-2606"
+        }
       ],
-      "website": "www.bgcdc.org",
+      "website": "http://www.bgcdc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0441087,
@@ -9587,14 +9039,12 @@
       "address": "4619 Jenewein Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 204-9722"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 204-9722"
+        }
       ],
-      "website": "www.bgcdc.org",
+      "website": "http://www.bgcdc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0284421,
@@ -9622,14 +9072,12 @@
       "address": "101 East Mifflin Street Suite 100",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Intake--Housing Crisis Hotline",
-            "number": "(855) 510-2323"
-          }
-        ]
+        {
+          "info": "Intake--Housing Crisis Hotline",
+          "number": "(855) 510-2323"
+        }
       ],
-      "website": "www.ywcamadison.org",
+      "website": "http://www.ywcamadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0764718,
@@ -9652,14 +9100,12 @@
       "address": "203 Wisconsin Avenue",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Recorded Message",
-            "number": "(608) 251-4407"
-          }
-        ]
+        {
+          "info": "Recorded Message",
+          "number": "(608) 251-4407"
+        }
       ],
-      "website": "www.fumc.org",
+      "website": "http://www.fumc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0769248,
@@ -9692,14 +9138,12 @@
       "address": "2865 N Sherman Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Program Coordinator",
-            "number": "(608) 261-5678"
-          }
-        ]
+        {
+          "info": "Program Coordinator",
+          "number": "(608) 261-5678"
+        }
       ],
-      "website": "www.danecountyhumanservices.org/AAA",
+      "website": "http://www.danecountyhumanservices.org/AAA",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1279425,
@@ -9732,7 +9176,7 @@
           "number": "(608) 266-4330"
         }
       ],
-      "website": "www.countyofdane.com/emergency/",
+      "website": "http://www.countyofdane.com/emergency/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0719117,
@@ -9755,14 +9199,12 @@
       "address": "5510 East Lacy Road",
       "city": "Fitchburg",
       "phoneNumbers": [
-        [
-          {
-            "info": "Nutrition Site Manager",
-            "number": "(608) 270-4290"
-          }
-        ]
+        {
+          "info": "Nutrition Site Manager",
+          "number": "(608) 270-4290"
+        }
       ],
-      "website": "www.fitchburgwi.gov",
+      "website": "http://www.fitchburgwi.gov",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0023305,
@@ -9800,12 +9242,10 @@
       "address": "1705 Hoffman Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 258-2400"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 258-2400"
+        }
       ],
       "website": "",
       "location": {
@@ -9830,12 +9270,10 @@
       "address": "211 N Carroll Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 258-2404"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 258-2404"
+        }
       ],
       "website": "",
       "location": {
@@ -9860,14 +9298,12 @@
       "address": "1862 Beld Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 222-0008"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 222-0008"
+        }
       ],
-      "website": "www.pregnancyhelpline.net",
+      "website": "http://www.pregnancyhelpline.net",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0460167,
@@ -9895,14 +9331,12 @@
       "address": "128 E Olin Ave Ste 202",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Intake--Housing Crisis Hotline",
-            "number": "(855) 510-2323"
-          }
-        ]
+        {
+          "info": "Intake--Housing Crisis Hotline",
+          "number": "(855) 510-2323"
+        }
       ],
-      "website": "www.trhome.org",
+      "website": "http://www.trhome.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0529865,
@@ -9925,14 +9359,12 @@
       "address": "108 Paoli Street",
       "city": "Verona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 845-7471"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 845-7471"
+        }
       ],
-      "website": "www.veronaactiveadults.org",
+      "website": "http://www.veronaactiveadults.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9857516,
@@ -9970,14 +9402,12 @@
       "address": "310 South Ingersoll Street",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "",
-            "number": "(608) 256-6325"
-          }
-        ]
+        {
+          "info": "",
+          "number": "(608) 256-6325"
+        }
       ],
-      "website": "www.lukehousemadison.org",
+      "website": "http://www.lukehousemadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.082258,
@@ -10000,14 +9430,12 @@
       "address": "900 Ridge Street",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Intake",
-            "number": "(608) 873-6611"
-          }
-        ]
+        {
+          "info": "Intake",
+          "number": "(608) 873-6611"
+        }
       ],
-      "website": "www.stoughtonhospital.com",
+      "website": "http://www.stoughtonhospital.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.920811,
@@ -10055,14 +9483,12 @@
       "address": "1819 Aberg Avenue",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "FoodShare Application",
-            "number": "(888) 794-5556"
-          }
-        ]
+        {
+          "info": "FoodShare Application",
+          "number": "(888) 794-5556"
+        }
       ],
-      "website": "www.access.wisconsin.gov/",
+      "website": "http://www.access.wisconsin.gov/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1134374,
@@ -10090,14 +9516,12 @@
       "address": "125 Veterans Road",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Appointment",
-            "number": "(608) 873-2180"
-          }
-        ]
+        {
+          "info": "Appointment",
+          "number": "(608) 873-2180"
+        }
       ],
-      "website": "www.access.wisconsin.gov",
+      "website": "http://www.access.wisconsin.gov",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.918074,
@@ -10130,7 +9554,7 @@
           "number": "(608) 829-9004"
         }
       ],
-      "website": "www.mcpasd.k12.wi.us",
+      "website": "http://www.mcpasd.k12.wi.us",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.094204,
@@ -10158,7 +9582,7 @@
           "number": "(608) 251-1237"
         }
       ],
-      "website": "www.abuseintervention.org",
+      "website": "http://www.abuseintervention.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0994219,
@@ -10181,12 +9605,10 @@
       "address": "6633 University Ave",
       "city": "Middleton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Manager",
-            "number": "(608) 831-2474"
-          }
-        ]
+        {
+          "info": "Manager",
+          "number": "(608) 831-2474"
+        }
       ],
       "website": "",
       "location": {
@@ -10211,14 +9633,12 @@
       "address": "4205 Monona Dr",
       "city": "Monona",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 221-8151"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 221-8151"
+        }
       ],
-      "website": "www.medicineshoppe.com/0605",
+      "website": "http://www.medicineshoppe.com/0605",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.07557790000001,
@@ -10246,7 +9666,7 @@
           "number": ""
         }
       ],
-      "website": "www.pepstoughton.org",
+      "website": "http://www.pepstoughton.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9166159,
@@ -10269,14 +9689,12 @@
       "address": "953 Jenifer",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 257-4576"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 257-4576"
+        }
       ],
-      "website": "www.cityofmadison.com/residents/farmersMarket.cfm",
+      "website": "http://www.cityofmadison.com/residents/farmersMarket.cfm",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.079804,
@@ -10299,14 +9717,12 @@
       "address": null,
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 695-0946"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 695-0946"
+        }
       ],
-      "website": "northsidefarmersmarket.org/",
+      "website": "http://northsidefarmersmarket.org/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.067033,
@@ -10334,7 +9750,7 @@
           "number": ""
         }
       ],
-      "website": "www.southmadisonfarmersmarket.com/",
+      "website": "http://www.southmadisonfarmersmarket.com/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.067033,
@@ -10357,12 +9773,10 @@
       "address": "829 W. Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 256-7808"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 256-7808"
+        }
       ],
       "website": "",
       "location": {
@@ -10448,7 +9862,7 @@
           "number": ""
         }
       ],
-      "website": "micentro.org",
+      "website": "http://micentro.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.039158,
@@ -10471,14 +9885,12 @@
       "address": "5530 Lacy Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 729-1760"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 729-1760"
+        }
       ],
-      "website": "www.fitchburglibrary.org",
+      "website": "http://www.fitchburglibrary.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0016397,
@@ -10501,14 +9913,12 @@
       "address": "6333 Odana Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 819-6655"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 819-6655"
+        }
       ],
-      "website": "www.stcroixhospice.com",
+      "website": "http://www.stcroixhospice.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.05421399999999,
@@ -10531,14 +9941,12 @@
       "address": "630 E Washington Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 665-2752"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 665-2752"
+        }
       ],
-      "website": "www.mdidental.org",
+      "website": "http://www.mdidental.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0795459,
@@ -10566,7 +9974,7 @@
           "number": "(608) 345-8720"
         }
       ],
-      "website": "www.community-stewardship.org",
+      "website": "http://www.community-stewardship.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0833196,
@@ -10594,7 +10002,7 @@
           "number": ""
         }
       ],
-      "website": "www.cityofmadison.com/live-work/neighborhoods/farmers-markets",
+      "website": "http://www.cityofmadison.com/live-work/neighborhoods/farmers-markets",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.067033,
@@ -10617,14 +10025,12 @@
       "address": "2509 Mcdivitt Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Church Office",
-            "number": "(608) 271-1955"
-          }
-        ]
+        {
+          "info": "Church Office",
+          "number": "(608) 271-1955"
+        }
       ],
-      "website": "www.arborcovenant.org",
+      "website": "http://www.arborcovenant.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.03257500000001,
@@ -10647,14 +10053,12 @@
       "address": "2865 N Sherman Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 240-7400"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 240-7400"
+        }
       ],
-      "website": "www.daneadrc.org",
+      "website": "http://www.daneadrc.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1279425,
@@ -10677,14 +10081,12 @@
       "address": "501 E Badger Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Cellular",
-            "number": "(608) 274-9111"
-          }
-        ]
+        {
+          "info": "Cellular",
+          "number": "(608) 274-9111"
+        }
       ],
-      "website": "www.resilientcities.org/",
+      "website": "http://www.resilientcities.org/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0377051,
@@ -10707,14 +10109,12 @@
       "address": "702 N Blackhawk Ave Ste 215",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 238-0268"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 238-0268"
+        }
       ],
-      "website": "www.interimhealthcare.com",
+      "website": "http://www.interimhealthcare.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.07434809999999,
@@ -10737,14 +10137,12 @@
       "address": "602 Acewood Boulevad",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Appointment Line",
-            "number": "(608) 620-4063"
-          }
-        ]
+        {
+          "info": "Appointment Line",
+          "number": "(608) 620-4063"
+        }
       ],
-      "website": "www.nbacmadison.org",
+      "website": "http://www.nbacmadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0891413,
@@ -10767,14 +10165,12 @@
       "address": "1317 Applegate Rd",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Church",
-            "number": "(608) 288-9466"
-          }
-        ]
+        {
+          "info": "Church",
+          "number": "(608) 288-9466"
+        }
       ],
-      "website": "www.zioncitychurch.org",
+      "website": "http://www.zioncitychurch.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.032174,
@@ -10807,7 +10203,7 @@
           "number": "(920) 723-1048"
         }
       ],
-      "website": "cartforhelp.com",
+      "website": "http://cartforhelp.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0087693,
@@ -10835,14 +10231,12 @@
       "address": "525 Lincoln Ave",
       "city": "Stoughton",
       "phoneNumbers": [
-        [
-          {
-            "info": "Transportation Appointments",
-            "number": "(608) 205-2800"
-          }
-        ]
+        {
+          "info": "Transportation Appointments",
+          "number": "(608) 205-2800"
+        }
       ],
-      "website": "www.stoughtonunitedministries.com",
+      "website": "http://www.stoughtonunitedministries.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.92283800000001,
@@ -10865,14 +10259,12 @@
       "address": "5752 Tokay Blvd Ste 500",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 232-1000"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 232-1000"
+        }
       ],
-      "website": "www.maximhomecare.com",
+      "website": "http://www.maximhomecare.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.05417449999999,
@@ -10895,14 +10287,12 @@
       "address": "2810 Crossroads Drive Suite 1900",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 819-0033"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 819-0033"
+        }
       ],
-      "website": "www.heartlandhospice.com",
+      "website": "http://www.heartlandhospice.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1347489,
@@ -10925,14 +10315,12 @@
       "address": "518 N Franklin Ave",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 233-1880"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 233-1880"
+        }
       ],
-      "website": "www.firstbaptistmadison.org",
+      "website": "http://www.firstbaptistmadison.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.07315579999999,
@@ -10955,14 +10343,12 @@
       "address": "145 E Badger Road",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 274-8193"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 274-8193"
+        }
       ],
-      "website": "www.recoverhealth.org",
+      "website": "http://www.recoverhealth.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0373613,
@@ -10985,14 +10371,12 @@
       "address": "7601 Ganser Way Suite 200",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(888) 308-6448"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(888) 308-6448"
+        }
       ],
-      "website": "www.aparacare.org",
+      "website": "http://www.aparacare.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.059314,
@@ -11015,14 +10399,12 @@
       "address": "5801 Research Park Blvd Suite 400",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "FAX",
-            "number": "(608) 729-6390"
-          }
-        ]
+        {
+          "info": "FAX",
+          "number": "(608) 729-6390"
+        }
       ],
-      "website": "www.sharethehealthwi.org/",
+      "website": "http://www.sharethehealthwi.org/",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.054462,
@@ -11045,14 +10427,12 @@
       "address": "402 Gammon Place Suite 110",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 833-3295"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 833-3295"
+        }
       ],
-      "website": "www.southerncareinc.com",
+      "website": "http://www.southerncareinc.com",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0601799,
@@ -11075,14 +10455,12 @@
       "address": "1202 Williamson St",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Main",
-            "number": "(608) 371-9276"
-          }
-        ]
+        {
+          "info": "Main",
+          "number": "(608) 371-9276"
+        }
       ],
-      "website": "www.madisonshine.org",
+      "website": "http://www.madisonshine.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0835322,
@@ -11105,14 +10483,12 @@
       "address": "2825 University Avenue",
       "city": "Madison",
       "phoneNumbers": [
-        [
-          {
-            "info": "Office",
-            "number": "(608) 250-2540"
-          }
-        ]
+        {
+          "info": "Office",
+          "number": "(608) 250-2540"
+        }
       ],
-      "website": "www.dryhootch.org",
+      "website": "http://www.dryhootch.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0741404,
@@ -11140,7 +10516,7 @@
           "number": "(608) 257-0143"
         }
       ],
-      "website": "www.tenantresourcecenter.org",
+      "website": "http://www.tenantresourcecenter.org",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0835322,

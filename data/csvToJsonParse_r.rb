@@ -176,12 +176,23 @@ def parseFacility(hash)
       else
         parsed_pc2_desc_trim = ""
       end
-      phoneNumbers = [[{info:parsed_pc2_desc_trim, number: parsed_pc2}]]
+      phoneNumbers = [{info:parsed_pc2_desc_trim, number: parsed_pc2}]
     else
       phoneNumbers = [{"info":"","number":""}]
     end
 
-    puts phoneNumbers
+    debug phoneNumbers
+
+    if row["Web Site"].nil?
+      website = ""
+    elsif !row["Web Site"].nil?
+      website = row["Web Site"]
+      if !website.include? "http://"
+        website = ["http://",website].join.to_s
+      end
+    end
+
+    debug website
 
     location = {__type: "GeoPoint", latitude: site['location'][0], longitude: site['location'][1]}
 
@@ -193,7 +204,7 @@ def parseFacility(hash)
                        address: row['Address 1'],
                        city: row['City'],
                        phoneNumbers: phoneNumbers,
-                       website: !row["Web Site"].nil? ? row["Web Site"] : "",
+                       website: website,
                        location: location,
                        services: services}
     # "address","age","categories","city","gender","name","notes","objectId","phoneNumbers","services","website"
