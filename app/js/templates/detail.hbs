@@ -71,8 +71,15 @@
       {{#if notes}}
       <hr>
         <div class="notes">
-          <label>Notes:</label>
+          <strong><label>Notes:</label></strong>
          <p>{{notes}}</p>
+        </div>
+      {{/if}}
+      {{#if eligibility}}
+      <hr>
+        <div class="eligibility">
+          <strong><label>Eligibility:</label></strong>
+         <p>{{eligibility}}</p>
         </div>
       {{/if}}
     </div>
