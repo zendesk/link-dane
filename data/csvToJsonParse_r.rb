@@ -43,7 +43,7 @@ rescue OptionParser::ParseError
   exit 1
 
 else
-  Geocoder.configure(:mapbox => {:dataset => "mapbox.places-permanent", :api_key => "pk.eyJ1IjoiejNucGNoaGV0cmkiLCJhIjoiY2lrZzdtb3lhMDA1NHZwbHkzeGJzNng1bCJ9.HDiB75xbQ7MT8tQsiSaBwg"})
+  Geocoder.configure(:mapbox => {:timeout => 10, :dataset => "mapbox.places-permanent", :api_key => "pk.eyJ1IjoiejNucGNoaGV0cmkxIiwiYSI6ImNpa3RnaXFxMjAwNnN2Zm0zMG12OWNtM2oifQ.5PAfr7EbGkL_oDaKGmqhEQ"})
 end
 
 
@@ -73,6 +73,21 @@ def createFacilityHash()
     !row['City'].nil? ? site['city'] = row['City'] : site['city'] = "Madison"
     !row['Address 1'].nil? ? site['state'] = row['State'] : site['state'] = "WI"
     !row['Address 1'].nil? ? site['zipCode'] = row['ZIP Code'] : site['zipCode'] = "53715"
+
+    if site['Gender'].empty?
+      site['Gender'] = [row['Gender']]
+    elsif !site['Gender'].empty?
+      site['Gender'] << row['Gender']
+    end
+
+    ages = row['Ages'].split(", ")
+
+    if site['Ages'].empty?
+      site['Ages'] = ages
+    elsif !site['Ages'].empty?
+      site['Ages'].push(*ages)
+    end
+
   end
 
   debug "The siteHash without geocode: \n #{sitesHash}"
@@ -181,7 +196,7 @@ def parseFacility(hash)
       phoneNumbers = [{"info":"","number":""}]
     end
 
-    debug phoneNumbers
+    debug "phoneNumbers: #{phoneNumbers.inspect}"
 
     if row["Web Site"].nil?
       website = ""
@@ -192,7 +207,40 @@ def parseFacility(hash)
       end
     end
 
-    debug website
+    debug "Website: #{website.inspect}"
+
+    if site["Gender"].uniq.length == 2
+      gender = nil
+    elsif site["Gender"].include? "Everyone"
+      gender = nil
+    elsif site["Gender"].uniq.include? "Male"
+      gender = site["Gender"].uniq[0].chars.first
+    elsif site["Gender"].uniq.include? "Female"
+      gender = site["Gender"].uniq[0].chars.first
+    end
+
+    if site["Ages"].include? "Everyone"
+      ages  = nil
+    elsif !["Ages"].empty?
+      ages = []
+      ages_sort_order = ["C", "A", "S"]
+      age_uniq = site["Ages"].uniq
+      age_uniq.each do |a|
+        case a
+        when "Youth"
+          ages << "C"
+        when "Adults"
+          ages << "A"
+        when "Seniors"
+          ages << "S"
+        end
+      end
+      ages = ages.sort_by do |element|
+        ages_sort_order.index(element)
+      end
+    end
+
+    debug "Ages: #{ages.inspect}"
 
     location = {__type: "GeoPoint", latitude: site['location'][0], longitude: site['location'][1]}
 
@@ -205,6 +253,8 @@ def parseFacility(hash)
                        city: row['City'],
                        phoneNumbers: phoneNumbers,
                        website: website,
+                       age: ages,
+                       gender: gender,
                        location: location,
                        services: services}
     # "address","age","categories","city","gender","name","notes","objectId","phoneNumbers","services","website"
@@ -232,6 +282,7 @@ def parseService
                      category: row['Category'].downcase,
                      description: row['PROGRAM DESCRIPTION'],
                      notes: row['INTAKE PROCEDURE'],
+                     eligibility: row['ELIGIBILITY'],
                      facility: {__type: "Pointer", className: "Facility", objectId: [row['AgencyID'],row['SiteID']].join('_')}}
   end
 
