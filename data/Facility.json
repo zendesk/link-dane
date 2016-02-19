@@ -690,34 +690,6 @@
       ]
     },
     {
-      "objectId": "UWDC62992_6",
-      "agencyID": "UWDC62992",
-      "siteID": "6",
-      "name": "Goodwill Industries Of South Central Wisconsin",
-      "categories": "hygiene",
-      "address": "2902 American Legion Drive",
-      "city": "Portage",
-      "phoneNumbers": [
-        {
-          "info": "Main",
-          "number": "(608) 745-0616"
-        }
-      ],
-      "website": "http://www.goodwillscwi.org",
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.5681372,
-        "longitude": -89.4725314
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC62992_6_70408"
-        }
-      ]
-    },
-    {
       "objectId": "UWDC62992_8",
       "agencyID": "UWDC62992",
       "siteID": "8",
@@ -840,7 +812,7 @@
       "siteID": "3",
       "name": "West Madison Senior Coalition",
       "categories": "food",
-      "address": "Lussier Community Center",
+      "address": " 55 S Gammon Rd",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -6962,34 +6934,6 @@
       ]
     },
     {
-      "objectId": "UWDC65486_2",
-      "agencyID": "UWDC65486",
-      "siteID": "2",
-      "name": "Feed Kitchens",
-      "categories": "food",
-      "address": "1219 N Sherman Ave",
-      "city": "Madison",
-      "phoneNumbers": [
-        {
-          "info": "Main",
-          "number": "(608) 204-7015"
-        }
-      ],
-      "website": "http://www.feedkitchens.org",
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.1130861,
-        "longitude": -89.363768
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC65486_2_96252"
-        }
-      ]
-    },
-    {
       "objectId": "UWDC65490_1",
       "agencyID": "UWDC65490",
       "siteID": "1",
@@ -7489,34 +7433,6 @@
           "__type": "Pointer",
           "className": "Service",
           "objectId": "UWDC65596_1_98879"
-        }
-      ]
-    },
-    {
-      "objectId": "UWDC65598_1",
-      "agencyID": "UWDC65598",
-      "siteID": "1",
-      "name": "Christians In Action",
-      "categories": "food",
-      "address": "9 Brodhead St",
-      "city": "Mazomanie",
-      "phoneNumbers": [
-        {
-          "info": "Other",
-          "number": "(608) 767-3445"
-        }
-      ],
-      "website": "",
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.17652330000001,
-        "longitude": -89.79417939999999
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC65598_1_73098"
         }
       ]
     },
@@ -8091,39 +8007,6 @@
           "__type": "Pointer",
           "className": "Service",
           "objectId": "UWDC65654_1_94147"
-        }
-      ]
-    },
-    {
-      "objectId": "UWDC65654_2",
-      "agencyID": "UWDC65654",
-      "siteID": "2",
-      "name": "Community Action Coalition For South Central Wisconsin",
-      "categories": "food",
-      "address": "114 E Main Street",
-      "city": "Watertown",
-      "phoneNumbers": [
-        {
-          "info": "Gleaners Program Coordinator",
-          "number": "(608) 246-4730"
-        }
-      ],
-      "website": "",
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.19446,
-        "longitude": -88.723327
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC65654_2_73171"
-        },
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC65654_2_94413"
         }
       ]
     },
@@ -10157,39 +10040,6 @@
       ]
     },
     {
-      "objectId": "UWDC81718_1",
-      "agencyID": "UWDC81718",
-      "siteID": "1",
-      "name": "Zion City International Church Ministries",
-      "categories": "food",
-      "address": "1317 Applegate Rd",
-      "city": "Madison",
-      "phoneNumbers": [
-        {
-          "info": "Church",
-          "number": "(608) 288-9466"
-        }
-      ],
-      "website": "http://www.zioncitychurch.org",
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.032174,
-        "longitude": -89.40453699999999
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC81718_1_92753"
-        },
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC81718_1_92754"
-        }
-      ]
-    },
-    {
       "objectId": "UWDC82447_1",
       "agencyID": "UWDC82447",
       "siteID": "1",
@@ -10251,62 +10101,6 @@
       ]
     },
     {
-      "objectId": "UWDC82678_1",
-      "agencyID": "UWDC82678",
-      "siteID": "1",
-      "name": "Maxim Healthcare Services",
-      "categories": "medical",
-      "address": "5752 Tokay Blvd Ste 500",
-      "city": "Madison",
-      "phoneNumbers": [
-        {
-          "info": "Main",
-          "number": "(608) 232-1000"
-        }
-      ],
-      "website": "http://www.maximhomecare.com",
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.05417449999999,
-        "longitude": -89.4810784
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC82678_1_94183"
-        }
-      ]
-    },
-    {
-      "objectId": "UWDC82684_1",
-      "agencyID": "UWDC82684",
-      "siteID": "1",
-      "name": "Heartland Hospice Services",
-      "categories": "medical",
-      "address": "2810 Crossroads Drive Suite 1900",
-      "city": "Madison",
-      "phoneNumbers": [
-        {
-          "info": "Main",
-          "number": "(608) 819-0033"
-        }
-      ],
-      "website": "http://www.heartlandhospice.com",
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.1347489,
-        "longitude": -89.2905852
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC82684_1_94187"
-        }
-      ]
-    },
-    {
       "objectId": "UWDC82759_1",
       "agencyID": "UWDC82759",
       "siteID": "1",
@@ -10335,62 +10129,6 @@
       ]
     },
     {
-      "objectId": "UWDC83587_1",
-      "agencyID": "UWDC83587",
-      "siteID": "1",
-      "name": "Recover Health",
-      "categories": "medical",
-      "address": "145 E Badger Road",
-      "city": "Madison",
-      "phoneNumbers": [
-        {
-          "info": "Main",
-          "number": "(608) 274-8193"
-        }
-      ],
-      "website": "http://www.recoverhealth.org",
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.0373613,
-        "longitude": -89.3830935
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC83587_1_95305"
-        }
-      ]
-    },
-    {
-      "objectId": "UWDC83627_1",
-      "agencyID": "UWDC83627",
-      "siteID": "1",
-      "name": "Apara Care Senior Services",
-      "categories": "medical",
-      "address": "7601 Ganser Way Suite 200",
-      "city": "Madison",
-      "phoneNumbers": [
-        {
-          "info": "Main",
-          "number": "(888) 308-6448"
-        }
-      ],
-      "website": "http://www.aparacare.org",
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.059314,
-        "longitude": -89.514685
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC83627_1_95363"
-        }
-      ]
-    },
-    {
       "objectId": "UWDC83816_1",
       "agencyID": "UWDC83816",
       "siteID": "1",
@@ -10415,34 +10153,6 @@
           "__type": "Pointer",
           "className": "Service",
           "objectId": "UWDC83816_1_95545"
-        }
-      ]
-    },
-    {
-      "objectId": "UWDC83897_1",
-      "agencyID": "UWDC83897",
-      "siteID": "1",
-      "name": "Southerncare",
-      "categories": "medical",
-      "address": "402 Gammon Place Suite 110",
-      "city": "Madison",
-      "phoneNumbers": [
-        {
-          "info": "Main",
-          "number": "(608) 833-3295"
-        }
-      ],
-      "website": "http://www.southerncareinc.com",
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.0601799,
-        "longitude": -89.5021968
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC83897_1_95655"
         }
       ]
     },
