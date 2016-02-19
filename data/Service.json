@@ -232,7 +232,7 @@
       "serviceID": "70318",
       "name": "Private Clinics",
       "category": "medical",
-      "description": "The Meriter Fitchburg clinic offers:\r\r\r\r´Family medicine (primary care) services\r\r´Point-of-care lab\r\r´On-site phlebotomist\r\r´Medical Imaging and X-ray",
+      "description": "The Meriter Fitchburg clinic offers:\r\r\r\rFamily medicine (primary care) services\r\rPoint-of-care lab\r\rOn-site phlebotomist\r\rMedical Imaging and X-ray",
       "notes": "Call or walk in",
       "facility": {
         "__type": "Pointer",
@@ -247,7 +247,7 @@
       "serviceID": "70318",
       "name": "Private Clinics",
       "category": "medical",
-      "description": "A full service primary care medical clinic.\r\rThe Meriter Deming Way clinic offers:\r\r\r\r´Primary Care: Pediatric and Family Medicine\r\r´Specialty Care: Allergy & Immunology \r\r´General medical exams, including same-day sports and school physicals for kids\r\r´ImPACT concussion testing\r\r´Diagnostic and screening services\r\r´Laboratory services (phlebotomist on-site)\r\r´Medical Imaging and X-ray\r\r´Minor surgical procedures such as mole removal, laceration repair",
+      "description": "A full service primary care medical clinic.\r\rThe Meriter Deming Way clinic offers:\r\r\r\rPrimary Care: Pediatric and Family Medicine\r\rSpecialty Care: Allergy & Immunology \r\rGeneral medical exams, including same-day sports and school physicals for kids\r\rImPACT concussion testing\r\rDiagnostic and screening services\r\rLaboratory services (phlebotomist on-site)\r\rMedical Imaging and X-ray\r\rMinor surgical procedures such as mole removal, laceration repair",
       "notes": "Call or walk in",
       "facility": {
         "__type": "Pointer",
@@ -262,7 +262,7 @@
       "serviceID": "70318",
       "name": "Private Clinics",
       "category": "medical",
-      "description": "A full service primary care medical clinic.\r\rThe Meriter Stoughton clinic offers:\r\r\r\r´Primary care for children, adolescent and adults, including internal medicine and family medicine\r\r´Lab\r\r´Medical Imaging",
+      "description": "A full service primary care medical clinic.\r\rThe Meriter Stoughton clinic offers:\r\r\r\rPrimary care for children, adolescent and adults, including internal medicine and family medicine\r\rLab\r\rMedical Imaging",
       "notes": "Call or walk in",
       "facility": {
         "__type": "Pointer",
@@ -277,7 +277,7 @@
       "serviceID": "70318",
       "name": "Private Clinics",
       "category": "medical",
-      "description": "A full service primary care medical clinic.\r\r\r\r´Primary Care: Pediatric and Family Medicine\r\r´Specialty Care: Allergy & Immunology \r\r´General medical exams, including same-day sports and school physicals for kids\r\r´ImPACT concussion testing\r\r´Diagnostic and screening services\r\r´Laboratory services (phlebotomist on-site)\r\r´Medical Imaging and X-ray\r\r´Minor surgical procedures such as mole removal, laceration repair",
+      "description": "A full service primary care medical clinic.\r\r\r\rPrimary Care: Pediatric and Family Medicine\r\rSpecialty Care: Allergy & Immunology \r\rGeneral medical exams, including same-day sports and school physicals for kids\r\rImPACT concussion testing\r\rDiagnostic and screening services\r\rLaboratory services (phlebotomist on-site)\r\rMedical Imaging and X-ray\r\rMinor surgical procedures such as mole removal, laceration repair",
       "notes": "Call or walk in",
       "facility": {
         "__type": "Pointer",
@@ -292,7 +292,7 @@
       "serviceID": "70318",
       "name": "Private Clinics",
       "category": "medical",
-      "description": "A full service primary care medical clinic.\r\r\r\r´Primary Care: Pediatric and Family Medicine\r\r´Specialty Care: Allergy & Immunology \r\r´General medical exams, including same-day sports and school physicals for kids\r\r´ImPACT concussion testing\r\r´Diagnostic and screening services\r\r´Laboratory services (phlebotomist on-site)\r\r´Medical Imaging and X-ray\r\r´Minor surgical procedures such as mole removal, laceration repair",
+      "description": "A full service primary care medical clinic.\r\r\r\rPrimary Care: Pediatric and Family Medicine\r\rSpecialty Care: Allergy & Immunology \r\rGeneral medical exams, including same-day sports and school physicals for kids\r\rImPACT concussion testing\r\rDiagnostic and screening services\r\rLaboratory services (phlebotomist on-site)\r\rMedical Imaging and X-ray\r\rMinor surgical procedures such as mole removal, laceration repair",
       "notes": "Call or walk in",
       "facility": {
         "__type": "Pointer",
@@ -322,7 +322,7 @@
       "serviceID": "70318",
       "name": "Private Clinics",
       "category": "medical",
-      "description": "A full service primary care medical clinic.\r\r´General medical exams\r\r´Prenatal exams or pap tests\r\r´Diagnostic and screening services\r\r´Nutrition services\r\r´Small surgical procedures such as mole or suture removal\r\r´ECG and treadmill testing\r\r´Medical Imaging and X-ray",
+      "description": "A full service primary care medical clinic.\r\rGeneral medical exams\r\rPrenatal exams or pap tests\r\rDiagnostic and screening services\r\rNutrition services\r\rSmall surgical procedures such as mole or suture removal\r\rECG and treadmill testing\r\rMedical Imaging and X-ray",
       "notes": "Call or walk in",
       "facility": {
         "__type": "Pointer",
@@ -352,7 +352,7 @@
       "serviceID": "70318",
       "name": "Private Clinics",
       "category": "medical",
-      "description": "A full service primary care medical clinic.\r\r´General medical exams for adults and children, including same-day sports and school physicals for kids\r\r´Diagnostic and screening services\r\r´Small surgical procedures such as mole or suture removal\r\r´Obstetrics and Gynecology\r\r´Diabetes and Nutrition education\r\r´ECG testing\r\r´Lab-work\r\r´X-rays",
+      "description": "A full service primary care medical clinic.\r\rGeneral medical exams for adults and children, including same-day sports and school physicals for kids\r\rDiagnostic and screening services\r\rSmall surgical procedures such as mole or suture removal\r\rObstetrics and Gynecology\r\rDiabetes and Nutrition education\r\rECG testing\r\rLab-work\r\rX-rays",
       "notes": "Call or walk in",
       "facility": {
         "__type": "Pointer",
@@ -367,7 +367,7 @@
       "serviceID": "70318",
       "name": "Private Clinics",
       "category": "medical",
-      "description": "A full service primary care medical clinic.\r\r\r\r´Internal Medicine, Family Medicine, Pediatrics, Endocrinology, Medical Psychology, Nutrition, Adoption Medicine and Diabetes Education\r\r´General medical exams, including same-day sports and school physicals for kids\r\r´Diagnostic and screening services\r\r´Laboratory services\r\r´Minor surgical procedures such as mole removal, laceration repair\r\r´ECG and treadmill testing\r\r´Groups and classes\r\r´Medical Imaging and X-ray",
+      "description": "A full service primary care medical clinic.\r\r\r\rInternal Medicine, Family Medicine, Pediatrics, Endocrinology, Medical Psychology, Nutrition, Adoption Medicine and Diabetes Education\r\rGeneral medical exams, including same-day sports and school physicals for kids\r\rDiagnostic and screening services\r\rLaboratory services\r\rMinor surgical procedures such as mole removal, laceration repair\r\rECG and treadmill testing\r\rGroups and classes\r\rMedical Imaging and X-ray",
       "notes": "Call or walk in",
       "facility": {
         "__type": "Pointer",
@@ -478,21 +478,6 @@
         "__type": "Pointer",
         "className": "Facility",
         "objectId": "UWDC62992_4"
-      }
-    },
-    {
-      "objectId": "UWDC62992_6_70408",
-      "agencyID": "UWDC62992",
-      "siteID": "6",
-      "serviceID": "70408",
-      "name": "Thrift Shops",
-      "category": "hygiene",
-      "description": "Store has a variety of items for low cost. New and used items include: furniture, clothing, shoes and accessories for men, women and children, household items such as dishes, pots, pans, eating utensils, curtains, home furnishings, linens, towels and cleaning supplies, sports equipment, books, jewelry and more. Proceeds from the sale of these items are used to provide services for individuals with disabilities or other challenges.",
-      "notes": "Walk in during business hours",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC62992_6"
       }
     },
     {
@@ -1012,8 +997,8 @@
       "serviceID": "70759",
       "name": "Children's Play Groups",
       "category": "community",
-      "description": "The Madison Metropolitan School District Play and Learn Program mission is to provide a quality environment where parents and caregivers can develop and strengthen skills to enhance their childÍs learning and growth in literacy, math, and social skills.",
-      "notes": "There is an application and enrollment process. Families can obtain the necessary forms by contacting the Play and Learn Program. There is limited space available: families can put their name on a waiting list. Please see the Madison Metropolitan School DistrictÍs Play and Learn Website for more information: https:--earlyed.madison.k12.wi.us-play-and-learn",
+      "description": "The Madison Metropolitan School District Play and Learn Program mission is to provide a quality environment where parents and caregivers can develop and strengthen skills to enhance their childs learning and growth in literacy, math, and social skills.",
+      "notes": "There is an application and enrollment process. Families can obtain the necessary forms by contacting the Play and Learn Program. There is limited space available: families can put their name on a waiting list. Please see the Madison Metropolitan School Districts Play and Learn Website for more information: https:--earlyed.madison.k12.wi.us-play-and-learn",
       "facility": {
         "__type": "Pointer",
         "className": "Facility",
@@ -4246,21 +4231,6 @@
       }
     },
     {
-      "objectId": "UWDC65395_1_72823",
-      "agencyID": "UWDC65395",
-      "siteID": "1",
-      "serviceID": "72823",
-      "name": "Food Banks/Food Suppliers",
-      "category": "food",
-      "description": "Provides food to non-profit agencies only - pantries, meal sites, homeless shelters, group homes and programs that provide free food to people in need. Each month Second Harvest distributes over three quarters of a million pounds of food to charitable programs in 16 counties. Does not supply food to individuals.",
-      "notes": "Call for info",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC65395_1"
-      }
-    },
-    {
       "objectId": "UWDC65395_10_95235",
       "agencyID": "UWDC65395",
       "siteID": "10",
@@ -4642,7 +4612,7 @@
       "serviceID": "87898",
       "name": "Medical Respite Facilities/Beds For Homeless People",
       "category": "shelter",
-      "description": "The Salvation Army of Dane CountyÍs temporary (i.e. 2-4 nights) Medical Shelter is reserved for  homeless individuals and-or families who have certain acute and-or contagious medical conditions which compromise their ability to safely and healthfully reside in a traditional nighttime-only shelter setting.  Medical Shelter is not a solution or intended for people with chronic conditions.  Individuals-Families may collaborate with a Salvation Army case manager upon participation in Medical Shelter.",
+      "description": "The Salvation Army of Dane Countys temporary (i.e. 2-4 nights) Medical Shelter is reserved for  homeless individuals and-or families who have certain acute and-or contagious medical conditions which compromise their ability to safely and healthfully reside in a traditional nighttime-only shelter setting.  Medical Shelter is not a solution or intended for people with chronic conditions.  Individuals-Families may collaborate with a Salvation Army case manager upon participation in Medical Shelter.",
       "notes": "Intake: Monday-Friday 8:00am-4:00pm",
       "facility": {
         "__type": "Pointer",
@@ -4837,7 +4807,7 @@
       "serviceID": "95826",
       "name": "Clinical Psychiatric Evaluation",
       "category": "medical",
-      "description": "The Court Ordered Evaluation (COE) program manages a network of licensed physicians and psychologists to provide CH 51 evaluations for individuals who are alleged to be imminently dangerous to self-others.  Evaluations occur at hospitals or institutions (Winnebago Mental Health Institute, Mendota Mental Health Institute, Stoughton Hospital, St. MaryÍs Hospital, Meriter Hospital, UW Hospital, Badger Prairie Health Care Center).  Evaluations can also occur in the community for individuals on Commitment Orders.",
+      "description": "The Court Ordered Evaluation (COE) program manages a network of licensed physicians and psychologists to provide CH 51 evaluations for individuals who are alleged to be imminently dangerous to self-others.  Evaluations occur at hospitals or institutions (Winnebago Mental Health Institute, Mendota Mental Health Institute, Stoughton Hospital, St. Marys Hospital, Meriter Hospital, UW Hospital, Badger Prairie Health Care Center).  Evaluations can also occur in the community for individuals on Commitment Orders.",
       "notes": "By court order",
       "facility": {
         "__type": "Pointer",
@@ -4852,7 +4822,7 @@
       "serviceID": "95827",
       "name": "Clinical Psychiatric Evaluation",
       "category": "medical",
-      "description": "The Court Ordered Evaluation (COE) program provides a variety of evaluations to individuals involved in the Dane County court system under the following WI State Statutes: Juvenile Justice Code 938.295, ChildrenÍs Code 48.295, Emergency Detention 51.15, Involuntary Commitment for Treatment 51.20, and Guardianship 54 & 55.",
+      "description": "The Court Ordered Evaluation (COE) program provides a variety of evaluations to individuals involved in the Dane County court system under the following WI State Statutes: Juvenile Justice Code 938.295, Childrens Code 48.295, Emergency Detention 51.15, Involuntary Commitment for Treatment 51.20, and Guardianship 54 & 55.",
       "notes": null,
       "facility": {
         "__type": "Pointer",
@@ -4873,21 +4843,6 @@
         "__type": "Pointer",
         "className": "Facility",
         "objectId": "UWDC65468_1"
-      }
-    },
-    {
-      "objectId": "UWDC65486_2_96252",
-      "agencyID": "UWDC65486",
-      "siteID": "2",
-      "serviceID": "96252",
-      "name": "Small Business Development",
-      "category": "food",
-      "description": "The FEED facility includes five commercial kitchens, with specialized equipment for baking, produce preparation and processing, deli prep and meat processing. The facility is available for rent by the hour so that food businesses and individuals seeking to sell food to the public can have a legal place to prepare their food.\r\r\r\rA training kitchen available for non-profit groups and cooking teachers to use to teach food service and preparation skills so that people can get work in the food service industry, and can learn how to cook and process food for their own consumption.",
-      "notes": "Attend an information session, e-mail for a listing of Information Sessions: then complete an application",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC65486_2"
       }
     },
     {
@@ -5293,21 +5248,6 @@
         "__type": "Pointer",
         "className": "Facility",
         "objectId": "UWDC65596_1"
-      }
-    },
-    {
-      "objectId": "UWDC65598_1_73098",
-      "agencyID": "UWDC65598",
-      "siteID": "1",
-      "serviceID": "73098",
-      "name": "Food Pantries",
-      "category": "food",
-      "description": "Food pantry. Can use once per calendar month. ID and proof of address required for every household member. Some delivery available to homebound individuals, home delivery may also be available.\r\rPANTRY INVENTORY:\r\rAlways: milk (by voucher), meat, diapers\r\rSometimes: fresh food, formula, cleaning products, personal hygiene products, laundry soap\r\rNever: pet food\r\rSERVICE TYPE: complete client choice",
-      "notes": "Walk in",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC65598_1"
       }
     },
     {
@@ -5788,36 +5728,6 @@
         "__type": "Pointer",
         "className": "Facility",
         "objectId": "UWDC65654_1"
-      }
-    },
-    {
-      "objectId": "UWDC65654_2_73171",
-      "agencyID": "UWDC65654",
-      "siteID": "2",
-      "serviceID": "73171",
-      "name": "Food Gleaning Programs",
-      "category": "food",
-      "description": "Gleaners are volunteers who collect perishable and prepared food from area vendors and deliver it to local food pantries, meal sites, homeless shelters and other community agencies serving low-income families and individuals. Volunteers are assigned regular routes and are trained in safe food handling techniques.\r\rProgram formerly known as Wisconsin Harvest.",
-      "notes": "Call for information",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC65654_2"
-      }
-    },
-    {
-      "objectId": "UWDC65654_2_94413",
-      "agencyID": "UWDC65654",
-      "siteID": "2",
-      "serviceID": "94413",
-      "name": "Food Vouchers",
-      "category": "food",
-      "description": "Through partnerships with the Waukesha County Aging and Disability Resource Center and the Waukesha County Food Pantry, food vouchers are available to assist low-income senior citizens in purchasing Wisconsin-grown fruits, vegetables and herbs from certified farmers' markets and roadside stands between June and October.  Eligibility forms and vouchers may be picked up at CAC, or please call for disbursement schedules at area senior nutrition sites.",
-      "notes": "Call for information",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC65654_2"
       }
     },
     {
@@ -6517,7 +6427,7 @@
       "serviceID": "89964",
       "name": "Cold Weather Shelters/Warming Centers",
       "category": "shelter",
-      "description": "Warming Centers are places for people to seek temporary relief from extreme temperatures. If no specialized center opened, community members can go to public spaces to stay warm. Public spaces include local libraries, neighborhood centers, senior centers, shopping malls, public beaches and pools.\r\r\r\rShelter Facilities: \r\rThe following shelters have been established for those seeking shelter during the bitter temperatures and poor weather conditions: \r\r\r\rIglesia RestauraciÑn Y Vida \r\r6527 Normandy ln suite 100\r\rMadison, WI 53719\r\rOpen Wednesday January 7, 2015 and Thursday January 8, 2015 from 7:00pm-6:00am\r\r",
+      "description": "Warming Centers are places for people to seek temporary relief from extreme temperatures. If no specialized center opened, community members can go to public spaces to stay warm. Public spaces include local libraries, neighborhood centers, senior centers, shopping malls, public beaches and pools.\r\r\r\rShelter Facilities: \r\rThe following shelters have been established for those seeking shelter during the bitter temperatures and poor weather conditions: \r\r\r\rIglesia Restauracin Y Vida \r\r6527 Normandy ln suite 100\r\rMadison, WI 53719\r\rOpen Wednesday January 7, 2015 and Thursday January 8, 2015 from 7:00pm-6:00am\r\r",
       "notes": "Walk in",
       "facility": {
         "__type": "Pointer",
@@ -6607,7 +6517,7 @@
       "serviceID": "73458",
       "name": "Hairdressing/Nail Care",
       "category": "hygiene",
-      "description": "Low-cost haircuts, shampoos, styling, conditioning treatments, perms, shaves, styles, coloring, manicures, pedicures, body wax, etc, by students supervised be Madison CollegeÍs state-licensed instructors.",
+      "description": "Low-cost haircuts, shampoos, styling, conditioning treatments, perms, shaves, styles, coloring, manicures, pedicures, body wax, etc, by students supervised be Madison Colleges state-licensed instructors.",
       "notes": "Call ahead for appointment and prices",
       "facility": {
         "__type": "Pointer",
@@ -6789,21 +6699,6 @@
       "category": "medical",
       "description": "Certified Application Counselors (CACs) are available for in-person assistance with enrollment at the Health Insurance Marketplace (www.healthcare.gov).  \rCACs are employees or volunteers at health-care organizations, clinics, and hospitals who have received Marketplace certification, and have met security standards and conflict of interest rules.  \r",
       "notes": "Call for an appointment",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC66020_1"
-      }
-    },
-    {
-      "objectId": "UWDC66020_1_96379",
-      "agencyID": "UWDC66020",
-      "siteID": "1",
-      "serviceID": "96379",
-      "name": "Home Health Services",
-      "category": "medical",
-      "description": "Stoughton Hospital Home Health provides safe, quality and personalized health care services to people of all ages in the privacy and comfort of their own home.  Stoughton Hospital Home Health is state-licensed, Medicare and Medicaid certified and accredited by the Joint Commission. Available Home Health Services include: \r\rNursing - Registered nurses are on call 24 hours-7 days a week. They provide skilled nursing care for acute and chronic disease conditions, case management of care, medication monitoring, wound care, IV therapy and education regarding chronic disease management.  \r\rHome Health Aide - Home health aides provide personal care: assistance with bathing, dressing and toileting: and home therapy programs. \r\rSocial Workers assess and offer resources to meet social and emotional needs\r\rPhysical Therapy, Occupational Therapy and Speech Therapy are also available.\r\rRegistered dieticians provide nutrition consultation",
-      "notes": "Call or email Julie Stenbroten for initial contact 873-2366 or jstenbroten@stohosp.com.",
       "facility": {
         "__type": "Pointer",
         "className": "Facility",
@@ -7216,36 +7111,6 @@
       }
     },
     {
-      "objectId": "UWDC81718_1_92753",
-      "agencyID": "UWDC81718",
-      "siteID": "1",
-      "serviceID": "92753",
-      "name": "Food Pantries",
-      "category": "food",
-      "description": "***PANTRY IS CLOSED UNTIL FURTHER NOTICE***\r\r\r\rFood pantry. ID for each member of the household is required. No delivery.\r\r\r\rPANTRY INVENTORY:\r\rSometimes: milk, meat, fresh food, personal hygiene products diapers, formula, laundry soap\r\rNever: pet food, cleaning products\r\r\r\rSERVICE TYPE: complete client choice",
-      "notes": "***PANTRY IS CLOSED UNTIL FURTHER NOTICE***",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC81718_1"
-      }
-    },
-    {
-      "objectId": "UWDC81718_1_92754",
-      "agencyID": "UWDC81718",
-      "siteID": "1",
-      "serviceID": "92754",
-      "name": "General Clothing Provision",
-      "category": "hygiene",
-      "description": "***PANTRY IS CLOSED UNTIL FURTHER NOTICE***\r\r\r\rDistributes free clothing during food pantry hours. ID for each member of the household is required.",
-      "notes": "***PANTRY IS CLOSED UNTIL FURTHER NOTICE***",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC81718_1"
-      }
-    },
-    {
       "objectId": "UWDC82447_1_93845",
       "agencyID": "UWDC82447",
       "siteID": "1",
@@ -7291,36 +7156,6 @@
       }
     },
     {
-      "objectId": "UWDC82678_1_94183",
-      "agencyID": "UWDC82678",
-      "siteID": "1",
-      "serviceID": "94183",
-      "name": "Home Health Care",
-      "category": "medical",
-      "description": "Services include in-home medical and non-medical care to assist seniors, individuals with developmental, physical, and mental health disabilities and-or other individuals who may need extra help around the house. These services include personal care assistance, errands, meal prep, cleaning, medication reminders, bathing, and assistance with daily activities. Provides skilled care (RN-LPN services), unskilled (CAN services), therapy services (PT, OT, ST) when needed. They will cover most nursing duties. 24-7 on-call workers available if needed. Respite care also offered. Maxim Homecare Services is fully accredited, licensed, certified, insured and bonded. For private pay there are no minimum hours but there  are minimum hours for those on Medicaid. They do not provide durable medical equipment but have supplies for wound care, etc.",
-      "notes": "Call office to start intake process. The clinician doing the intake will set up a case conference to meet the client at the client's house. After meeting w- clinician, case is reviewed and an appropriate match is set up.",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC82678_1"
-      }
-    },
-    {
-      "objectId": "UWDC82684_1_94187",
-      "agencyID": "UWDC82684",
-      "siteID": "1",
-      "serviceID": "94187",
-      "name": "In Home Hospice Care",
-      "category": "medical",
-      "description": "Heartland Hospice provides a broad range of hospice services including medical, nursing care, psychosocial, spiritual support, therapies, and comfort care to individuals in their home, nursing home, assisted living, independent living facility or wherever the individual calls home. They have a interdisciplinary team that includes RN's, social worker, hospice aides, therapists, volunteers, spiritual care coordinators, and others.",
-      "notes": "Call the Referral Line at 1-866-216-5708",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC82684_1"
-      }
-    },
-    {
       "objectId": "UWDC82759_1_94281",
       "agencyID": "UWDC82759",
       "siteID": "1",
@@ -7336,63 +7171,18 @@
       }
     },
     {
-      "objectId": "UWDC83587_1_95305",
-      "agencyID": "UWDC83587",
-      "siteID": "1",
-      "serviceID": "95305",
-      "name": "Home Health Care",
-      "category": "medical",
-      "description": "Recover Health is a Medicare Certified Home Health Care Agency, that provides a wide range of services such as: Companion Care, Personal Care, Personal Skilled Nursing services, 24-hr Private Duty Nursing, as well as In-Home Mental Health Services, and Skilled Therapies (PT, OT, ST, Respiratory). Staff members and a nurse are available on an on-call basis 24 hours per day-7 days per week. Customers choose what services are provided, and works to match staff with customer preferences.",
-      "notes": "Call the general intake line or use the online Referral.",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC83587_1"
-      }
-    },
-    {
-      "objectId": "UWDC83627_1_95363",
-      "agencyID": "UWDC83627",
-      "siteID": "1",
-      "serviceID": "95363",
-      "name": "Home Health Care",
-      "category": "medical",
-      "description": "Apara Care provides a range of home health services to seniors unskilled and skilled nursing. The agency is insured, bonded, and have certified staff members that undergo through background checks. Apara Care bring resources to support individual's independence in their own home. They have a team of skilled health care professionals, including Certified Nursing Assistants and Registered Nurses. Whether the need is 24 hour care or respite, they can tailor a plan to meet an individual's need. They have  comprehensive one on one care and services which include supportive home care, personal care, and nursing services .These services could include personal care assistance, errands, meal prep, cleaning, medication reminders, wound care, bathing, and assistance with daily activities. They work to match staff with customer preferences.",
-      "notes": "Call for information and a free assessment",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC83627_1"
-      }
-    },
-    {
       "objectId": "UWDC83816_1_95545",
       "agencyID": "UWDC83816",
       "siteID": "1",
       "serviceID": "95545",
       "name": "Community Clinics",
       "category": "medical",
-      "description": "Provides free gynecologic consultative care on a referral only basis.\rServices include evaluation and treatment of:\r\r\r´Abnormal pap smears\r\r\r´Abnormal uterine bleeding\r\r\r´Pelvic masses\r\r\r´Pelvic pain\r\r\r´Symptoms of menopause\r\r\r´More information for both referring providers and patients is available under \"clinic information\" on website",
+      "description": "Provides free gynecologic consultative care on a referral only basis.\rServices include evaluation and treatment of:\r\r\rAbnormal pap smears\r\r\rAbnormal uterine bleeding\r\r\rPelvic masses\r\r\rPelvic pain\r\r\rSymptoms of menopause\r\r\rMore information for both referring providers and patients is available under \"clinic information\" on website",
       "notes": "Complete referral form on our websites, referring providers should fax in completed referral forms.",
       "facility": {
         "__type": "Pointer",
         "className": "Facility",
         "objectId": "UWDC83816_1"
-      }
-    },
-    {
-      "objectId": "UWDC83897_1_95655",
-      "agencyID": "UWDC83897",
-      "siteID": "1",
-      "serviceID": "95655",
-      "name": "In Home Hospice Care",
-      "category": "medical",
-      "description": "SouthernCare average services involve a nurse or aid visit about 3 times per week. SouthernCare's service provision-care plan can also can include hospice physician services, skilled nursing services, home health aide and homemaker services, social worker services, grief and loss counseling, dietary counseling, volunteer services, medical equipment and supplies, medication related to hospice diagnosis, medications for symptom control or pain relief, physical, speech and occupational therapy when needed to relieve symptoms, 24 hour a day care for short periods in the event of an acute medical crisis, short term inpatient care for control of hospice symptoms, short term respite care for up to 5 days for relief of care givers, and bereavement support for family for a minimum of one year. Minimum of 1 RN visit per week",
-      "notes": "Call main number to schedule appointment.",
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC83897_1"
       }
     },
     {
