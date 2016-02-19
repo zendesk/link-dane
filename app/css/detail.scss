@@ -18,6 +18,11 @@
   background: #f3f3f3;
 }
 
+.eligibility {
+  @extend .notes;
+  background: rgba(210, 121, 27, 0.11);
+}
+
 .facility-name {
   font-size: 24px;
 

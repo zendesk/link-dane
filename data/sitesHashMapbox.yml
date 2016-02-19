@@ -7,6 +7,10 @@ UWDC62857:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0739499
     - -89.3861161
@@ -18,6 +22,10 @@ UWDC62865:
     city: Madison
     state: WI
     zipCode: '53705'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0734346
     - -89.4562814
@@ -29,6 +37,10 @@ UWDC62871:
     city: Madison
     state: WI
     zipCode: '53718'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0563361
     - -89.2934126
@@ -40,6 +52,10 @@ UWDC62875:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0412025
     - -89.3952894
@@ -52,6 +68,12 @@ UWDC62879:
     city: Monona
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
     location:
     - 43.06383750000001
     - -89.3407117
@@ -65,6 +87,14 @@ UWDC62885:
     city: Waunakee
     state: WI
     zipCode: '53597'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
+    - Seniors
     location:
     - 43.1890888
     - -89.44933089999999
@@ -81,6 +111,20 @@ UWDC62918:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Adults
+    - Everyone
     location:
     - 43.0656478
     - -89.4016975
@@ -91,6 +135,10 @@ UWDC62918:
     city: Fitchburg
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0007145
     - -89.4250207
@@ -101,6 +149,10 @@ UWDC62918:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0992294
     - -89.5187102
@@ -111,6 +163,10 @@ UWDC62918:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9188756
     - -89.24639909999999
@@ -121,6 +177,10 @@ UWDC62918:
     city: De Forest
     state: WI
     zipCode: '53532'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1939721
     - -89.32257419999999
@@ -131,6 +191,10 @@ UWDC62918:
     city: Monona
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.048916
     - -89.30929490000001
@@ -141,6 +205,10 @@ UWDC62918:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.04358020000001
     - -89.5029459
@@ -151,6 +219,10 @@ UWDC62918:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0963559
     - -89.5150093
@@ -161,6 +233,10 @@ UWDC62918:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0195234
     - -89.5250856
@@ -171,6 +247,10 @@ UWDC62918:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0173114
     - -89.52761679999999
@@ -181,6 +261,10 @@ UWDC62918:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0713555
     - -89.3880001
@@ -192,6 +276,10 @@ UWDC62935:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.122572
     - -89.36425299999999
@@ -203,6 +291,10 @@ UWDC62945:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1014458
     - -89.3466844
@@ -215,6 +307,12 @@ UWDC62968:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.1134374
     - -89.3610296
@@ -226,6 +324,10 @@ UWDC62992:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1271682
     - -89.292515
@@ -236,6 +338,10 @@ UWDC62992:
     city: Monona
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0417876
     - -89.3534455
@@ -246,19 +352,13 @@ UWDC62992:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0381307
     - -89.4572245
-  '6':
-    services:
-    - '70408'
-    address: 2902 American Legion Drive
-    city: Portage
-    state: WI
-    zipCode: '53901'
-    location:
-    - 43.5681372
-    - -89.4725314
   '8':
     services:
     - '70408'
@@ -266,6 +366,10 @@ UWDC62992:
     city: Fitchburg
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0151101
     - -89.4801816
@@ -276,6 +380,10 @@ UWDC62992:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1744802
     - -89.2486751
@@ -287,6 +395,10 @@ UWDC63025:
     city: Madison
     state: WI
     zipCode: '537053172'
+    Gender:
+    - Everyone
+    Ages:
+    - Seniors
     location:
     - 43.071948
     - -89.4552418
@@ -298,19 +410,29 @@ UWDC63025:
     city: Madison
     state: WI
     zipCode: '53705'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
     location:
     - 43.0733595
     - -89.4553756
   '3':
     services:
     - '70527'
-    address: Lussier Community Center
+    address: 55 S Gammon Rd
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    Ages:
+    - Seniors
     location:
-    - 43.0718858
-    - -89.5167298
+    - 43.0663468
+    - -89.5020014
 UWDC63039:
   '1':
     services:
@@ -319,9 +441,13 @@ UWDC63039:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
-    - 43.0706552
-    - -89.3952692
+    - 43.0703872
+    - -89.3950026
   '2':
     services:
     - '70542'
@@ -330,6 +456,13 @@ UWDC63039:
     city: Madison
     state: WI
     zipCode: '53718'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Youth
+    - Youth
+    - Youth
     location:
     - 43.0616788
     - -89.3005314
@@ -341,6 +474,10 @@ UWDC63060:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0723061
     - -89.382375
@@ -354,6 +491,14 @@ UWDC63083:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.0039249
     - -89.4152683
@@ -364,6 +509,10 @@ UWDC63083:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0607872
     - -89.52801180000002
@@ -374,6 +523,10 @@ UWDC63083:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1302151
     - -89.2963592
@@ -387,6 +540,14 @@ UWDC63089:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.17879620000001
     - -89.24059869999999
@@ -398,6 +559,12 @@ UWDC63089:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Youth
     location:
     - 43.1783069
     - -89.241085
@@ -409,6 +576,10 @@ UWDC63156:
     city: Madison
     state: WI
     zipCode: '53705'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0768712
     - -89.4382081
@@ -420,6 +591,10 @@ UWDC63194:
     city: Madison
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Seniors
     location:
     - 43.078285
     - -89.324063
@@ -430,6 +605,10 @@ UWDC63194:
     city: Monona
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Seniors
     location:
     - 43.0531925
     - -89.3228711
@@ -440,6 +619,10 @@ UWDC63194:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Seniors
     location:
     - 43.047748
     - -89.340268
@@ -452,6 +635,12 @@ UWDC63198:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Seniors
     location:
     - 43.13163890000001
     - -89.3696923
@@ -463,6 +652,10 @@ UWDC63203:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.043178
     - -89.392443
@@ -473,6 +666,10 @@ UWDC63203:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.0731321
     - -89.3895617
@@ -483,6 +680,10 @@ UWDC63203:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.055003
     - -89.39102299999999
@@ -495,6 +696,12 @@ UWDC63213:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
     location:
     - 43.0731321
     - -89.3895617
@@ -506,6 +713,10 @@ UWDC63215:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.1613282
     - -89.2630262
@@ -516,6 +727,10 @@ UWDC63215:
     city: Madison
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.08320250000001
     - -89.31442779999999
@@ -527,6 +742,10 @@ UWDC63241:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1044659
     - -89.48599100000001
@@ -538,6 +757,10 @@ UWDC63259:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.5463088
     - -89.30164560000001
@@ -549,6 +772,10 @@ UWDC63276:
     city: Belleville
     state: WI
     zipCode: '53508'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.859443
     - -89.53477
@@ -560,6 +787,10 @@ UWDC63282:
     city: Beloit
     state: WI
     zipCode: '53511'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 42.5226506
     - -89.0226584
@@ -571,6 +802,10 @@ UWDC63312:
     city: Mount Horeb
     state: WI
     zipCode: '53572'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.007151
     - -89.739043
@@ -585,6 +820,16 @@ UWDC63320:
     city: DeForest
     state: WI
     zipCode: '53532'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Adults
+    - Everyone
+    - Seniors
+    - Everyone
     location:
     - 43.2534224
     - -89.3433215
@@ -596,6 +841,10 @@ UWDC63336:
     city: Verona
     state: WI
     zipCode: '53593'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0585804
     - -89.55871069999999
@@ -607,6 +856,10 @@ UWDC63360:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.0167152
     - -89.43120599999999
@@ -618,6 +871,10 @@ UWDC63370:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Seniors
     location:
     - 43.058139
     - -89.49049099999999
@@ -630,6 +887,12 @@ UWDC63410:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.10131699999999
     - -89.34984899999999
@@ -642,6 +905,12 @@ UWDC63415:
     city: Madison
     state: WI
     zipCode: '537033210'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0733968
     - -89.3872555
@@ -652,6 +921,10 @@ UWDC63415:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.06592939999999
     - -89.41519079999999
@@ -662,6 +935,10 @@ UWDC63415:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0414617
     - -89.39446579999999
@@ -672,6 +949,10 @@ UWDC63415:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1014967
     - -89.3464583
@@ -682,6 +963,10 @@ UWDC63415:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1276876
     - -89.3630139
@@ -692,6 +977,10 @@ UWDC63415:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.053875
     - -89.4502948
@@ -702,6 +991,10 @@ UWDC63415:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0324932
     - -89.4790302
@@ -712,6 +1005,10 @@ UWDC63415:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.075992
     - -89.5178942
@@ -725,6 +1022,14 @@ UWDC63425:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.0319866
     - -89.4783447
@@ -735,6 +1040,10 @@ UWDC63425:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0864312
     - -89.3569007
@@ -745,6 +1054,10 @@ UWDC63425:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0655503
     - -89.5025321
@@ -755,6 +1068,10 @@ UWDC63425:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.14699
     - -89.369528
@@ -765,6 +1082,10 @@ UWDC63425:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.1180906
     - -89.3621326
@@ -775,6 +1096,10 @@ UWDC63425:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0487545
     - -89.4002052
@@ -785,6 +1110,10 @@ UWDC63425:
     city: Madison
     state: WI
     zipCode: '53714'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0919597
     - -89.3238313
@@ -795,6 +1124,10 @@ UWDC63425:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.04115700000001
     - -89.44975699999999
@@ -805,6 +1138,10 @@ UWDC63425:
     city: Madison
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.061514
     - -89.3211989
@@ -815,6 +1152,10 @@ UWDC63425:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0336552
     - -89.47527190000001
@@ -827,6 +1168,12 @@ UWDC63440:
     city: Marshall
     state: WI
     zipCode: '53559'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Youth
     location:
     - 43.167214
     - -89.069423
@@ -838,6 +1185,10 @@ UWDC63444:
     city: Mc Farland
     state: WI
     zipCode: '53558'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.014093
     - -89.294175
@@ -852,6 +1203,16 @@ UWDC63452:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
+    - Seniors
+    - Everyone
     location:
     - 43.0958298
     - -89.5107881
@@ -863,6 +1224,10 @@ UWDC63477:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.092277
     - -89.35260149999999
@@ -873,6 +1238,10 @@ UWDC63477:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.067033
     - -89.398526
@@ -884,6 +1253,10 @@ UWDC63486:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0407059
     - -89.5045409
@@ -895,6 +1268,10 @@ UWDC63609:
     city: Verona
     state: WI
     zipCode: '53593'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9707884
     - -89.5070665
@@ -907,6 +1284,12 @@ UWDC63615:
     city: Madison
     state: WI
     zipCode: '53705'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.071948
     - -89.4552418
@@ -918,6 +1301,10 @@ UWDC63688:
     city: Madison
     state: WI
     zipCode: '53714'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0987102
     - -89.31992679999999
@@ -929,6 +1316,10 @@ UWDC63731:
     city: Belleville
     state: WI
     zipCode: '53508'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.858275
     - -89.533627
@@ -940,6 +1331,10 @@ UWDC63746:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0284421
     - -89.4576543
@@ -951,6 +1346,10 @@ UWDC63756:
     city: Black Earth
     state: WI
     zipCode: '53515'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.13774
     - -89.748392
@@ -964,6 +1363,14 @@ UWDC63772:
     city: Belleville
     state: WI
     zipCode: '53508'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Adults
+    - Seniors
+    - Adults
     location:
     - 42.858275
     - -89.533627
@@ -974,6 +1381,10 @@ UWDC63772:
     city: Belleville
     state: WI
     zipCode: '53508'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 42.85711999999999
     - -89.536726
@@ -984,6 +1395,10 @@ UWDC63772:
     city: Belleville
     state: WI
     zipCode: '53508'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 42.873462
     - -89.53398399999999
@@ -995,6 +1410,10 @@ UWDC63778:
     city: Cambridge
     state: WI
     zipCode: '53523'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0028687
     - -89.0174746
@@ -1006,6 +1425,10 @@ UWDC63791:
     city: Oregon
     state: WI
     zipCode: '53575'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9372713
     - -89.3840342
@@ -1016,6 +1439,10 @@ UWDC63791:
     city: Wisconsin Dells
     state: WI
     zipCode: '53965'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.6264269
     - -89.75719409999999
@@ -1026,6 +1453,10 @@ UWDC63791:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1993372
     - -89.212105
@@ -1036,6 +1467,10 @@ UWDC63791:
     city: Edgerton
     state: WI
     zipCode: '53534'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.83361050000001
     - -89.0430281
@@ -1046,6 +1481,10 @@ UWDC63791:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.08278749999999
     - -89.5247729
@@ -1056,6 +1495,10 @@ UWDC63791:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0344781
     - -89.42105509999999
@@ -1066,6 +1509,10 @@ UWDC63791:
     city: Prairie du Sac
     state: WI
     zipCode: '53578'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.2857633
     - -89.7545196
@@ -1076,6 +1523,10 @@ UWDC63791:
     city: Waunakee
     state: WI
     zipCode: '53597'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1733285
     - -89.4611266
@@ -1086,6 +1537,10 @@ UWDC63791:
     city: Deerfield
     state: WI
     zipCode: '53531'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.049259
     - -89.07419
@@ -1096,6 +1551,10 @@ UWDC63791:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.05283170000001
     - -89.398232
@@ -1108,6 +1567,14 @@ UWDC63791:
     city: Madison
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.0721135
     - -89.3087484
@@ -1118,6 +1585,10 @@ UWDC63791:
     city: Waunakee
     state: WI
     zipCode: '53597'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1902225
     - -89.46126489999999
@@ -1128,6 +1599,10 @@ UWDC63791:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9201176
     - -89.21025999999999
@@ -1139,6 +1614,12 @@ UWDC63791:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0770591
     - -89.5196769
@@ -1150,6 +1631,10 @@ UWDC63813:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1134374
     - -89.3610296
@@ -1162,6 +1647,12 @@ UWDC63834:
     city: Fitchburg
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0214548
     - -89.4204283
@@ -1173,6 +1664,12 @@ UWDC63834:
     city: Madison
     state: WI
     zipCode: '53718'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.1447352
     - -89.28888339999999
@@ -1185,6 +1682,14 @@ UWDC63834:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.0671763
     - -89.3941588
@@ -1195,6 +1700,10 @@ UWDC63834:
     city: DeForest
     state: WI
     zipCode: '53532'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.2363557
     - -89.3430933
@@ -1206,6 +1715,12 @@ UWDC63834:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.080639
     - -89.5249714
@@ -1217,6 +1732,10 @@ UWDC63843:
     city: DeForest
     state: WI
     zipCode: '53532'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.247024
     - -89.3419828
@@ -1228,6 +1747,10 @@ UWDC63845:
     city: Madison
     state: WI
     zipCode: '53718'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.0580703
     - -89.2908728
@@ -1238,6 +1761,10 @@ UWDC63845:
     city: Baraboo
     state: WI
     zipCode: '53913'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.47499699999999
     - -89.72489
@@ -1249,6 +1776,10 @@ UWDC63859:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1402292
     - -89.38647329999999
@@ -1260,6 +1791,10 @@ UWDC63865:
     city: Deerfield
     state: WI
     zipCode: '53531'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0545276
     - -89.07568189999999
@@ -1271,6 +1806,10 @@ UWDC63867:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.0775507
     - -89.38055709999999
@@ -1282,6 +1821,10 @@ UWDC63874:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Male
+    Ages:
+    - Everyone
     location:
     - 43.0739499
     - -89.3861161
@@ -1292,6 +1835,10 @@ UWDC63874:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0951198
     - -89.3589865
@@ -1302,6 +1849,10 @@ UWDC63874:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0420518
     - -89.39411419999999
@@ -1312,6 +1863,10 @@ UWDC63874:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0724354
     - -89.40295449999999
@@ -1322,6 +1877,10 @@ UWDC63874:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0795459
     - -89.3780355
@@ -1332,6 +1891,10 @@ UWDC63874:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.10057390000001
     - -89.36455649999999
@@ -1343,6 +1906,10 @@ UWDC63888:
     city: McFarland
     state: WI
     zipCode: '53558'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.01360080000001
     - -89.2882995
@@ -1354,6 +1921,10 @@ UWDC63899:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0679572
     - -89.39297719999999
@@ -1365,6 +1936,12 @@ UWDC63899:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.046947
     - -89.37358809999999
@@ -1378,6 +1955,14 @@ UWDC63940:
     city: Cross Plains
     state: WI
     zipCode: '53528'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
+    - Everyone
     location:
     - 43.1116234
     - -89.650444
@@ -1391,6 +1976,14 @@ UWDC63946:
     city: Oregon
     state: WI
     zipCode: '53575'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
+    - Everyone
     location:
     - 42.926113
     - -89.382107
@@ -1407,6 +2000,20 @@ UWDC63954:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Youth
+    - Everyone
+    - Youth
+    - Everyone
     location:
     - 43.09701889999999
     - -89.3436886
@@ -1423,6 +2030,20 @@ UWDC63992:
     city: Mount Horeb
     state: WI
     zipCode: '53572'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
+    - Seniors
+    - Adults
+    - Adults
+    - Adults
     location:
     - 43.0095872
     - -89.73997609999999
@@ -1436,6 +2057,14 @@ UWDC64003:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.059273
     - -89.40151300000001
@@ -1446,6 +2075,10 @@ UWDC64003:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.0948
     - -89.3458185
@@ -1456,6 +2089,10 @@ UWDC64003:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0337879
     - -89.4566677
@@ -1466,6 +2103,10 @@ UWDC64003:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1587333
     - -89.2685884
@@ -1476,6 +2117,10 @@ UWDC64003:
     city: Janesville
     state: WI
     zipCode: '53546'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.66899069999999
     - -88.97739
@@ -1488,6 +2133,12 @@ UWDC64012:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Seniors
     location:
     - 42.9170749
     - -89.222906
@@ -1499,6 +2150,10 @@ UWDC64026:
     city: Belleville
     state: WI
     zipCode: '53508'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.8626438
     - -89.5588142
@@ -1509,6 +2164,10 @@ UWDC64026:
     city: Cross Plains
     state: WI
     zipCode: '53528'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.11208
     - -89.6399579
@@ -1519,6 +2178,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.054839
     - -89.39761999999999
@@ -1529,6 +2192,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53705'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0768712
     - -89.4382081
@@ -1539,6 +2206,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.12898759999999
     - -89.35704050000001
@@ -1549,6 +2220,10 @@ UWDC64026:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0973166
     - -89.54092659999999
@@ -1560,6 +2235,12 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.1244906
     - -89.3120302
@@ -1570,6 +2251,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0701592
     - -89.5236102
@@ -1580,6 +2265,10 @@ UWDC64026:
     city: Cottage Grove
     state: WI
     zipCode: '53527'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0872278
     - -89.2053081
@@ -1590,6 +2279,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.067096
     - -89.3999219
@@ -1600,6 +2293,10 @@ UWDC64026:
     city: Monona
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0481456
     - -89.3155985
@@ -1610,6 +2307,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53718'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1447352
     - -89.28888339999999
@@ -1620,6 +2321,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0045466
     - -89.4271429
@@ -1630,6 +2335,10 @@ UWDC64026:
     city: Mount Horeb
     state: WI
     zipCode: '53572'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.017599
     - -89.7275824
@@ -1640,6 +2349,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0543468
     - -89.46971769999999
@@ -1651,6 +2364,12 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.061378
     - -89.5058036
@@ -1661,6 +2380,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0505721
     - -89.4777228
@@ -1671,6 +2394,10 @@ UWDC64026:
     city: Windsor
     state: WI
     zipCode: '53598'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1961082
     - -89.3312986
@@ -1682,6 +2409,12 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53792'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0763931
     - -89.4321717
@@ -1692,6 +2425,10 @@ UWDC64026:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1001882
     - -89.5169894
@@ -1702,6 +2439,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0680698
     - -89.39872659999999
@@ -1712,6 +2453,10 @@ UWDC64026:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.099688
     - -89.539203
@@ -1722,6 +2467,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53705'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0768949
     - -89.4694514
@@ -1732,6 +2481,10 @@ UWDC64026:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1005999
     - -89.5172261
@@ -1742,6 +2495,10 @@ UWDC64026:
     city: Verona
     state: WI
     zipCode: '53593'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9888643
     - -89.5490019
@@ -1752,6 +2509,10 @@ UWDC64026:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0909725
     - -89.4869427
@@ -1762,6 +2523,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.121828
     - -89.3095269
@@ -1772,6 +2537,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0539845
     - -89.5204303
@@ -1782,6 +2551,10 @@ UWDC64026:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0965498
     - -89.49482669999999
@@ -1793,6 +2566,12 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53718'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.148283
     - -89.291387
@@ -1803,6 +2582,10 @@ UWDC64026:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9265671
     - -89.2484143
@@ -1813,6 +2596,10 @@ UWDC64026:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1864215
     - -89.2659406
@@ -1823,6 +2610,10 @@ UWDC64026:
     city: Oregon
     state: WI
     zipCode: '53575'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9255039
     - -89.385525
@@ -1833,6 +2624,10 @@ UWDC64026:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0671051
     - -89.4015877
@@ -1844,6 +2639,10 @@ UWDC64138:
     city: Marshall
     state: WI
     zipCode: '53559'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1680544
     - -89.05240189999999
@@ -1855,6 +2654,10 @@ UWDC64155:
     city: Mazomanie
     state: WI
     zipCode: '53560'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1751999
     - -89.79351
@@ -1866,6 +2669,10 @@ UWDC64201:
     city: Mc Farland
     state: WI
     zipCode: '53558'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0147261
     - -89.2894772
@@ -1877,6 +2684,10 @@ UWDC64227:
     city: Waunakee
     state: WI
     zipCode: '53597'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.188521
     - -89.46131
@@ -1888,6 +2699,10 @@ UWDC64244:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.094959
     - -89.5092899
@@ -1900,6 +2715,12 @@ UWDC64272:
     city: Blue Mounds
     state: WI
     zipCode: '53517'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.009483
     - -89.832493
@@ -1910,6 +2731,10 @@ UWDC64272:
     city: Blue Mounds
     state: WI
     zipCode: '53517'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.017655
     - -89.83047499999999
@@ -1923,6 +2748,14 @@ UWDC64291:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Adults
+    - Seniors
     location:
     - 43.183155
     - -89.2053098
@@ -1933,6 +2766,10 @@ UWDC64291:
     city: Marshall
     state: WI
     zipCode: '53559'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.167214
     - -89.069423
@@ -1947,6 +2784,18 @@ UWDC64319:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Adults
+    - Adults
+    - Youth
+    - Youth
+    - Everyone
+    - Everyone
     location:
     - 43.1014458
     - -89.3466844
@@ -1957,6 +2806,10 @@ UWDC64319:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0417843
     - -89.39412039999999
@@ -1968,6 +2821,12 @@ UWDC64319:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0412025
     - -89.3952894
@@ -1979,6 +2838,10 @@ UWDC64330:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.053878
     - -89.490768
@@ -1990,6 +2853,10 @@ UWDC64332:
     city: Monona
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.063669
     - -89.34110799999999
@@ -2001,6 +2868,10 @@ UWDC64354:
     city: Mount Horeb
     state: WI
     zipCode: '53572'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0081257
     - -89.71979379999999
@@ -2012,6 +2883,10 @@ UWDC64376:
     city: Oregon
     state: WI
     zipCode: '53575'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.926014
     - -89.38155069999999
@@ -2023,6 +2898,10 @@ UWDC64403:
     city: Cross Plains
     state: WI
     zipCode: '53528'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1138216
     - -89.6464444
@@ -2034,6 +2913,10 @@ UWDC64409:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.10409
     - -89.349659
@@ -2045,6 +2928,10 @@ UWDC64510:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9164927
     - -89.2181487
@@ -2056,6 +2943,10 @@ UWDC64553:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1756527
     - -89.23550879999999
@@ -2067,6 +2958,10 @@ UWDC64619:
     city: Verona
     state: WI
     zipCode: '53593'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9973964
     - -89.5280009
@@ -2078,6 +2973,10 @@ UWDC64643:
     city: Waunakee
     state: WI
     zipCode: '53597'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.18497379999999
     - -89.45584819999999
@@ -2090,6 +2989,12 @@ UWDC64687:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Youth
+    - Youth
     location:
     - 43.032263
     - -89.381642
@@ -2101,6 +3006,10 @@ UWDC64709:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0935359
     - -89.34660919999999
@@ -2113,6 +3022,12 @@ UWDC64731:
     city: Monona
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0579566
     - -89.3300526
@@ -2127,6 +3042,16 @@ UWDC64852:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.0768261
     - -89.38778049999999
@@ -2138,6 +3063,10 @@ UWDC65077:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1369572
     - -89.3774361
@@ -2149,6 +3078,10 @@ UWDC65122:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0847589
     - -89.3697333
@@ -2161,6 +3094,12 @@ UWDC65187:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0480332
     - -89.3471241
@@ -2178,6 +3117,22 @@ UWDC65393:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.0460167
     - -89.3935334
@@ -2185,11 +3140,14 @@ UWDC65395:
   '1':
     services:
     - '72822'
-    - '72823'
     address: 2802 Dairy Drive
     city: Madison
     state: WI
     zipCode: '53718'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0582648
     - -89.2958251
@@ -2200,6 +3158,10 @@ UWDC65395:
     city: Janesville
     state: WI
     zipCode: '53545'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.6777509
     - -89.00734469999999
@@ -2210,6 +3172,10 @@ UWDC65395:
     city: Darlington
     state: WI
     zipCode: '53530'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.667985
     - -90.1277957
@@ -2220,6 +3186,10 @@ UWDC65395:
     city: Beloit
     state: WI
     zipCode: '53511'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.5017886
     - -89.0399796
@@ -2230,6 +3200,10 @@ UWDC65395:
     city: Highland
     state: WI
     zipCode: '53543'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0477549
     - -90.3791375
@@ -2240,6 +3214,10 @@ UWDC65395:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0655069
     - -89.398538
@@ -2250,6 +3228,10 @@ UWDC65395:
     city: Janesville
     state: WI
     zipCode: '53545'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.6919029
     - -89.00242949999999
@@ -2260,6 +3242,10 @@ UWDC65395:
     city: Monroe
     state: WI
     zipCode: '53566'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.6074479
     - -89.65865409999999
@@ -2270,6 +3256,10 @@ UWDC65395:
     city: Boscobel
     state: WI
     zipCode: '53805'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.13746769999999
     - -90.7007216
@@ -2280,6 +3270,10 @@ UWDC65395:
     city: Patch Grove
     state: WI
     zipCode: '53817'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.94014490000001
     - -90.97402699999999
@@ -2290,6 +3284,10 @@ UWDC65395:
     city: Richland Center
     state: WI
     zipCode: '53581'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.3137643
     - -90.38214219999999
@@ -2300,6 +3298,10 @@ UWDC65395:
     city: Sparta
     state: WI
     zipCode: '54656'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.9456599
     - -90.789081
@@ -2310,6 +3312,10 @@ UWDC65395:
     city: Black Earth
     state: WI
     zipCode: '53515'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.132985
     - -89.74614199999999
@@ -2320,6 +3326,10 @@ UWDC65395:
     city: Marshall
     state: WI
     zipCode: '53559'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.16487499999999
     - -89.07332199999999
@@ -2330,6 +3340,10 @@ UWDC65395:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0460167
     - -89.3935334
@@ -2340,6 +3354,10 @@ UWDC65395:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1103486
     - -89.33362240000001
@@ -2350,6 +3368,10 @@ UWDC65395:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0480332
     - -89.3471241
@@ -2360,6 +3382,10 @@ UWDC65395:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.17879620000001
     - -89.24059869999999
@@ -2373,6 +3399,14 @@ UWDC65401:
     city: Deerfield
     state: WI
     zipCode: '53531'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.0528988
     - -89.076222
@@ -2384,6 +3418,10 @@ UWDC65419:
     city: Monona
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0513507
     - -89.3148429
@@ -2399,6 +3437,22 @@ UWDC65423:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    - Everyone
+    - Female
+    - Everyone
+    - Everyone
+    Ages:
+    - Adults
+    - Youth
+    - Youth
+    - Everyone
+    - Adults
+    - Adults
+    - Youth
+    - Youth
+    - Everyone
     location:
     - 43.0795459
     - -89.3780355
@@ -2410,6 +3464,12 @@ UWDC65423:
     city: Madison
     state: WI
     zipCode: '53714'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.1038577
     - -89.33891559999999
@@ -2421,6 +3481,10 @@ UWDC65429:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.05121159999999
     - -89.46837359999999
@@ -2432,6 +3496,10 @@ UWDC65431:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9147094
     - -89.21796309999999
@@ -2443,6 +3511,10 @@ UWDC65435:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.92283800000001
     - -89.232759
@@ -2454,6 +3526,10 @@ UWDC65439:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.17879620000001
     - -89.24059869999999
@@ -2468,6 +3544,16 @@ UWDC65441:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.11319719999999
     - -89.5104691
@@ -2478,6 +3564,10 @@ UWDC65441:
     city: Madison
     state: WI
     zipCode: '53705'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0733595
     - -89.4553756
@@ -2488,6 +3578,10 @@ UWDC65441:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0961978
     - -89.4973873
@@ -2500,6 +3594,12 @@ UWDC65453:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0866358
     - -89.3627692
@@ -2511,20 +3611,13 @@ UWDC65468:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0668349
     - -89.526056
-UWDC65486:
-  '2':
-    services:
-    - '96252'
-    address: 1219 N Sherman Ave
-    city: Madison
-    state: WI
-    zipCode: '53704'
-    location:
-    - 43.1130861
-    - -89.363768
 UWDC65490:
   '1':
     services:
@@ -2533,6 +3626,10 @@ UWDC65490:
     city: Verona
     state: WI
     zipCode: '53593'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9953369
     - -89.5144263
@@ -2548,6 +3645,18 @@ UWDC65492:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Seniors
     location:
     - 43.079804
     - -89.36701699999999
@@ -2559,6 +3668,10 @@ UWDC65513:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.116681
     - -89.29873599999999
@@ -2570,6 +3683,10 @@ UWDC65548:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.0542891
     - -89.3970707
@@ -2581,6 +3698,10 @@ UWDC65580:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.13163890000001
     - -89.3696923
@@ -2592,6 +3713,10 @@ UWDC65582:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.031184
     - -89.477786
@@ -2603,6 +3728,10 @@ UWDC65584:
     city: Madison
     state: WI
     zipCode: '53714'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.097857
     - -89.32555099999999
@@ -2614,6 +3743,10 @@ UWDC65586:
     city: Verona
     state: WI
     zipCode: '53593'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9878365
     - -89.544372
@@ -2624,6 +3757,10 @@ UWDC65586:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.917649
     - -89.239126
@@ -2637,6 +3774,16 @@ UWDC65586:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.0431
     - -89.4031862
@@ -2647,6 +3794,10 @@ UWDC65586:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.084566
     - -89.361932
@@ -2657,6 +3808,10 @@ UWDC65586:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0447294
     - -89.3952226
@@ -2667,6 +3822,10 @@ UWDC65586:
     city: Waunakee
     state: WI
     zipCode: '53597'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1902149
     - -89.46391299999999
@@ -2677,6 +3836,10 @@ UWDC65586:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Male
+    Ages:
+    - Adults
     location:
     - 43.085387
     - -89.3636765
@@ -2687,6 +3850,10 @@ UWDC65586:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0533057
     - -89.4884941
@@ -2702,20 +3869,21 @@ UWDC65596:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Youth
+    - Everyone
     location:
     - 43.0663468
     - -89.5020014
-UWDC65598:
-  '1':
-    services:
-    - '73098'
-    address: 9 Brodhead St
-    city: Mazomanie
-    state: WI
-    zipCode: '53560'
-    location:
-    - 43.17652330000001
-    - -89.79417939999999
 UWDC65600:
   '2':
     services:
@@ -2724,6 +3892,10 @@ UWDC65600:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.043235
     - -89.391538
@@ -2735,6 +3907,10 @@ UWDC65605:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0667627
     - -89.40378369999999
@@ -2748,6 +3924,14 @@ UWDC65607:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.128543
     - -89.35335099999999
@@ -2760,6 +3944,12 @@ UWDC65609:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.052632
     - -89.392573
@@ -2771,6 +3961,10 @@ UWDC65611:
     city: Cottage Grove
     state: WI
     zipCode: '53527'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.079288
     - -89.200942
@@ -2782,6 +3976,10 @@ UWDC65615:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Male
+    Ages:
+    - Adults
     location:
     - 43.0739499
     - -89.3861161
@@ -2794,6 +3992,14 @@ UWDC65615:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.043416
     - -89.40567
@@ -2804,6 +4010,10 @@ UWDC65615:
     city: Madison
     state: WI
     zipCode: '53714'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.1088322
     - -89.31584509999999
@@ -2815,6 +4025,10 @@ UWDC65620:
     city: Windsor
     state: WI
     zipCode: '53598'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.21868
     - -89.33901999999999
@@ -2828,6 +4042,14 @@ UWDC65624:
     city: McFarland
     state: WI
     zipCode: '53558'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Adults
+    - Seniors
+    - Seniors
     location:
     - 43.0131057
     - -89.28687889999999
@@ -2839,6 +4061,12 @@ UWDC65624:
     city: Cambridge
     state: WI
     zipCode: '53523'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
     location:
     - 43.0028687
     - -89.0174746
@@ -2850,6 +4078,10 @@ UWDC65629:
     city: Mount Horeb
     state: WI
     zipCode: '53572'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.007151
     - -89.739043
@@ -2861,6 +4093,10 @@ UWDC65631:
     city: Oregon
     state: WI
     zipCode: '53575'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.914038
     - -89.387198
@@ -2872,6 +4108,10 @@ UWDC65633:
     city: Waunakee
     state: WI
     zipCode: '53597'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1850829
     - -89.4464247
@@ -2884,6 +4124,12 @@ UWDC65635:
     city: Cambridge
     state: WI
     zipCode: '53523'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Youth
     location:
     - 43.00224
     - -89.015979
@@ -2894,6 +4140,10 @@ UWDC65635:
     city: Cambridge
     state: WI
     zipCode: '53523'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0071386
     - -89.0098385
@@ -2906,6 +4156,12 @@ UWDC65641:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0589985
     - -89.51260669999999
@@ -2921,20 +4177,21 @@ UWDC65654:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.1222114
     - -89.3237834
-  '2':
-    services:
-    - '73171'
-    - '94413'
-    address: 114 E Main Street
-    city: Watertown
-    state: WI
-    zipCode: '53094'
-    location:
-    - 43.19446
-    - -88.723327
 UWDC65688:
   '3':
     services:
@@ -2943,6 +4200,10 @@ UWDC65688:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0412025
     - -89.3952894
@@ -2954,6 +4215,10 @@ UWDC65719:
     city: DeForest
     state: WI
     zipCode: '53532'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.2473832
     - -89.34037440000002
@@ -2964,6 +4229,10 @@ UWDC65719:
     city: Verona
     state: WI
     zipCode: '53593'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9837202
     - -89.5329548
@@ -2974,6 +4243,10 @@ UWDC65719:
     city: Sun Prairie
     state: WI
     zipCode: '53590'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.17879620000001
     - -89.24059869999999
@@ -2984,6 +4257,10 @@ UWDC65719:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0330749
     - -89.48068699999999
@@ -2994,6 +4271,10 @@ UWDC65719:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1362228
     - -89.3850873
@@ -3004,6 +4285,10 @@ UWDC65719:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0264329
     - -89.42357969999999
@@ -3014,6 +4299,10 @@ UWDC65719:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1171759
     - -89.3299437
@@ -3024,6 +4313,10 @@ UWDC65719:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0669873
     - -89.5066015
@@ -3034,6 +4327,10 @@ UWDC65719:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.09701889999999
     - -89.3436886
@@ -3044,6 +4341,10 @@ UWDC65719:
     city: Waunakee
     state: WI
     zipCode: '53597'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1842575
     - -89.4555998
@@ -3054,6 +4355,10 @@ UWDC65719:
     city: Mazomanie
     state: WI
     zipCode: '53560'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.17652330000001
     - -89.79417939999999
@@ -3064,6 +4369,10 @@ UWDC65719:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.918074
     - -89.200147
@@ -3074,6 +4383,10 @@ UWDC65719:
     city: Oregon
     state: WI
     zipCode: '53575'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9297191
     - -89.38191309999999
@@ -3084,6 +4397,10 @@ UWDC65719:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0333551
     - -89.387794
@@ -3094,6 +4411,10 @@ UWDC65719:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0295448
     - -89.45909669999999
@@ -3104,6 +4425,10 @@ UWDC65719:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.039158
     - -89.39536
@@ -3114,6 +4439,10 @@ UWDC65719:
     city: Madison
     state: WI
     zipCode: '53714'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1038577
     - -89.33891559999999
@@ -3129,6 +4458,18 @@ UWDC65757:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Male
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Adults
+    - Everyone
     location:
     - 43.1185277
     - -89.3287048
@@ -3142,6 +4483,14 @@ UWDC65763:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Youth
     location:
     - 43.1362228
     - -89.3850873
@@ -3153,6 +4502,10 @@ UWDC65779:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.114542
     - -89.329791
@@ -3163,6 +4516,10 @@ UWDC65779:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0420518
     - -89.39411419999999
@@ -3173,6 +4530,10 @@ UWDC65779:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.054839
     - -89.39761999999999
@@ -3184,6 +4545,10 @@ UWDC65788:
     city: Madison
     state: WI
     zipCode: '53717'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0769667
     - -89.52619279999999
@@ -3195,6 +4560,10 @@ UWDC65790:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.067033
     - -89.398526
@@ -3206,6 +4575,10 @@ UWDC65798:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.91791750000001
     - -89.2173905
@@ -3217,6 +4590,10 @@ UWDC65831:
     city: Monona
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0513853
     - -89.3070056
@@ -3229,6 +4606,12 @@ UWDC65838:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.07706779999999
     - -89.3744
@@ -3240,6 +4623,10 @@ UWDC65840:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1277535
     - -89.35851319999999
@@ -3251,6 +4638,10 @@ UWDC65863:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.10057390000001
     - -89.36455649999999
@@ -3262,6 +4653,10 @@ UWDC65879:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.0441087
     - -89.39255179999999
@@ -3273,6 +4668,12 @@ UWDC65879:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Youth
     location:
     - 43.0284421
     - -89.4576543
@@ -3284,6 +4685,10 @@ UWDC65882:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0764718
     - -89.3838256
@@ -3297,6 +4702,14 @@ UWDC65885:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 43.0769248
     - -89.3860741
@@ -3309,6 +4722,12 @@ UWDC65887:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
     location:
     - 43.1279425
     - -89.36351560000001
@@ -3320,6 +4739,10 @@ UWDC65896:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0719117
     - -89.38344339999999
@@ -3334,6 +4757,16 @@ UWDC65910:
     city: Fitchburg
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Seniors
+    - Seniors
+    - Seniors
+    - Seniors
     location:
     - 43.0023305
     - -89.42339609999999
@@ -3345,6 +4778,10 @@ UWDC65928:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.1212487
     - -89.3314482
@@ -3355,6 +4792,10 @@ UWDC65928:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.075988
     - -89.3872567
@@ -3367,6 +4808,12 @@ UWDC65948:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Female
+    - Female
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0460167
     - -89.3935334
@@ -3378,6 +4825,12 @@ UWDC65951:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
+    - Youth
+    - Youth
     location:
     - 43.0529865
     - -89.3812583
@@ -3392,6 +4845,16 @@ UWDC65959:
     city: Verona
     state: WI
     zipCode: '53593'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Adults
     location:
     - 42.9857516
     - -89.5353329
@@ -3403,6 +4866,10 @@ UWDC65996:
     city: Madison
     state: WI
     zipCode: '537033739'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.082258
     - -89.36677399999999
@@ -3413,12 +4880,23 @@ UWDC66020:
     - '73542'
     - '73543'
     - '94807'
-    - '96379'
     - '98888'
     address: 900 Ridge Street
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
+    - Everyone
     location:
     - 42.920811
     - -89.2102759
@@ -3431,6 +4909,12 @@ UWDC66067:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.1134374
     - -89.3610296
@@ -3442,6 +4926,12 @@ UWDC66067:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 42.918074
     - -89.200147
@@ -3453,6 +4943,10 @@ UWDC66084:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.094204
     - -89.50329529999999
@@ -3464,6 +4958,12 @@ UWDC66088:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Female
+    Ages:
+    - Adults
+    - Youth
+    - Youth
     location:
     - 43.0994219
     - -89.36468300000001
@@ -3475,6 +4975,10 @@ UWDC66113:
     city: Middleton
     state: WI
     zipCode: '53562'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0959933
     - -89.49566659999999
@@ -3486,6 +4990,10 @@ UWDC67325:
     city: Monona
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Youth
     location:
     - 43.07557790000001
     - -89.3265455
@@ -3497,6 +5005,10 @@ UWDC70491:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.9166159
     - -89.21731679999999
@@ -3508,6 +5020,10 @@ UWDC70829:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.079804
     - -89.36701699999999
@@ -3518,6 +5034,10 @@ UWDC70829:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.067033
     - -89.398526
@@ -3528,6 +5048,10 @@ UWDC70829:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.067033
     - -89.398526
@@ -3538,6 +5062,10 @@ UWDC70829:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0635268
     - -89.3998737
@@ -3548,6 +5076,10 @@ UWDC70829:
     city: Monona
     state: WI
     zipCode: '53716'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.046618
     - -89.3195099
@@ -3558,6 +5090,10 @@ UWDC70829:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.067033
     - -89.398526
@@ -3568,6 +5104,10 @@ UWDC70829:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.039158
     - -89.39536
@@ -3579,6 +5119,10 @@ UWDC70968:
     city: Madison
     state: WI
     zipCode: '53711'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0016397
     - -89.42487369999999
@@ -3590,6 +5134,10 @@ UWDC75380:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.05421399999999
     - -89.490017
@@ -3601,6 +5149,10 @@ UWDC77069:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0795459
     - -89.3780355
@@ -3612,6 +5164,10 @@ UWDC77681:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0833196
     - -89.3724769
@@ -3623,6 +5179,10 @@ UWDC79109:
     city: Madison
     state: WI
     zipCode: '53715'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.067033
     - -89.398526
@@ -3634,6 +5194,10 @@ UWDC80481:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.03257500000001
     - -89.420844
@@ -3645,6 +5209,10 @@ UWDC80665:
     city: Madison
     state: WI
     zipCode: '53704'
+    Gender:
+    - Everyone
+    Ages:
+    - Adults
     location:
     - 43.1279425
     - -89.36351560000001
@@ -3656,6 +5224,10 @@ UWDC80931:
     city: Madison
     state: WI
     zipCode: '53713'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0377051
     - -89.3773544
@@ -3667,6 +5239,10 @@ UWDC80990:
     city: Madison
     state: WI
     zipCode: '53705'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.07434809999999
     - -89.4470695
@@ -3678,21 +5254,13 @@ UWDC81225:
     city: Madison
     state: WI
     zipCode: '53714'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0891413
     - -89.30295000000001
-UWDC81718:
-  '1':
-    services:
-    - '92753'
-    - '92754'
-    address: 1317 Applegate Rd
-    city: Madison
-    state: WI
-    zipCode: '53713'
-    location:
-    - 43.032174
-    - -89.40453699999999
 UWDC82447:
   '1':
     services:
@@ -3702,6 +5270,12 @@ UWDC82447:
     city: Cambridge
     state: WI
     zipCode: '53523'
+    Gender:
+    - Everyone
+    - Everyone
+    Ages:
+    - Everyone
+    - Everyone
     location:
     - 43.0087693
     - -89.0166251
@@ -3713,31 +5287,13 @@ UWDC82659:
     city: Stoughton
     state: WI
     zipCode: '53589'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 42.92283800000001
     - -89.232759
-UWDC82678:
-  '1':
-    services:
-    - '94183'
-    address: 5752 Tokay Blvd Ste 500
-    city: Madison
-    state: WI
-    zipCode: '53719'
-    location:
-    - 43.05417449999999
-    - -89.4810784
-UWDC82684:
-  '1':
-    services:
-    - '94187'
-    address: 2810 Crossroads Drive Suite 1900
-    city: Madison
-    state: WI
-    zipCode: '53718'
-    location:
-    - 43.1347489
-    - -89.2905852
 UWDC82759:
   '1':
     services:
@@ -3746,31 +5302,13 @@ UWDC82759:
     city: Madison
     state: WI
     zipCode: '53705'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.07315579999999
     - -89.4367797
-UWDC83587:
-  '1':
-    services:
-    - '95305'
-    address: 145 E Badger Road
-    city: Madison
-    state: WI
-    zipCode: '53713'
-    location:
-    - 43.0373613
-    - -89.3830935
-UWDC83627:
-  '1':
-    services:
-    - '95363'
-    address: 7601 Ganser Way Suite 200
-    city: Madison
-    state: WI
-    zipCode: '53719'
-    location:
-    - 43.059314
-    - -89.514685
 UWDC83816:
   '1':
     services:
@@ -3779,20 +5317,13 @@ UWDC83816:
     city: Madison
     state: WI
     zipCode: '53719'
+    Gender:
+    - Female
+    Ages:
+    - Adults
     location:
     - 43.054462
     - -89.47840800000002
-UWDC83897:
-  '1':
-    services:
-    - '95655'
-    address: 402 Gammon Place Suite 110
-    city: Madison
-    state: WI
-    zipCode: '53719'
-    location:
-    - 43.0601799
-    - -89.5021968
 UWDC84133:
   '1':
     services:
@@ -3801,6 +5332,10 @@ UWDC84133:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0835322
     - -89.36434109999999
@@ -3812,6 +5347,10 @@ UWDC84723:
     city: Madison
     state: WI
     zipCode: '53705'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0741404
     - -89.43742569999999
@@ -3823,6 +5362,10 @@ WIST40111:
     city: Madison
     state: WI
     zipCode: '53703'
+    Gender:
+    - Everyone
+    Ages:
+    - Everyone
     location:
     - 43.0835322
     - -89.36434109999999
