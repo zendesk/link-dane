@@ -2586,8 +2586,8 @@
       "siteID": "2",
       "name": "United Way Of Dane County",
       "categories": "technology",
-      "address": null,
-      "city": null,
+      "address": "2060 Atwood Ave",
+      "city": "Madison",
       "phoneNumbers": [
         {
           "info": "Main",
@@ -2599,8 +2599,8 @@
       "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.067033,
-        "longitude": -89.398526
+        "latitude": 43.09243559999999,
+        "longitude": -89.3532846
       },
       "services": [
         {
@@ -3640,7 +3640,7 @@
       "siteID": "1",
       "name": "Home Health United",
       "categories": "medical",
-      "address": "2802 Walton Commons Lane",
+      "address": "2802 Walton Commons West",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -5301,8 +5301,8 @@
       "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.0539845,
-        "longitude": -89.5204303
+        "latitude": 43.053988,
+        "longitude": -89.52043169999999
       },
       "services": [
         {
@@ -9401,7 +9401,7 @@
       "siteID": "1",
       "name": "Pro Labore Dei",
       "categories": "food",
-      "address": null,
+      "address": "2 E Main St",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -9414,8 +9414,8 @@
       "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.067033,
-        "longitude": -89.398526
+        "latitude": 43.074691,
+        "longitude": -89.3841678
       },
       "services": [
         {
@@ -9740,8 +9740,8 @@
       "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.1279425,
-        "longitude": -89.36351560000001
+        "latitude": 43.1278774,
+        "longitude": -89.3635173
       },
       "services": [
         {
@@ -10349,7 +10349,7 @@
       "siteID": "3",
       "name": "Northside Farmer's Market",
       "categories": "food",
-      "address": null,
+      "address": "2817 N. Sherman Ave",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -10362,8 +10362,8 @@
       "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.067033,
-        "longitude": -89.398526
+        "latitude": 43.1276386,
+        "longitude": -89.3628073
       },
       "services": [
         {
@@ -10379,7 +10379,7 @@
       "siteID": "4",
       "name": "Southside Farmer's Market",
       "categories": "food",
-      "address": null,
+      "address": "810 W. Badger Rd",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -10392,8 +10392,8 @@
       "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.067033,
-        "longitude": -89.398526
+        "latitude": 43.039158,
+        "longitude": -89.39536
       },
       "services": [
         {
@@ -10469,7 +10469,7 @@
       "siteID": "7",
       "name": "Westside Community Market",
       "categories": "food",
-      "address": null,
+      "address": "702 N Midvale Blvd",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -10482,8 +10482,8 @@
       "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.067033,
-        "longitude": -89.398526
+        "latitude": 43.07334729999999,
+        "longitude": -89.4530332
       },
       "services": [
         {
@@ -10619,7 +10619,7 @@
       "siteID": "1",
       "name": "Project Bubbles",
       "categories": "hygiene",
-      "address": "Affiliated Laundry",
+      "address": "701 E. Johnson Street",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -10632,8 +10632,8 @@
       "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.0833196,
-        "longitude": -89.3724769
+        "latitude": 43.0819001,
+        "longitude": -89.3794853
       },
       "services": [
         {
@@ -10724,8 +10724,8 @@
       "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.1279425,
-        "longitude": -89.36351560000001
+        "latitude": 43.1278774,
+        "longitude": -89.3635173
       },
       "services": [
         {
