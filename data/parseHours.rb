@@ -18,9 +18,8 @@ WEEKDAY_LIST_R = /#{WEEKDAY_OR_RANGE}(, #{WEEKDAY_OR_RANGE})+(,? and #{WEEKDAY_O
 TIME = /\d?\d:\d\d\s*[ap]m/i
 TIME_RANGE =  /(?<start_time>#{TIME})\s*-\s*(?<end_time>#{TIME})/
 TIME_RANGE_LIST = /#{TIME_RANGE}(,\s*#{TIME_RANGE})*/ 
-TIME_RANGE_LIST = /#{TIME_RANGE}(,\s*#{TIME_RANGE})+/ 
+TIME_RANGE_LIST_R = /#{TIME_RANGE}(,\s*#{TIME_RANGE})+/ 
 DAYTIME_RANGE = /(?<weekday_list>#{WEEKDAY_LIST})[,:]?\s*(?<timerange_list>#{TIME_RANGE_LIST})/
-# {"openHours": {"1": [[900, 1700 ] ], "2": [[900, 1700 ] ], "3": [[900, 1700 ] ], "4": [[900, 1700 ] ], "5": [[900, 1700 ] ]}}
 
 FLAG = {missing: "NO_DATA", match: "", no_match: "NOT_PARSEABLE", twenty_four: "Confirm 24 hours"  }
 CONVERT_WEEKDAYS = {sunday: 0, monday: 1,tuesday: 2,wednesday: 3,thursday: 4,friday: 5,saturday: 6}
@@ -56,51 +55,83 @@ end
 
 def convert_hours(matched_hours)
   json_hours = {}
+
   matched_hours.each do |daytime_range|
-    days = []
-    ranges = []
     # Parse Weekday and Timerange lists
     weekdays = daytime_range['weekday_list']
     timeranges = daytime_range['timerange_list']
     
-    # Check if the matched weekdays is a List
-    WEEKDAY_LIST_R.match(weekdays) do |list|
-      type = :list
-      # Extract weekdays from each range/day item
-      list.split(/,/).each do |daylist_item|
-        extract_weekdays(daylist_item, days)
-      end
-    end
-    # Otherwise if not a list, extract weekdays from the range/day
-    extract_weekdays(weekdays, days) unless type
-    
-    
+    days = parse_weekdays(weekdays)
+    ranges = parse_timeranges(timeranges)  
   end
 
 
-  puts matched_hours.inspect
+  puts days
+  puts ranges
 end
 
+def parse_timeranges(timeranges)
+  ranges = []
+  # Check if the matched timeranges is a List
+  TIME_RANGE_LIST_R.match(timeranges) do |timerange_list|
+    timerange_list.split(/,/).each do |time_range|
+      extract_timerange(time_range, ranges)
+    end
+    return ranges
+  end
+  # if not a list simply extract the time range
+  extract_timerange(timeranges, ranges)
+end
+
+def extract_timerange(range, extracted)
+  TIME_RANGE.match(range) do |timerange|
+    start_time = convert_time(timerange['start_time'])
+    end_time = convert_time(timerange['end_time'])
+  end
+
+  extracted << [start_time, end_time]
+end
+
+# {"openHours": {"1": [[900, 1700 ] ], "2": [[900, 1700 ] ], "3": [[900, 1700 ] ], "4": [[900, 1700 ] ], "5": [[900, 1700 ] ]}}
+def convert_time(time_string)
+  time = Time.parse(time_string)
+  time.to_s.match(/\d?\d:\d\d(?=:\d\d)/).to_s.sub(':',"").to_i
+end
+
+def parse_weekdays(weekdays)
+  days = []
+  # Check if the matched weekdays is a List
+  WEEKDAY_LIST_R.match(weekdays) do |list|
+    # Extract weekdays from each range/day item
+    list.split(/,/).each do |daylist_item|
+      extract_weekdays(daylist_item, days)
+    end
+    return days
+  end
+  # Otherwise if not a list, extract weekdays from the range/day
+  extract_weekdays(weekdays, days)
+end
 
 # Extracts weekdays from  WEEKDAY_OR_RANGE
 def extract_weekdays(weekdays, extracted)
   WEEKDAY_OR_RANGE.match(weekdays) do |day_match|
     if day_match['weekday_range']
-      start_day = find_weekday(day_match['start_day'])
-      end_day = find_weekday(day_match['end_day'])
+      start_day = convert_weekday(day_match['start_day'])
+      end_day = convert_weekday(day_match['end_day'])
 
       # Handle edge case end_day < start_day for ranges
       end_day += 7 if end_day < start_day
       day_range = (start_day..end_day).to_a.map { |n| n % 7 }
       
       day_range.each { |d| extracted << d }
+      return extracted
     else
-      extracted << find_weekday(day_match['weekday']
+      extracted << convert_weekday(day_match['weekday']
     end
   end
 end
 
-def find_weekday(day)
+def convert_weekday(day)
   case
   when SUNDAY.match(day)
     CONVERT_WEEKDAYS[:sunday]
