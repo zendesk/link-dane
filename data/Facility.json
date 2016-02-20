@@ -15,6 +15,8 @@
         }
       ],
       "website": "http://www.graceec.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0739499,
@@ -43,6 +45,8 @@
         }
       ],
       "website": "http://www.amerifamwellness.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0734346,
@@ -71,6 +75,8 @@
         }
       ],
       "website": "http://www.crchealth.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0563361,
@@ -99,6 +105,8 @@
         }
       ],
       "website": "http://www.emum.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0412025,
@@ -127,6 +135,10 @@
         }
       ],
       "website": "http://www.mymonona.com/seniorcenter",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.06383750000001,
@@ -160,6 +172,10 @@
         }
       ],
       "website": "http://www.waunakee.com/seniorcenter",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1890888,
@@ -198,6 +214,8 @@
         }
       ],
       "website": "http://www.meriter.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0656478,
@@ -251,6 +269,8 @@
         }
       ],
       "website": "http://www.meriter.com/clinics/fitchburg-clinic",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0007145,
@@ -279,6 +299,8 @@
         }
       ],
       "website": "http://www.meriter.com/clinics/deming-way-clinic",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0992294,
@@ -307,6 +329,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9188756,
@@ -335,6 +359,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1939721,
@@ -363,6 +389,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.048916,
@@ -391,6 +419,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.04358020000001,
@@ -419,6 +449,8 @@
         }
       ],
       "website": "http://www.meriter.com/clinics/middleton-clinic",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0963559,
@@ -447,6 +479,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0195234,
@@ -475,6 +511,8 @@
         }
       ],
       "website": "http://www.meriter.com/clinics/mckee-clinic",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0173114,
@@ -503,6 +541,8 @@
         }
       ],
       "website": "http://www.meriter.com/clinics/west-washington-clinic",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0713555,
@@ -531,6 +571,8 @@
         }
       ],
       "website": "http://www.stpaulmadison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.122572,
@@ -559,6 +601,8 @@
         }
       ],
       "website": "http://www.ckfwi.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1014458,
@@ -587,6 +631,8 @@
         }
       ],
       "website": "http://jobcenterofwisconsin.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1134374,
@@ -620,6 +666,8 @@
         }
       ],
       "website": "http://www.goodwillscwi.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1271682,
@@ -648,6 +696,8 @@
         }
       ],
       "website": "http://www.goodwillscwi.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0417876,
@@ -676,6 +726,8 @@
         }
       ],
       "website": "http://www.goodwillscwi.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0381307,
@@ -704,6 +756,8 @@
         }
       ],
       "website": "http://www.goodwillscwi.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0151101,
@@ -732,6 +786,8 @@
         }
       ],
       "website": "http://www.goodwillscwi.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1744802,
@@ -760,6 +816,10 @@
         }
       ],
       "website": "http://www.wmseniorcenter.org",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.071948,
@@ -788,6 +848,10 @@
         }
       ],
       "website": "http://www.wmseniorcenter.org",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0733595,
@@ -812,7 +876,7 @@
       "siteID": "3",
       "name": "West Madison Senior Coalition",
       "categories": "food",
-      "address": " 55 S Gammon Rd",
+      "address": "55 S Gammon Rd",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -821,10 +885,14 @@
         }
       ],
       "website": "",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.0718858,
-        "longitude": -89.5167298
+        "latitude": 43.0663468,
+        "longitude": -89.5020014
       },
       "services": [
         {
@@ -849,10 +917,14 @@
         }
       ],
       "website": "http://www.mmsd.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.0706552,
-        "longitude": -89.3952692
+        "latitude": 43.0703872,
+        "longitude": -89.3950026
       },
       "services": [
         {
@@ -877,6 +949,10 @@
         }
       ],
       "website": "http://foodsvcweb.madison.k12.wi.us/menus",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0616788,
@@ -910,6 +986,10 @@
         }
       ],
       "website": "http://www.countyofdane.com/juvenilecourt/",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0723061,
@@ -938,6 +1018,8 @@
         }
       ],
       "website": "http://www.agracehospicecare.org/",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0039249,
@@ -976,6 +1058,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0607872,
@@ -1004,6 +1088,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1302151,
@@ -1032,6 +1118,8 @@
         }
       ],
       "website": "http://www.sunshineplace.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.17879620000001,
@@ -1070,6 +1158,8 @@
         }
       ],
       "website": "http://www.sunshinesupper.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1783069,
@@ -1103,6 +1193,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0768712,
@@ -1131,6 +1223,10 @@
         }
       ],
       "website": "http://www.emmca.org",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.078285,
@@ -1159,6 +1255,10 @@
         }
       ],
       "website": "http://www.emmca.org",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0531925,
@@ -1187,6 +1287,10 @@
         }
       ],
       "website": "http://www.emmca.org",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.047748,
@@ -1215,6 +1319,8 @@
         }
       ],
       "website": "http://www.nescoinc.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.13163890000001,
@@ -1248,6 +1354,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.043178,
@@ -1276,6 +1386,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0731321,
@@ -1304,6 +1418,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.055003,
@@ -1332,6 +1450,10 @@
         }
       ],
       "website": "http://www.MadisonSeniorCenter.org",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0731321,
@@ -1365,6 +1487,10 @@
         }
       ],
       "website": "http://www.ymcadanecounty.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1613282,
@@ -1393,6 +1519,8 @@
         }
       ],
       "website": "http://www.ymcadanecounty.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.08320250000001,
@@ -1421,6 +1549,8 @@
         }
       ],
       "website": "http://www.deancare.com/Foundation/",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1044659,
@@ -1449,6 +1579,10 @@
         }
       ],
       "website": "http://www.bayviewfoundation.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.5463088,
@@ -1477,6 +1611,8 @@
         }
       ],
       "website": "http://www.bellevillewi.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.859443,
@@ -1505,6 +1641,10 @@
         }
       ],
       "website": "http://www.cssw.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.5226506,
@@ -1533,6 +1673,8 @@
         }
       ],
       "website": "http://cclothescloset.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.007151,
@@ -1561,6 +1703,8 @@
         }
       ],
       "website": "http://www.thecommunitycornerstone.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.2534224,
@@ -1604,6 +1748,8 @@
         }
       ],
       "website": "http://www.fullcompass.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0585804,
@@ -1632,6 +1778,10 @@
         }
       ],
       "website": "http://www.independentlivinginc.org",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0167152,
@@ -1660,6 +1810,10 @@
         }
       ],
       "website": "http://www.jssmadison.org",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.058139,
@@ -1688,6 +1842,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.10131699999999,
@@ -1721,6 +1877,8 @@
         }
       ],
       "website": "http://www.madisonpubliclibrary.org/central",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0733968,
@@ -1754,6 +1912,8 @@
         }
       ],
       "website": "http://www.madisonpubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.06592939999999,
@@ -1782,6 +1942,8 @@
         }
       ],
       "website": "http://www.madisonpubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0414617,
@@ -1810,6 +1972,8 @@
         }
       ],
       "website": "http://www.madisonpubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1014967,
@@ -1838,6 +2002,8 @@
         }
       ],
       "website": "http://www.madisonpubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1276876,
@@ -1866,6 +2032,8 @@
         }
       ],
       "website": "http://www.madisonpubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.053875,
@@ -1894,6 +2062,8 @@
         }
       ],
       "website": "http://www.madisonpubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0324932,
@@ -1922,6 +2092,8 @@
         }
       ],
       "website": "http://www.madisonpubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.075992,
@@ -1950,6 +2122,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0319866,
@@ -1988,6 +2162,10 @@
         }
       ],
       "website": "http://www.mscr.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0864312,
@@ -2016,6 +2194,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0655503,
@@ -2044,6 +2226,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.14699,
@@ -2072,6 +2258,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1180906,
@@ -2100,6 +2290,10 @@
         }
       ],
       "website": "http://www.mscr.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0487545,
@@ -2128,6 +2322,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0919597,
@@ -2156,6 +2354,10 @@
         }
       ],
       "website": "http://www.mscr.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.04115700000001,
@@ -2184,6 +2386,10 @@
         }
       ],
       "website": "http://www.mscr.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.061514,
@@ -2212,6 +2418,10 @@
         }
       ],
       "website": "http://www.mscr.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0336552,
@@ -2240,6 +2450,11 @@
         }
       ],
       "website": "http://mysite.verizon.net/macyc",
+      "age": [
+        "C",
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.167214,
@@ -2273,6 +2488,10 @@
         }
       ],
       "website": "http://www.McFarlandYouthCenter.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.014093,
@@ -2301,6 +2520,8 @@
         }
       ],
       "website": "http://www.middletonseniorcenter.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0958298,
@@ -2344,6 +2565,8 @@
         }
       ],
       "website": "http://www.unitedwaydanecounty.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.092277,
@@ -2363,8 +2586,8 @@
       "siteID": "2",
       "name": "United Way Of Dane County",
       "categories": "technology",
-      "address": null,
-      "city": null,
+      "address": "2060 Atwood Ave",
+      "city": "Madison",
       "phoneNumbers": [
         {
           "info": "Main",
@@ -2372,10 +2595,12 @@
         }
       ],
       "website": "http://www.unitedwaydanecounty.org/2-1-1",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.067033,
-        "longitude": -89.398526
+        "latitude": 43.09243559999999,
+        "longitude": -89.3532846
       },
       "services": [
         {
@@ -2400,6 +2625,10 @@
         }
       ],
       "website": "http://www.wisconsinyouthcompany.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0407059,
@@ -2428,6 +2657,8 @@
         }
       ],
       "website": "http://www.bussvc.wisc.edu/swap/swap.html",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9707884,
@@ -2456,6 +2687,8 @@
         }
       ],
       "website": "http://bltsinc.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.071948,
@@ -2489,6 +2722,8 @@
         }
       ],
       "website": "http://www.accesstoind.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0987102,
@@ -2517,6 +2752,8 @@
         }
       ],
       "website": "http://www.bellevillelibrary-wi.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.858275,
@@ -2545,6 +2782,8 @@
         }
       ],
       "website": "http://alliedfoodpantry.wix.com/allied-food-pantry",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0284421,
@@ -2573,6 +2812,8 @@
         }
       ],
       "website": "http://www.bepubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.13774,
@@ -2601,6 +2842,11 @@
         }
       ],
       "website": "http://www.bellevillewi.org/",
+      "age": [
+        "A",
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.858275,
@@ -2639,6 +2885,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.85711999999999,
@@ -2667,6 +2917,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.873462,
@@ -2695,6 +2949,8 @@
         }
       ],
       "website": "http://www.cambridgelib.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0028687,
@@ -2723,6 +2979,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9372713,
@@ -2751,6 +3009,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.6264269,
@@ -2779,6 +3039,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1993372,
@@ -2807,6 +3069,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.83361050000001,
@@ -2835,6 +3099,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.08278749999999,
@@ -2863,6 +3129,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0344781,
@@ -2891,6 +3159,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.2857633,
@@ -2919,6 +3189,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1733285,
@@ -2947,6 +3219,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.049259,
@@ -2975,6 +3249,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.05283170000001,
@@ -3003,6 +3279,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0721135,
@@ -3041,6 +3319,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1902225,
@@ -3069,6 +3349,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9201176,
@@ -3097,6 +3379,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0770591,
@@ -3130,6 +3414,8 @@
         }
       ],
       "website": "http://www.dcls.info",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1134374,
@@ -3158,6 +3444,8 @@
         }
       ],
       "website": "http://www.ghcscw.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0214548,
@@ -3191,6 +3479,8 @@
         }
       ],
       "website": "http://www.ghcscw.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1447352,
@@ -3224,6 +3514,8 @@
         }
       ],
       "website": "http://www.ghcscw.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0671763,
@@ -3262,6 +3554,8 @@
         }
       ],
       "website": "http://www.ghcscw.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.2363557,
@@ -3290,6 +3584,8 @@
         }
       ],
       "website": "http://www.ghcscw.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.080639,
@@ -3323,6 +3619,8 @@
         }
       ],
       "website": "http://www.deforest.lib.wi.us",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.247024,
@@ -3342,7 +3640,7 @@
       "siteID": "1",
       "name": "Home Health United",
       "categories": "medical",
-      "address": "2802 Walton Commons Lane",
+      "address": "2802 Walton Commons West",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -3351,6 +3649,10 @@
         }
       ],
       "website": "http://www.homehealthunited.org",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0580703,
@@ -3379,6 +3681,10 @@
         }
       ],
       "website": "http://wwwHomeHealthUnited.org",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.47499699999999,
@@ -3407,6 +3713,8 @@
         }
       ],
       "website": "http://www.khcommunitycenter.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1402292,
@@ -3435,6 +3743,8 @@
         }
       ],
       "website": "http://www.scls.lib.wi.us/deerfield",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0545276,
@@ -3463,6 +3773,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0775507,
@@ -3491,6 +3805,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": "M",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0739499,
@@ -3519,6 +3835,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0951198,
@@ -3547,6 +3865,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0420518,
@@ -3575,6 +3895,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0724354,
@@ -3603,6 +3925,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0795459,
@@ -3631,6 +3955,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.10057390000001,
@@ -3659,6 +3987,8 @@
         }
       ],
       "website": "http://www.mcfarlandlibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.01360080000001,
@@ -3687,6 +4017,8 @@
         }
       ],
       "website": "http://www.journeymhc.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0679572,
@@ -3715,6 +4047,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.046947,
@@ -3748,6 +4082,8 @@
         }
       ],
       "website": "http://www.nwdss.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1116234,
@@ -3786,6 +4122,8 @@
         }
       ],
       "website": "http://www.oregonareaseniorcenterwisconsin.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.926113,
@@ -3824,6 +4162,8 @@
         }
       ],
       "website": "http://www.goodmancenter.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.09701889999999,
@@ -3877,6 +4217,11 @@
         }
       ],
       "website": "http://www.mounthorebwi.info/",
+      "age": [
+        "A",
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0095872,
@@ -3930,6 +4275,8 @@
         }
       ],
       "website": "http://www.stmarysmadison.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.059273,
@@ -3968,6 +4315,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0948,
@@ -3996,6 +4347,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0337879,
@@ -4024,6 +4377,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1587333,
@@ -4052,6 +4407,8 @@
         }
       ],
       "website": "http://www.stmarysjanesville.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.66899069999999,
@@ -4080,6 +4437,8 @@
         }
       ],
       "website": "http://www.ci.stoughton.wi.us/senior",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9170749,
@@ -4113,6 +4472,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.8626438,
@@ -4141,6 +4502,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.11208,
@@ -4169,6 +4532,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.054839,
@@ -4197,6 +4562,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0768712,
@@ -4225,6 +4592,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.12898759999999,
@@ -4253,6 +4622,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0973166,
@@ -4281,6 +4652,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1244906,
@@ -4314,6 +4687,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0701592,
@@ -4342,6 +4717,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0872278,
@@ -4370,6 +4747,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.067096,
@@ -4398,6 +4777,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0481456,
@@ -4426,6 +4807,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1447352,
@@ -4454,6 +4837,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0045466,
@@ -4482,6 +4867,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.017599,
@@ -4510,6 +4897,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0543468,
@@ -4538,6 +4927,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.061378,
@@ -4571,6 +4962,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0505721,
@@ -4599,6 +4992,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1961082,
@@ -4627,6 +5022,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0763931,
@@ -4660,6 +5057,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1001882,
@@ -4688,6 +5087,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0680698,
@@ -4716,6 +5117,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.099688,
@@ -4744,6 +5147,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0768949,
@@ -4772,6 +5177,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1005999,
@@ -4800,6 +5207,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9888643,
@@ -4828,6 +5237,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0909725,
@@ -4856,6 +5267,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.121828,
@@ -4884,10 +5297,12 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.0539845,
-        "longitude": -89.5204303
+        "latitude": 43.053988,
+        "longitude": -89.52043169999999
       },
       "services": [
         {
@@ -4912,6 +5327,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0965498,
@@ -4940,6 +5357,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.148283,
@@ -4973,6 +5392,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9265671,
@@ -5001,6 +5422,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1864215,
@@ -5029,6 +5452,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9255039,
@@ -5057,6 +5482,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0671051,
@@ -5085,6 +5512,8 @@
         }
       ],
       "website": "http://www.marlib.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1680544,
@@ -5113,6 +5542,8 @@
         }
       ],
       "website": "http://www.scls.lib.wi.us/mazomanie/",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1751999,
@@ -5141,6 +5572,8 @@
         }
       ],
       "website": "http://www.mcfarlandfoodpantry.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0147261,
@@ -5169,6 +5602,8 @@
         }
       ],
       "website": "http://www.waunakeeneighborhoodconnection.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.188521,
@@ -5197,6 +5632,8 @@
         }
       ],
       "website": "http://www.midlibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.094959,
@@ -5225,6 +5662,8 @@
         }
       ],
       "website": "http://www.countrysidecommunitiescenter.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.009483,
@@ -5258,6 +5697,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.017655,
@@ -5286,6 +5727,8 @@
         }
       ],
       "website": "http://www.colonialclub.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.183155,
@@ -5324,6 +5767,10 @@
         }
       ],
       "website": "http://www.colonialclub.org",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.167214,
@@ -5352,6 +5799,8 @@
         }
       ],
       "website": "http://www.publichealthmdc.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1014458,
@@ -5395,6 +5844,10 @@
         }
       ],
       "website": "http://www.publichealthmdc.com",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0417843,
@@ -5423,6 +5876,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0412025,
@@ -5456,6 +5911,8 @@
         }
       ],
       "website": "http://www.ourladyofhopeclinic.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.053878,
@@ -5484,6 +5941,8 @@
         }
       ],
       "website": "http://www.mononalibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.063669,
@@ -5512,6 +5971,8 @@
         }
       ],
       "website": "http://www.mhpl.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0081257,
@@ -5540,6 +6001,8 @@
         }
       ],
       "website": "http://www.oregonpubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.926014,
@@ -5568,6 +6031,8 @@
         }
       ],
       "website": "http://www.scls.lib.wi.us/csp",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1138216,
@@ -5596,6 +6061,8 @@
         }
       ],
       "website": "http://www.bashfordchurch.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.10409,
@@ -5624,6 +6091,8 @@
         }
       ],
       "website": "http://www.stoughtonpubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9164927,
@@ -5652,6 +6121,8 @@
         }
       ],
       "website": "http://www.sunprairiepubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1756527,
@@ -5680,6 +6151,8 @@
         }
       ],
       "website": "http://www.veronapubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9973964,
@@ -5708,6 +6181,8 @@
         }
       ],
       "website": "http://www.waunakeepubliclibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.18497379999999,
@@ -5736,6 +6211,10 @@
         }
       ],
       "website": "http://www.briarpatch.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.032263,
@@ -5769,6 +6248,8 @@
         }
       ],
       "website": "http://pepartnership.net",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0935359,
@@ -5797,6 +6278,8 @@
         }
       ],
       "website": "http://www.ststephensmonona.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0579566,
@@ -5830,6 +6313,8 @@
         }
       ],
       "website": "http://www.bethel-madison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0768261,
@@ -5873,6 +6358,8 @@
         }
       ],
       "website": "http://www.lakeviewlutheranchurch.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1369572,
@@ -5901,6 +6388,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0847589,
@@ -5929,6 +6418,8 @@
         }
       ],
       "website": "http://www.blwcenter.org/index.html",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0480332,
@@ -5962,6 +6453,8 @@
         }
       ],
       "website": "http://www.cmctoday.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0460167,
@@ -6020,6 +6513,8 @@
         }
       ],
       "website": "http://www.secondharvestmadison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0582648,
@@ -6030,11 +6525,6 @@
           "__type": "Pointer",
           "className": "Service",
           "objectId": "UWDC65395_1_72822"
-        },
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC65395_1_72823"
         }
       ]
     },
@@ -6053,6 +6543,8 @@
         }
       ],
       "website": "http://www.sjv.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.6777509,
@@ -6081,6 +6573,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.667985,
@@ -6109,6 +6603,8 @@
         }
       ],
       "website": "http://morningstar10.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.5017886,
@@ -6137,6 +6633,8 @@
         }
       ],
       "website": "http://www.ssanthonyandphilip.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0477549,
@@ -6165,6 +6663,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0655069,
@@ -6193,6 +6693,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.6919029,
@@ -6221,6 +6723,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.6074479,
@@ -6249,6 +6753,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.13746769999999,
@@ -6277,6 +6783,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.94014490000001,
@@ -6305,6 +6813,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.3137643,
@@ -6333,6 +6843,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.9456599,
@@ -6361,6 +6873,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.132985,
@@ -6389,6 +6903,8 @@
         }
       ],
       "website": "http://www.lutheransonline.com/holytrinitylutheranchurch",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.16487499999999,
@@ -6417,6 +6933,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0460167,
@@ -6445,6 +6963,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1103486,
@@ -6473,6 +6993,8 @@
         }
       ],
       "website": "http://www.blwcenter.org/index.html",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0480332,
@@ -6501,6 +7023,8 @@
         }
       ],
       "website": "http://www.sunprairiefoodpantry.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.17879620000001,
@@ -6529,6 +7053,8 @@
         }
       ],
       "website": "http://www.dccenter.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0528988,
@@ -6567,6 +7093,8 @@
         }
       ],
       "website": "http://www.madisonadventistchurch.com/community-services",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0513507,
@@ -6595,6 +7123,8 @@
         }
       ],
       "website": "http://www.salvationarmydanecounty.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0795459,
@@ -6643,6 +7173,8 @@
         }
       ],
       "website": "http://www.salvationarmydanecounty.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1038577,
@@ -6676,6 +7208,8 @@
         }
       ],
       "website": "http://www.westwoodchristian.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.05121159999999,
@@ -6704,6 +7238,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9147094,
@@ -6732,6 +7268,8 @@
         }
       ],
       "website": "http://www.stoughtonumc10.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.92283800000001,
@@ -6760,6 +7298,8 @@
         }
       ],
       "website": "http://www.sunprairiefoodpantry.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.17879620000001,
@@ -6788,6 +7328,8 @@
         }
       ],
       "website": "http://www.momhelps.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.11319719999999,
@@ -6831,6 +7373,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0733595,
@@ -6859,6 +7403,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0961978,
@@ -6887,6 +7433,8 @@
         }
       ],
       "website": "http://www.community-partnerships.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0866358,
@@ -6920,6 +7468,8 @@
         }
       ],
       "website": "http://www.cancer.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0668349,
@@ -6948,6 +7498,8 @@
         }
       ],
       "website": "http://www.bpnn.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9953369,
@@ -6976,6 +7528,8 @@
         }
       ],
       "website": "http://www.wil-mar.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.079804,
@@ -7024,6 +7578,10 @@
         }
       ],
       "website": "http://thesolsticehouse.org",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.116681,
@@ -7052,6 +7610,10 @@
         }
       ],
       "website": "http://www.litnetwork.org",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0542891,
@@ -7080,6 +7642,8 @@
         }
       ],
       "website": "http://www.cityofmadison.com/parks/WPCRC/",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.13163890000001,
@@ -7108,6 +7672,8 @@
         }
       ],
       "website": "http://www.gslcwi.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.031184,
@@ -7136,6 +7702,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.097857,
@@ -7164,6 +7732,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9878365,
@@ -7192,6 +7762,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.917649,
@@ -7220,6 +7792,8 @@
         }
       ],
       "website": "http://www.svdpmadison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0431,
@@ -7263,6 +7837,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.084566,
@@ -7291,6 +7867,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0447294,
@@ -7319,6 +7897,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1902149,
@@ -7347,6 +7927,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "A"
+      ],
+      "gender": "M",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.085387,
@@ -7375,6 +7959,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0533057,
@@ -7403,6 +7989,8 @@
         }
       ],
       "website": "http://www.lcecmadison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0663468,
@@ -7451,6 +8039,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.043235,
@@ -7479,6 +8069,8 @@
         }
       ],
       "website": "http://www.neighborhoodhousemadison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0667627,
@@ -7507,6 +8099,8 @@
         }
       ],
       "website": "http://www.riverfoodpantry.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.128543,
@@ -7545,6 +8139,8 @@
         }
       ],
       "website": "http://www.stmarksmadison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.052632,
@@ -7578,6 +8174,8 @@
         }
       ],
       "website": "http://www.brynmawrpc.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.079288,
@@ -7606,6 +8204,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "A"
+      ],
+      "gender": "M",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0739499,
@@ -7634,6 +8236,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.043416,
@@ -7672,6 +8276,10 @@
         }
       ],
       "website": "",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1088322,
@@ -7700,6 +8308,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.21868,
@@ -7728,6 +8338,11 @@
         }
       ],
       "website": "http://www.villageofmcfarland.net",
+      "age": [
+        "A",
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0131057,
@@ -7766,6 +8381,10 @@
         }
       ],
       "website": "http://www.villageofmcfarland.net",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0028687,
@@ -7799,6 +8418,8 @@
         }
       ],
       "website": "http://www.food-pantry.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.007151,
@@ -7827,6 +8448,8 @@
         }
       ],
       "website": "http://www.obfp.org/",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.914038,
@@ -7855,6 +8478,8 @@
         }
       ],
       "website": "http://www.waunakeefoodpantry.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1850829,
@@ -7883,6 +8508,8 @@
         }
       ],
       "website": "http://www.cambridgecap.net",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.00224,
@@ -7916,6 +8543,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0071386,
@@ -7944,6 +8573,8 @@
         }
       ],
       "website": "http://www.westmadisonbiblechurch.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0589985,
@@ -7977,6 +8608,8 @@
         }
       ],
       "website": "http://www.cacscw.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1222114,
@@ -8025,6 +8658,8 @@
         }
       ],
       "website": "http://www.dcpcinc.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0412025,
@@ -8053,6 +8688,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.2473832,
@@ -8081,6 +8718,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9837202,
@@ -8109,6 +8748,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.17879620000001,
@@ -8137,6 +8778,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0330749,
@@ -8165,6 +8808,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1362228,
@@ -8193,6 +8838,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0264329,
@@ -8221,6 +8868,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1171759,
@@ -8249,6 +8898,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0669873,
@@ -8277,6 +8928,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.09701889999999,
@@ -8305,6 +8958,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1842575,
@@ -8333,6 +8988,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.17652330000001,
@@ -8361,6 +9018,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.918074,
@@ -8389,6 +9048,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9297191,
@@ -8417,6 +9078,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0333551,
@@ -8445,6 +9108,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0295448,
@@ -8473,6 +9138,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.039158,
@@ -8501,6 +9168,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1038577,
@@ -8529,6 +9198,8 @@
         }
       ],
       "website": "http://www.eastmadisoncc.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1185277,
@@ -8577,6 +9248,8 @@
         }
       ],
       "website": "http://www.veracourt.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1362228,
@@ -8615,6 +9288,8 @@
         }
       ],
       "website": "http://www.accesscommunityhealthcenters.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.114542,
@@ -8643,6 +9318,8 @@
         }
       ],
       "website": "http://www.accesscommunityhealthcenters.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0420518,
@@ -8671,6 +9348,8 @@
         }
       ],
       "website": "http://www.accesscommunityhealthcenters.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.054839,
@@ -8699,6 +9378,10 @@
         }
       ],
       "website": "http://www.thefamilycenter.info",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0769667,
@@ -8718,7 +9401,7 @@
       "siteID": "1",
       "name": "Pro Labore Dei",
       "categories": "food",
-      "address": null,
+      "address": "2 E Main St",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -8727,10 +9410,12 @@
         }
       ],
       "website": "http://www.prolaboredei.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.067033,
-        "longitude": -89.398526
+        "latitude": 43.074691,
+        "longitude": -89.3841678
       },
       "services": [
         {
@@ -8755,6 +9440,8 @@
         }
       ],
       "website": "http://www.flcstoughton.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.91791750000001,
@@ -8783,6 +9470,8 @@
         }
       ],
       "website": "http://www.evangellifecenter.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0513853,
@@ -8811,6 +9500,8 @@
         }
       ],
       "website": "http://www.lgbtoutreach.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.07706779999999,
@@ -8844,6 +9535,8 @@
         }
       ],
       "website": "http://www.packerclc.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1277535,
@@ -8872,6 +9565,10 @@
         }
       ],
       "website": "http://www.centerforfamilies.org",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.10057390000001,
@@ -8900,6 +9597,10 @@
         }
       ],
       "website": "http://www.bgcdc.org",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0441087,
@@ -8928,6 +9629,8 @@
         }
       ],
       "website": "http://www.bgcdc.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0284421,
@@ -8961,6 +9664,8 @@
         }
       ],
       "website": "http://www.ywcamadison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0764718,
@@ -8989,6 +9694,8 @@
         }
       ],
       "website": "http://www.fumc.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0769248,
@@ -9027,10 +9734,14 @@
         }
       ],
       "website": "http://www.danecountyhumanservices.org/AAA",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.1279425,
-        "longitude": -89.36351560000001
+        "latitude": 43.1278774,
+        "longitude": -89.3635173
       },
       "services": [
         {
@@ -9060,6 +9771,8 @@
         }
       ],
       "website": "http://www.countyofdane.com/emergency/",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0719117,
@@ -9088,6 +9801,10 @@
         }
       ],
       "website": "http://www.fitchburgwi.gov",
+      "age": [
+        "S"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0023305,
@@ -9131,6 +9848,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1212487,
@@ -9159,6 +9878,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.075988,
@@ -9187,6 +9908,8 @@
         }
       ],
       "website": "http://www.pregnancyhelpline.net",
+      "age": null,
+      "gender": "F",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0460167,
@@ -9220,6 +9943,11 @@
         }
       ],
       "website": "http://www.trhome.org",
+      "age": [
+        "C",
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0529865,
@@ -9248,6 +9976,8 @@
         }
       ],
       "website": "http://www.veronaactiveadults.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9857516,
@@ -9291,6 +10021,8 @@
         }
       ],
       "website": "http://www.lukehousemadison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.082258,
@@ -9319,6 +10051,8 @@
         }
       ],
       "website": "http://www.stoughtonhospital.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.920811,
@@ -9348,11 +10082,6 @@
         {
           "__type": "Pointer",
           "className": "Service",
-          "objectId": "UWDC66020_1_96379"
-        },
-        {
-          "__type": "Pointer",
-          "className": "Service",
           "objectId": "UWDC66020_1_98888"
         }
       ]
@@ -9372,6 +10101,8 @@
         }
       ],
       "website": "http://www.access.wisconsin.gov/",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.1134374,
@@ -9405,6 +10136,8 @@
         }
       ],
       "website": "http://www.access.wisconsin.gov",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.918074,
@@ -9438,6 +10171,10 @@
         }
       ],
       "website": "http://www.mcpasd.k12.wi.us",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.094204,
@@ -9466,6 +10203,11 @@
         }
       ],
       "website": "http://www.abuseintervention.org",
+      "age": [
+        "C",
+        "A"
+      ],
+      "gender": "F",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0994219,
@@ -9494,6 +10236,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0959933,
@@ -9522,6 +10266,10 @@
         }
       ],
       "website": "http://www.medicineshoppe.com/0605",
+      "age": [
+        "C"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.07557790000001,
@@ -9550,6 +10298,8 @@
         }
       ],
       "website": "http://www.pepstoughton.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.9166159,
@@ -9578,6 +10328,8 @@
         }
       ],
       "website": "http://www.cityofmadison.com/residents/farmersMarket.cfm",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.079804,
@@ -9597,7 +10349,7 @@
       "siteID": "3",
       "name": "Northside Farmer's Market",
       "categories": "food",
-      "address": null,
+      "address": "2817 N. Sherman Ave",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -9606,10 +10358,12 @@
         }
       ],
       "website": "http://northsidefarmersmarket.org/",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.067033,
-        "longitude": -89.398526
+        "latitude": 43.1276386,
+        "longitude": -89.3628073
       },
       "services": [
         {
@@ -9625,7 +10379,7 @@
       "siteID": "4",
       "name": "Southside Farmer's Market",
       "categories": "food",
-      "address": null,
+      "address": "810 W. Badger Rd",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -9634,10 +10388,12 @@
         }
       ],
       "website": "http://www.southmadisonfarmersmarket.com/",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.067033,
-        "longitude": -89.398526
+        "latitude": 43.039158,
+        "longitude": -89.39536
       },
       "services": [
         {
@@ -9662,6 +10418,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0635268,
@@ -9690,6 +10448,8 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.046618,
@@ -9709,7 +10469,7 @@
       "siteID": "7",
       "name": "Westside Community Market",
       "categories": "food",
-      "address": null,
+      "address": "702 N Midvale Blvd",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -9718,10 +10478,12 @@
         }
       ],
       "website": "",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.067033,
-        "longitude": -89.398526
+        "latitude": 43.07334729999999,
+        "longitude": -89.4530332
       },
       "services": [
         {
@@ -9746,6 +10508,8 @@
         }
       ],
       "website": "http://micentro.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.039158,
@@ -9774,6 +10538,8 @@
         }
       ],
       "website": "http://www.fitchburglibrary.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0016397,
@@ -9802,6 +10568,8 @@
         }
       ],
       "website": "http://www.stcroixhospice.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.05421399999999,
@@ -9830,6 +10598,8 @@
         }
       ],
       "website": "http://www.mdidental.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0795459,
@@ -9849,7 +10619,7 @@
       "siteID": "1",
       "name": "Project Bubbles",
       "categories": "hygiene",
-      "address": "Affiliated Laundry",
+      "address": "701 E. Johnson Street",
       "city": "Madison",
       "phoneNumbers": [
         {
@@ -9858,10 +10628,12 @@
         }
       ],
       "website": "http://www.community-stewardship.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.0833196,
-        "longitude": -89.3724769
+        "latitude": 43.0819001,
+        "longitude": -89.3794853
       },
       "services": [
         {
@@ -9886,6 +10658,8 @@
         }
       ],
       "website": "http://www.cityofmadison.com/live-work/neighborhoods/farmers-markets",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.067033,
@@ -9914,6 +10688,8 @@
         }
       ],
       "website": "http://www.arborcovenant.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.03257500000001,
@@ -9942,10 +10718,14 @@
         }
       ],
       "website": "http://www.daneadrc.org",
+      "age": [
+        "A"
+      ],
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
-        "latitude": 43.1279425,
-        "longitude": -89.36351560000001
+        "latitude": 43.1278774,
+        "longitude": -89.3635173
       },
       "services": [
         {
@@ -9970,6 +10750,8 @@
         }
       ],
       "website": "http://www.resilientcities.org/",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0377051,
@@ -9998,6 +10780,8 @@
         }
       ],
       "website": "http://www.interimhealthcare.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.07434809999999,
@@ -10026,6 +10810,8 @@
         }
       ],
       "website": "http://www.nbacmadison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0891413,
@@ -10054,6 +10840,8 @@
         }
       ],
       "website": "http://cartforhelp.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0087693,
@@ -10087,6 +10875,8 @@
         }
       ],
       "website": "http://www.stoughtonunitedministries.com",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 42.92283800000001,
@@ -10115,6 +10905,8 @@
         }
       ],
       "website": "http://www.firstbaptistmadison.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.07315579999999,
@@ -10143,6 +10935,10 @@
         }
       ],
       "website": "http://www.sharethehealthwi.org/",
+      "age": [
+        "A"
+      ],
+      "gender": "F",
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.054462,
@@ -10171,6 +10967,8 @@
         }
       ],
       "website": "http://www.madisonshine.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0835322,
@@ -10199,6 +10997,8 @@
         }
       ],
       "website": "http://www.dryhootch.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0741404,
@@ -10227,6 +11027,8 @@
         }
       ],
       "website": "http://www.tenantresourcecenter.org",
+      "age": null,
+      "gender": null,
       "location": {
         "__type": "GeoPoint",
         "latitude": 43.0835322,
