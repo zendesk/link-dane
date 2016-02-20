@@ -1,5 +1,6 @@
 require 'csv'
 require 'json'
+require 'time'
 require 'byebug'
 
 
@@ -55,6 +56,7 @@ end
 
 def convert_hours(matched_hours)
   json_hours = {}
+  days, ranges = nil, nil
 
   matched_hours.each do |daytime_range|
     # Parse Weekday and Timerange lists
@@ -66,15 +68,15 @@ def convert_hours(matched_hours)
   end
 
 
-  puts days
-  puts ranges
+  puts days.inspect
+  puts ranges.inspect
 end
 
 def parse_timeranges(timeranges)
   ranges = []
   # Check if the matched timeranges is a List
   TIME_RANGE_LIST_R.match(timeranges) do |timerange_list|
-    timerange_list.split(/,/).each do |time_range|
+    timerange_list.to_s.split(/,/).each do |time_range|
       extract_timerange(time_range, ranges)
     end
     return ranges
@@ -84,6 +86,7 @@ def parse_timeranges(timeranges)
 end
 
 def extract_timerange(range, extracted)
+  start_time, end_time = nil, nil
   TIME_RANGE.match(range) do |timerange|
     start_time = convert_time(timerange['start_time'])
     end_time = convert_time(timerange['end_time'])
@@ -103,7 +106,7 @@ def parse_weekdays(weekdays)
   # Check if the matched weekdays is a List
   WEEKDAY_LIST_R.match(weekdays) do |list|
     # Extract weekdays from each range/day item
-    list.split(/,/).each do |daylist_item|
+    list.to_s.split(/,/).each do |daylist_item|
       extract_weekdays(daylist_item, days)
     end
     return days
@@ -126,7 +129,7 @@ def extract_weekdays(weekdays, extracted)
       day_range.each { |d| extracted << d }
       return extracted
     else
-      extracted << convert_weekday(day_match['weekday']
+      extracted << convert_weekday(day_match['weekday'])
     end
   end
 end
