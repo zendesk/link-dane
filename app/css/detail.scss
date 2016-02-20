@@ -156,41 +156,6 @@
     color: #777;
   }
 
-  .inset-directions {
-    margin-top: -1px;
-
-    cursor: pointer;
-
-    border-top: none;
-    border-radius: 0 0 6px 6px;
-
-    @include inset;
-
-    a {
-      font-weight: bold;
-    }
-    label {
-      cursor: pointer;
-    }
-    &:active {
-      background-color: #ddd;
-    }
-  }
-
-  .inset-services {
-    margin-top: 12px;
-
-    @include inset;
-    label {
-      line-height: 2;
-    }
-    p {
-      line-height: 1.5;
-
-      margin-bottom: 10px;
-    }
-  }
-
   .open-hours {
     font-size: 14px;
 
