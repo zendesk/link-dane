@@ -1234,17 +1234,17 @@ UWDC63477:
   '2':
     services:
     - '71007'
-    address: 600-702 Braxton Place
+    address: 2060 Atwood Ave
     city: Madison
     state: WI
-    zipCode: '53715'
+    zipCode: 
     Gender:
     - Everyone
     Ages:
     - Everyone
     location:
-    - 43.067033
-    - -89.398526
+    - 43.09243559999999
+    - -89.3532846
 UWDC63486:
   '1':
     services:
@@ -1743,7 +1743,7 @@ UWDC63845:
   '1':
     services:
     - '71314'
-    address: 2802 Walton Commons Lane
+    address: 2802 Walton Commons West
     city: Madison
     state: WI
     zipCode: '53718'
@@ -2542,8 +2542,8 @@ UWDC64026:
     Ages:
     - Everyone
     location:
-    - 43.0539845
-    - -89.5204303
+    - 43.053988
+    - -89.52043169999999
   '43':
     services:
     - '71529'
@@ -4556,17 +4556,17 @@ UWDC65790:
   '1':
     services:
     - '73276'
-    address: 600-702 Braxton Place
+    address: 2 E Main St
     city: Madison
     state: WI
-    zipCode: '53715'
+    zipCode: '53703'
     Gender:
     - Everyone
     Ages:
     - Everyone
     location:
-    - 43.067033
-    - -89.398526
+    - 43.074691
+    - -89.3841678
 UWDC65798:
   '1':
     services:
@@ -4729,8 +4729,8 @@ UWDC65887:
     - Seniors
     - Seniors
     location:
-    - 43.1279425
-    - -89.36351560000001
+    - 43.1278774
+    - -89.3635173
 UWDC65896:
   '1':
     services:
@@ -5030,31 +5030,31 @@ UWDC70829:
   '3':
     services:
     - '79824'
-    address: 600-702 Braxton Place
+    address: 2817 N. Sherman Ave
     city: Madison
     state: WI
-    zipCode: '53715'
+    zipCode: '53704'
     Gender:
     - Everyone
     Ages:
     - Everyone
     location:
-    - 43.067033
-    - -89.398526
+    - 43.1276386
+    - -89.3628073
   '4':
     services:
     - '79824'
-    address: 600-702 Braxton Place
+    address: 810 W. Badger Rd
     city: Madison
     state: WI
-    zipCode: '53715'
+    zipCode: '53713'
     Gender:
     - Everyone
     Ages:
     - Everyone
     location:
-    - 43.067033
-    - -89.398526
+    - 43.039158
+    - -89.39536
   '5':
     services:
     - '79824'
@@ -5086,17 +5086,17 @@ UWDC70829:
   '7':
     services:
     - '79824'
-    address: 600-702 Braxton Place
+    address: 702 N Midvale Blvd
     city: Madison
     state: WI
-    zipCode: '53715'
+    zipCode: '53705'
     Gender:
     - Everyone
     Ages:
     - Everyone
     location:
-    - 43.067033
-    - -89.398526
+    - 43.07334729999999
+    - -89.4530332
   '8':
     services:
     - '79824'
@@ -5160,7 +5160,7 @@ UWDC77681:
   '1':
     services:
     - '87884'
-    address: Affiliated Laundry
+    address: 701 E. Johnson Street
     city: Madison
     state: WI
     zipCode: '53703'
@@ -5169,8 +5169,8 @@ UWDC77681:
     Ages:
     - Everyone
     location:
-    - 43.0833196
-    - -89.3724769
+    - 43.0819001
+    - -89.3794853
 UWDC79109:
   '1':
     services:
@@ -5214,8 +5214,8 @@ UWDC80665:
     Ages:
     - Adults
     location:
-    - 43.1279425
-    - -89.36351560000001
+    - 43.1278774
+    - -89.3635173
 UWDC80931:
   '1':
     services:

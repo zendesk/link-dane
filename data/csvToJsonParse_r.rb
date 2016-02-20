@@ -101,6 +101,7 @@ def createFacilityHash()
       siteID.each do |k,v|
         # debug "#{v}"
         geoLat, geoLong = googleGeoCode(v['address'],v['city'],v['state'],v['zipCode']) if $options[:geocode] == :g
+        sleep 0.1.seconds
         geoLat, geoLong = mapBoxGeoCode(v['address'],v['city'],v['state'],v['zipCode']) if $options[:geocode] == :m
         v['location'] = Array.new()
         v['location'].push geoLat,geoLong
