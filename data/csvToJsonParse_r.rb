@@ -280,24 +280,25 @@ def parseService
     row["Parsed Program Hours"].nil? ? hours = row["Parsed Program Hours"] : hours = row["Parsed Program Hours"].strip
 
     if !hours.nil? and !hours.empty?
-      # puts "Row: #{$.}"
-      # puts hours.inspect
+      debug "Row: #{$.}"
+      debug hours.inspect
       hours = parse_hours(hours)
     elsif hours.nil? || hours.empty?
       hours = nil
     end
+    debug hours.inspect
 
-    if !hours.nil?
-      # puts hours.inspect
-      hours.each do |d,t|
-        hours[d].each do |t|
-          if t[1] == 2359 and t[0] == 2359
-            # puts [row['AgencyID'],row['SiteID'],row['ServiceID']].join('_')
-            # puts hours.inspect
-          end
-        end
-      end
-    end
+    # if !hours.nil?
+    #   # puts hours.inspect
+    #   hours.each do |d,t|
+    #     hours[d].each do |t|
+    #       if t[1] == 2359 and t[0] == 2359
+    #         puts [row['AgencyID'],row['SiteID'],row['ServiceID']].join('_')
+    #         puts hours.inspect
+    #       end
+    #     end
+    #   end
+    # end
 
     servicesJSON << {objectId: [row['AgencyID'],row['SiteID'],row['ServiceID']].join('_'),
                      agencyID: row['AgencyID'],
@@ -309,6 +310,7 @@ def parseService
                      notes: row['INTAKE PROCEDURE'],
                      eligibility: row['ELIGIBILITY'],
                      openHours: hours,
+                     openHoursNotes: row['Notes Program Hours'],
                      facility: {__type: "Pointer", className: "Facility", objectId: [row['AgencyID'],row['SiteID']].join('_')}}
   end
 
