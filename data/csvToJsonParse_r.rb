@@ -6,6 +6,7 @@ require 'rails'
 require 'geocoder'
 require 'net/http'
 require 'optparse'
+require_relative 'parseHours'
 
 PHONE_NUMBER = /(\(\d{3}\)[ -]\d{3}-\d{4})|(\(211\))/
 PHONE_NUM_DESC = /\(\D+\)/
@@ -35,7 +36,7 @@ begin
   raise OptionParser::MissingArgument if $options[:geocode].nil?
 
 rescue OptionParser::MissingArgument
-  puts "Incorrect argument for and option. Please check help"
+  puts "Incorrect argument for an option. Please check help"
   exit 1
 
 rescue OptionParser::ParseError
@@ -43,7 +44,7 @@ rescue OptionParser::ParseError
   exit 1
 
 else
-  Geocoder.configure(:mapbox => {:dataset => "mapbox.places-permanent", :api_key => "pk.eyJ1IjoiejNucGNoaGV0cmkiLCJhIjoiY2lrZzdtb3lhMDA1NHZwbHkzeGJzNng1bCJ9.HDiB75xbQ7MT8tQsiSaBwg"})
+  Geocoder.configure(:mapbox => {:timeout => 10, :dataset => "mapbox.places-permanent", :api_key => "pk.eyJ1IjoiejNucGNoaGV0cmkxIiwiYSI6ImNpa3RnaXFxMjAwNnN2Zm0zMG12OWNtM2oifQ.5PAfr7EbGkL_oDaKGmqhEQ"})
 end
 
 
@@ -73,6 +74,21 @@ def createFacilityHash()
     !row['City'].nil? ? site['city'] = row['City'] : site['city'] = "Madison"
     !row['Address 1'].nil? ? site['state'] = row['State'] : site['state'] = "WI"
     !row['Address 1'].nil? ? site['zipCode'] = row['ZIP Code'] : site['zipCode'] = "53715"
+
+    if site['Gender'].empty?
+      site['Gender'] = [row['Gender']]
+    elsif !site['Gender'].empty?
+      site['Gender'] << row['Gender']
+    end
+
+    ages = row['Ages'].split(", ")
+
+    if site['Ages'].empty?
+      site['Ages'] = ages
+    elsif !site['Ages'].empty?
+      site['Ages'].push(*ages)
+    end
+
   end
 
   debug "The siteHash without geocode: \n #{sitesHash}"
@@ -86,6 +102,7 @@ def createFacilityHash()
       siteID.each do |k,v|
         # debug "#{v}"
         geoLat, geoLong = googleGeoCode(v['address'],v['city'],v['state'],v['zipCode']) if $options[:geocode] == :g
+        sleep 0.05.seconds
         geoLat, geoLong = mapBoxGeoCode(v['address'],v['city'],v['state'],v['zipCode']) if $options[:geocode] == :m
         v['location'] = Array.new()
         v['location'].push geoLat,geoLong
@@ -176,12 +193,56 @@ def parseFacility(hash)
       else
         parsed_pc2_desc_trim = ""
       end
-      phoneNumbers = [[{info:parsed_pc2_desc_trim, number: parsed_pc2}]]
+      phoneNumbers = [{info:parsed_pc2_desc_trim, number: parsed_pc2}]
     else
       phoneNumbers = [{"info":"","number":""}]
     end
 
-    puts phoneNumbers
+    debug "phoneNumbers: #{phoneNumbers.inspect}"
+
+    if row["Web Site"].nil?
+      website = ""
+    elsif !row["Web Site"].nil?
+      website = row["Web Site"]
+      if !website.include? "http://"
+        website = ["http://",website].join.to_s
+      end
+    end
+
+    debug "Website: #{website.inspect}"
+
+    if site["Gender"].uniq.length == 2
+      gender = nil
+    elsif site["Gender"].include? "Everyone"
+      gender = nil
+    elsif site["Gender"].uniq.include? "Male"
+      gender = site["Gender"].uniq[0].chars.first
+    elsif site["Gender"].uniq.include? "Female"
+      gender = site["Gender"].uniq[0].chars.first
+    end
+
+    if site["Ages"].include? "Everyone"
+      ages  = nil
+    elsif !["Ages"].empty?
+      ages = []
+      ages_sort_order = ["C", "A", "S"]
+      age_uniq = site["Ages"].uniq
+      age_uniq.each do |a|
+        case a
+        when "Youth"
+          ages << "C"
+        when "Adults"
+          ages << "A"
+        when "Seniors"
+          ages << "S"
+        end
+      end
+      ages = ages.sort_by do |element|
+        ages_sort_order.index(element)
+      end
+    end
+
+    debug "Ages: #{ages.inspect}"
 
     location = {__type: "GeoPoint", latitude: site['location'][0], longitude: site['location'][1]}
 
@@ -193,7 +254,9 @@ def parseFacility(hash)
                        address: row['Address 1'],
                        city: row['City'],
                        phoneNumbers: phoneNumbers,
-                       website: !row["Web Site"].nil? ? row["Web Site"] : "",
+                       website: website,
+                       age: ages,
+                       gender: gender,
                        location: location,
                        services: services}
     # "address","age","categories","city","gender","name","notes","objectId","phoneNumbers","services","website"
@@ -212,6 +275,30 @@ def parseService
 
   CSV.foreach($options[:fileName], encoding: "ISO-8859-1", headers: true, return_headers: false) do |row|
 
+    #HOURS
+
+    row["Parsed Program Hours"].nil? ? hours = row["Parsed Program Hours"] : hours = row["Parsed Program Hours"].strip
+
+    if !hours.nil? and !hours.empty?
+      debug "Row: #{$.}"
+      debug hours.inspect
+      hours = parse_hours(hours)
+    elsif hours.nil? || hours.empty?
+      hours = nil
+    end
+    debug hours.inspect
+
+    # if !hours.nil?
+    #   # puts hours.inspect
+    #   hours.each do |d,t|
+    #     hours[d].each do |t|
+    #       if t[1] == 2359 and t[0] == 2359
+    #         puts [row['AgencyID'],row['SiteID'],row['ServiceID']].join('_')
+    #         puts hours.inspect
+    #       end
+    #     end
+    #   end
+    # end
 
     servicesJSON << {objectId: [row['AgencyID'],row['SiteID'],row['ServiceID']].join('_'),
                      agencyID: row['AgencyID'],
@@ -221,6 +308,9 @@ def parseService
                      category: row['Category'].downcase,
                      description: row['PROGRAM DESCRIPTION'],
                      notes: row['INTAKE PROCEDURE'],
+                     eligibility: row['ELIGIBILITY'],
+                     openHours: hours,
+                     openHoursNotes: row['Notes Program Hours'],
                      facility: {__type: "Pointer", className: "Facility", objectId: [row['AgencyID'],row['SiteID']].join('_')}}
   end
 
