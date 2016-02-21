@@ -25,25 +25,24 @@ DAYTIME_RANGE = /(?<weekday_list>#{WEEKDAY_LIST})[,:]?\s*(?<timerange_list>#{TIM
 FLAG = {missing: "NO_DATA", match: "", no_match: "NOT_PARSEABLE", twenty_four: "Confirm 24 hours"  }
 CONVERT_WEEKDAYS = {sunday: 0, monday: 1,tuesday: 2,wednesday: 3,thursday: 4,friday: 5,saturday: 6}
 
-def parse_csv_hours
-  filename = 'parse_help.csv'
-  parsed_hours = []
+# def parse_csv_hours
+#   filename = 'parse_help.csv'
+#   parsed_hours = []
 
-  # Load the original CSV file
-  rows = CSV.read(filename, headers: true, encoding: "ISO-8859-1", return_headers: false).collect do |row|
-    hash = row.to_hash
+#   # Load the original CSV file
+#   rows = CSV.read(filename, headers: true, encoding: "ISO-8859-1", return_headers: false).collect do |row|
+#     hash = row.to_hash
 
-    program_hours = hash["Parsed Program Hours"]
-    parsed_hours << parse_hours(program_hours)
-  end
+#     program_hours = hash["Parsed Program Hours"]
+#     parsed_hours << parse_hours(program_hours)
+#   end
 
-  puts parsed_hours.compact
+#   puts parsed_hours.compact
 
-end
+# end
 
 def parse_hours(hours)
   parsed = check_hours(hours)
-
   if parsed == :missing || parsed === :no_match
     nil
   elsif parsed == :twenty_four
@@ -68,11 +67,12 @@ def convert_hours(matched_hours)
     
     days = parse_weekdays(weekdays)
     ranges = parse_timeranges(timeranges)  
-  end
+  
 
-  days.each do |day|
-    json_hours[day.to_s] = []
-    ranges.each { |range| json_hours[day.to_s] << range }
+  	days.each do |day|
+   	 json_hours[day.to_s] = []
+   	 ranges.each { |range| json_hours[day.to_s] << range }
+  	end
   end
   # puts days.inspect
 # [0, 1, 2, 3, 4, 5, 6]
@@ -99,18 +99,18 @@ end
 def extract_timerange(range, extracted)
   start_time, end_time = nil, nil
   TIME_RANGE.match(range) do |timerange|
-    start_time = convert_time(timerange['start_time'])
-    end_time = convert_time(timerange['end_time'])
+    start_time = convert_time('s', timerange['start_time'])
+    end_time = convert_time('e', timerange['end_time'])
   end
 
   extracted << [start_time, end_time]
 end
 
-def convert_time(time_string)
+def convert_time(end_point, time_string)
   time = Time.parse(time_string)
   time_int = time.to_s.match(/\d?\d:\d\d(?=:\d\d)/).to_s.sub(':',"").to_i
   # attempt to handle edge case of 12:00am but doesn't work due to their being an existing record that goes from 12:00am-11:59pm which goes to [2359,2359] which is not allowed
-  time_int = 2359 if time_int == 0 
+  time_int = 2359 if time_int == 0 and end_point == 'e'
   return time_int
 end
 
@@ -177,7 +177,7 @@ def is_24hours?(hours)
 end
 
 def json_24hours
-  {"0" => [[000,2359]], "1" => [[000,2359]], "2" => [[000,2359]], "3" => [[000,2359]], "4" => [[000,2359]], "5" => [[000,2359]], "6" => [[000,2359]]}.to_json
+  {"0" => [[000,2359]], "1" => [[000,2359]], "2" => [[000,2359]], "3" => [[000,2359]], "4" => [[000,2359]], "5" => [[000,2359]], "6" => [[000,2359]]}
 end
 
 def parseable?(hours)
@@ -272,5 +272,5 @@ def mark_unparseable_hours(*args)
         
 end
 
-parse_csv_hours
+# parse_csv_hours
 # mark_unparseable_hours
