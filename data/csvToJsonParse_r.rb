@@ -6,6 +6,7 @@ require 'rails'
 require 'geocoder'
 require 'net/http'
 require 'optparse'
+require_relative 'parseHours'
 
 PHONE_NUMBER = /(\(\d{3}\)[ -]\d{3}-\d{4})|(\(211\))/
 PHONE_NUM_DESC = /\(\D+\)/
@@ -35,7 +36,7 @@ begin
   raise OptionParser::MissingArgument if $options[:geocode].nil?
 
 rescue OptionParser::MissingArgument
-  puts "Incorrect argument for and option. Please check help"
+  puts "Incorrect argument for an option. Please check help"
   exit 1
 
 rescue OptionParser::ParseError
@@ -101,7 +102,7 @@ def createFacilityHash()
       siteID.each do |k,v|
         # debug "#{v}"
         geoLat, geoLong = googleGeoCode(v['address'],v['city'],v['state'],v['zipCode']) if $options[:geocode] == :g
-        sleep 0.1.seconds
+        sleep 0.05.seconds
         geoLat, geoLong = mapBoxGeoCode(v['address'],v['city'],v['state'],v['zipCode']) if $options[:geocode] == :m
         v['location'] = Array.new()
         v['location'].push geoLat,geoLong
@@ -274,6 +275,29 @@ def parseService
 
   CSV.foreach($options[:fileName], encoding: "ISO-8859-1", headers: true, return_headers: false) do |row|
 
+    #HOURS
+
+    row["Parsed Program Hours"].nil? ? hours = row["Parsed Program Hours"] : hours = row["Parsed Program Hours"].strip
+
+    if !hours.nil? and !hours.empty?
+      # puts "Row: #{$.}"
+      # puts hours.inspect
+      hours = parse_hours(hours)
+    elsif hours.nil? || hours.empty?
+      hours = nil
+    end
+
+    if !hours.nil?
+      # puts hours.inspect
+      hours.each do |d,t|
+        hours[d].each do |t|
+          if t[1] == 2359 and t[0] == 2359
+            # puts [row['AgencyID'],row['SiteID'],row['ServiceID']].join('_')
+            # puts hours.inspect
+          end
+        end
+      end
+    end
 
     servicesJSON << {objectId: [row['AgencyID'],row['SiteID'],row['ServiceID']].join('_'),
                      agencyID: row['AgencyID'],
@@ -284,6 +308,7 @@ def parseService
                      description: row['PROGRAM DESCRIPTION'],
                      notes: row['INTAKE PROCEDURE'],
                      eligibility: row['ELIGIBILITY'],
+                     openHours: hours,
                      facility: {__type: "Pointer", className: "Facility", objectId: [row['AgencyID'],row['SiteID']].join('_')}}
   end
 
