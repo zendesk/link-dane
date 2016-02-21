@@ -67,11 +67,12 @@ def convert_hours(matched_hours)
     
     days = parse_weekdays(weekdays)
     ranges = parse_timeranges(timeranges)  
-  end
+  
 
-  days.each do |day|
-    json_hours[day.to_s] = []
-    ranges.each { |range| json_hours[day.to_s] << range }
+  	days.each do |day|
+   	 json_hours[day.to_s] = []
+   	 ranges.each { |range| json_hours[day.to_s] << range }
+  	end
   end
   # puts days.inspect
 # [0, 1, 2, 3, 4, 5, 6]
