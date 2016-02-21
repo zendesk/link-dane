@@ -18401,38 +18401,7 @@
       "description": "Senior nutrition site for older adults Monday-Friday 11:45am. Will also deliver to homebound individuals after an assessment is done. Reservations need to be made by noon the preceding day for meal site and home-delivered meals.",
       "notes": "Congregate Meals: Call for reservation by noon on the day before\r\rHome Delivered Meals: Call for assessment",
       "eligibility": "Congregate Meals: open to Dane County adults\r\rHome Delivered Meals: open to residents of Verona",
-      "openHours": {
-        "1": [
-          [
-            1145,
-            2359
-          ]
-        ],
-        "2": [
-          [
-            1145,
-            2359
-          ]
-        ],
-        "3": [
-          [
-            1145,
-            2359
-          ]
-        ],
-        "4": [
-          [
-            1145,
-            2359
-          ]
-        ],
-        "5": [
-          [
-            1145,
-            2359
-          ]
-        ]
-      },
+      "openHours": null,
       "openHoursNotes": null,
       "facility": {
         "__type": "Pointer",
