@@ -98,18 +98,18 @@ end
 def extract_timerange(range, extracted)
   start_time, end_time = nil, nil
   TIME_RANGE.match(range) do |timerange|
-    start_time = convert_time(timerange['start_time'])
-    end_time = convert_time(timerange['end_time'])
+    start_time = convert_time('s', timerange['start_time'])
+    end_time = convert_time('e', timerange['end_time'])
   end
 
   extracted << [start_time, end_time]
 end
 
-def convert_time(time_string)
+def convert_time(end_point, time_string)
   time = Time.parse(time_string)
   time_int = time.to_s.match(/\d?\d:\d\d(?=:\d\d)/).to_s.sub(':',"").to_i
   # attempt to handle edge case of 12:00am but doesn't work due to their being an existing record that goes from 12:00am-11:59pm which goes to [2359,2359] which is not allowed
-  time_int = 2359 if time_int == 0 
+  time_int = 2359 if time_int == 0 and end_point == 'e'
   return time_int
 end
 
