@@ -23,6 +23,13 @@
   background: rgba(210, 121, 27, 0.11);
 }
 
+.openHoursNotes {
+  @extend .notes;
+  margin-top: 4px;
+  background: rgba(223, 56, 44, 0.11);
+  color: #DF382C;
+}
+
 .facility-name {
   font-size: 24px;
 
