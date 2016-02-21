@@ -233,6 +233,8 @@ li {
     width: 80%;
     height: 60px;
 
+    overflow: hidden;
+
     h1 {
       font-size: 20px;
       font-weight: 400;
@@ -297,6 +299,8 @@ li {
 
     color: inherit;
 
+    overflow: hidden;
+
     label {
       font-weight: 600;
 
@@ -333,6 +337,8 @@ li {
   text-transform: uppercase;
 
   color: $blue;
+
+  cursor: pointer;
 }
 
 .cpr-icon {

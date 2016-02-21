@@ -46,11 +46,19 @@
     <hr>
 
     {{#each phoneNumbers}}
+    {{#if number}}
       <a href="tel:{{number}}" class="action">
         <i class="icon-phone"></i>
         {{number}}
         <label>Call now</label>
       </a>
+    {{else}}
+      <a href="tel:211" class="action">
+        <i class="icon-phone"></i>
+        211
+        <label>Call now</label>
+      </a>
+    {{/if}}
     {{/each}}
 
     {{#if website}}
