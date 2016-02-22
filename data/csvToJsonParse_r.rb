@@ -275,6 +275,15 @@ def parseService
 
   CSV.foreach($options[:fileName], encoding: "ISO-8859-1", headers: true, return_headers: false) do |row|
 
+    if !row['Program Name'].nil?
+      name = row['Program Name']
+      name = name.titleize if name == name.upcase
+    else
+      name = row['Service Group Name'].titleize
+    end
+
+    debug "Service: #{name}"
+
     #HOURS
 
     row["Parsed Program Hours"].nil? ? hours = row["Parsed Program Hours"] : hours = row["Parsed Program Hours"].strip
@@ -304,7 +313,7 @@ def parseService
                      agencyID: row['AgencyID'],
                      siteID: row['SiteID'],
                      serviceID: row['ServiceID'],
-                     name: (row['Service Group Name']).titleize,
+                     name: name,
                      category: row['Category'].downcase,
                      description: row['PROGRAM DESCRIPTION'],
                      notes: row['INTAKE PROCEDURE'],
