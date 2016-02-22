@@ -74,8 +74,27 @@
     <div class="card">
       <h1>{{name}}</h1>
       <p>{{description}}</p>
-      <hr>
-      {{> openHours}}
+      {{#if condensedHours}}
+        <hr>
+        <strong><label>Hours:</label></strong>
+        <br><br>
+        {{> openHours}}
+        {{#if openHoursNotes}}
+          <div class="openHoursNotes">
+            <i class="icon-attention"></i>
+            <strong><label>Hours Notes:</label></strong>
+            <p>{{openHoursNotes}}</p>
+          </div>
+        {{/if}}
+      {{else}}
+          <hr>
+          <strong><label>Hours:</label></strong>
+        {{#if openHoursNotes}}
+          <p>{{openHoursNotes}}</p>
+        {{else}}
+          <p>Call for info, hours and appointments</p>
+        {{/if}}
+      {{/if}}
       {{#if notes}}
       <hr>
         <div class="notes">
