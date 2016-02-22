@@ -2581,36 +2581,6 @@
       ]
     },
     {
-      "objectId": "UWDC63477_2",
-      "agencyID": "UWDC63477",
-      "siteID": "2",
-      "name": "United Way Of Dane County",
-      "categories": "technology",
-      "address": "2060 Atwood Ave",
-      "city": "Madison",
-      "phoneNumbers": [
-        {
-          "info": "Main",
-          "number": "(211)"
-        }
-      ],
-      "website": "http://www.unitedwaydanecounty.org/2-1-1",
-      "age": null,
-      "gender": null,
-      "location": {
-        "__type": "GeoPoint",
-        "latitude": 43.09243559999999,
-        "longitude": -89.3532846
-      },
-      "services": [
-        {
-          "__type": "Pointer",
-          "className": "Service",
-          "objectId": "UWDC63477_2_71007"
-        }
-      ]
-    },
-    {
       "objectId": "UWDC63486_1",
       "agencyID": "UWDC63486",
       "siteID": "1",

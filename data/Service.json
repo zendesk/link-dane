@@ -4743,67 +4743,6 @@
       }
     },
     {
-      "objectId": "UWDC63477_2_71007",
-      "agencyID": "UWDC63477",
-      "siteID": "2",
-      "serviceID": "71007",
-      "name": "United Way 2-1-1",
-      "category": "technology",
-      "description": "Provides comprehensive information and referral services.",
-      "notes": "Call for information",
-      "eligibility": "General public",
-      "openHours": {
-        "0": [
-          [
-            0,
-            2359
-          ]
-        ],
-        "1": [
-          [
-            0,
-            2359
-          ]
-        ],
-        "2": [
-          [
-            0,
-            2359
-          ]
-        ],
-        "3": [
-          [
-            0,
-            2359
-          ]
-        ],
-        "4": [
-          [
-            0,
-            2359
-          ]
-        ],
-        "5": [
-          [
-            0,
-            2359
-          ]
-        ],
-        "6": [
-          [
-            0,
-            2359
-          ]
-        ]
-      },
-      "openHoursNotes": null,
-      "facility": {
-        "__type": "Pointer",
-        "className": "Facility",
-        "objectId": "UWDC63477_2"
-      }
-    },
-    {
       "objectId": "UWDC63486_1_71035",
       "agencyID": "UWDC63486",
       "siteID": "1",
@@ -15101,9 +15040,9 @@
       "agencyID": "UWDC65615",
       "siteID": "2",
       "serviceID": "73122",
-      "name": "Grace Men's Drop-In Shelter",
+      "name": "Men's Drop-In Shelter",
       "category": "shelter",
-      "description": "Drop-in temporary overnight emergency shelter offering two hot meals (breakfast and dinner) per day, personal grooming supplies, showers, laundry facilities, and outreach services for up to 135 single men. Intake is held at Grace Episcopal Church from 7:30pm-10:30pm during summer hours (April 1-October 31) and 5:00pm-9:00pm during winter hours (November 1-March 31). If necessary overflow shelters are opened at St John's Lutheran Church and First United Methodist Church, all three of which are located in downtown Madison. People must leave for the day with all of their belongings by 8:00am. Men are eligible for a total of 60 days per year. Outreach services are available at the Men's Drop-In Shelter to assist participants in obtaining housing and connecting them with mental health and AODA services in the community.",
+      "description": "Drop-in temporary overnight emergency shelter offering two hot meals (breakfast and dinner) per day, personal grooming supplies, showers, laundry facilities, and outreach services for up to 135 single men. Intake is held at Grace Episcopal Church from 7:30pm-10:30pm during summer hours (April 1-October 31) and 5:00pm-9:00pm during winter hours (November 1-March 31). If necessary overflow shelters are opened at St John's Lutheran Church and First United Methodist Church, all three of which are located in downtown Madison. People must leave for the day with all of their belongings by 8:00am. Men are eligible for a total of 90 days per year. Outreach services are available at the Men's Drop-In Shelter to assist participants in obtaining housing and connecting them with mental health and AODA services in the community.",
       "notes": "Walk-in: call ahead and leave a message only if expecting arrival later than intake hours.",
       "eligibility": "Homeless men",
       "openHours": {
@@ -15322,7 +15261,7 @@
       "category": "shelter",
       "description": "24-hour shelter for the mentally ill, sleeps up to 14 men and women total, offers meals and a variety of services to 20-25 people on a drop-in basis during the day. Once participants become stabilized, social workers assist in transferring them to other appropriate programs and services. Also, provides an average of six months of follow-up services to Safe Haven guests who have gone on to live independently, including money management and budgeting, housekeeping skills, assistance with supervision of medication and doctor appointments, acting as a landlord liaison and nutritional counseling.",
       "notes": "Call for info",
-      "eligibility": "Chronically mentally ill homeless men and women",
+      "eligibility": "For adults who have a documented Axis 1 mental illness and are homeless",
       "openHours": {
         "0": [
           [
@@ -15367,7 +15306,7 @@
           ]
         ]
       },
-      "openHoursNotes": null,
+      "openHoursNotes": "Everyday 7:30am to 8pm for drop-in guests.",
       "facility": {
         "__type": "Pointer",
         "className": "Facility",
