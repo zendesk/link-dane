@@ -17,10 +17,10 @@ function fail(str) {
 }
 
 var parseTime = function parseTime(str) {
-  var match, hour, min;
+  var match, hour, min, pm;
 
-  match = str.match(/^([0-1]?[0-9]|2[0-3])(:[0-5][0-9])?$/);
-  if(!match || !match[1]) {
+  match = str.match(/^(\d\d?)(:\d\d)?\s*((?:A|P)M)$/i);
+  if(!match || !match[1] || !match[3]) {
     fail(str);
   }
 
@@ -30,6 +30,16 @@ var parseTime = function parseTime(str) {
     min = parseInt(match[2].replace(":",""), 10);
   } else {
     min = 0;
+  }
+
+  pm = !!match[3].match(/PM/i);
+
+  if(pm && hour !== 12) {
+    return [(hour + 12), min];
+  }
+
+  if(!pm && hour == 12) {
+    return [0, min];
   }
 
   return [hour, min];
@@ -51,6 +61,19 @@ var is24HourString = function(timeString) {
   return timeString.match(/^24\s*(hr|hour|hours)/i);
 };
 
+/* Input format:
+
+ {
+   "Mon": "9:00AM-5:00PM",
+   "Tue": "9:00AM-11:00AM,1:00PM-5:00PM",
+   "Wed": "9:00AM-5:00PM",
+   "Thu": "9:00AM-5:00PM",
+   "Fri": "9:00AM-5:00PM",
+   "Sat": "9:00AM-11:00AM",
+   "Sun": "9:00AM-11:00AM"
+ }
+
+*/
 
 var Hours = function Hours(hours){
   var processed = {};
@@ -79,25 +102,20 @@ Hours.prototype.parseDay = function(str) {
   intervals = str.split(',');
 
   for(var idx = 0; idx < intervals.length; idx++) {
-    if ( is24HourString(intervals[idx].replace(/ /g,'')) ) {
+    if ( is24HourString(intervals[idx].trim()) ) {
       result.push([0,2359]);
     } else {
-      // remove all whitespaces
-      interval = intervals[idx].replace(/ /g,'');
-      interval = interval.split(/\s?-\s?/);
-
+      interval = intervals[idx].trim().split(/\s?-\s?/);
       if(!interval[1]) { fail(str); }
 
       times = [ timeStringToOffset(interval[0]),
                 timeStringToOffset(interval[1]) ];
 
-      if(times[0] >= 2400 || times[1] >= 2400) { fail(str); }
+      if(times[0] > 2400 || times[1] > 2400) { fail(str); }
 
       if(times[0] === times[1] && times[0] !== 0) { fail(str); }
 
       if(times[0] >= times[1] && times[1] !== 0) { fail(str); }
-
-      if(times[0] >= 0 && times[1] === 0) { fail(str); }
 
       result.push(times);
     }
@@ -214,19 +232,27 @@ function humanizeInterval(intervals) {
 
     var pm, hour, min;
 
+    pm = time >= 1200;
     hour = Math.floor(time / 100);
     min = time % 100;
 
-    if(hour < 10) {
-      hour = "0" + hour;
+    if(hour > 12) {
+      hour = hour - 12;
+    }
+
+    if(hour === 0) {
+      hour = 12;
     }
 
     if(min < 10) {
       min = "0" + min;
     }
 
-    return [hour, ":", min].join("");
-
+    if ( min === "00" ) {
+      return hour + (pm ? "pm" : "am");
+    } else {
+      return [hour, ":", min, pm ? "pm" : "am"].join("");
+    }
   }).join(" - ");
 }
 
