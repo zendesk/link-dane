@@ -157,6 +157,7 @@ var Router = Backbone.Router.extend({
     var AboutView = require('../views/about_view');
     this.aboutView = this.aboutView || new AboutView();
     applicationController.render(this.aboutView);
+    $(document).scrollTop(0);
   },
 
   feedback: function() {
@@ -169,6 +170,7 @@ var Router = Backbone.Router.extend({
     var TermsView = require('../views/terms_view');
     this.termsView = this.termsView || new TermsView();
     applicationController.render(this.termsView);
+    $(document).scrollTop(0);
   },
 
   _getFacility: function(id, done) {

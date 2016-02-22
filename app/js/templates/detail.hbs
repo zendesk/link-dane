@@ -74,6 +74,13 @@
     <div class="card">
       <h1>{{name}}</h1>
       <p>{{description}}</p>
+      {{#if eligibility}}
+      <hr>
+        <div class="eligibility">
+          <strong><label>Eligibility:</label></strong>
+         <p>{{eligibility}}</p>
+        </div>
+      {{/if}}
       {{#if condensedHours}}
         <hr>
         <strong><label>Hours:</label></strong>
@@ -100,13 +107,6 @@
         <div class="notes">
           <strong><label>Notes:</label></strong>
          <p>{{notes}}</p>
-        </div>
-      {{/if}}
-      {{#if eligibility}}
-      <hr>
-        <div class="eligibility">
-          <strong><label>Eligibility:</label></strong>
-         <p>{{eligibility}}</p>
         </div>
       {{/if}}
     </div>

@@ -4,6 +4,10 @@
 }
 
 .facility-list {
+  font-size: 14px;
+  line-height: 16px;
+
+  margin-top: 0px;
   .not-found {
     margin: 20px 10px;
   }
@@ -119,7 +123,6 @@
   padding: 10px 4px;
 
   color: #929292;
-  border-bottom: 1px solid #dcdcdc;
 
   > .open {
     display: none;
@@ -151,6 +154,7 @@
     width: 32%;
     label {
       display: block;
+      padding: 5px 0px;
     }
   }
   .second.filter-option {
