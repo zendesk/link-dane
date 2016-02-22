@@ -92,12 +92,6 @@ var EditView = Backbone.View.extend({
       [ { hours: hours.serialize() } ]
     );
     var preview = mergedHours.humanizeCondensed({shortDayNames: true});
-
-    // Make "Sunday" the last day of the week
-    if (preview[0].day === "Sun") {
-      preview.push(preview.shift());
-    }
-
     var template = require('../../../shared/js/templates/_open_hours.hbs');
     var html = template({ condensedHours: preview });
 
@@ -174,7 +168,7 @@ var EditView = Backbone.View.extend({
   },
 
   setupServiceElements: function(container) {
-    $(container).find("input.day").first().attr("placeholder", "e.g.: 9:30 - 15:00, 18:00 - 20:00");
+    $(container).find("input.day").first().attr("placeholder", "example: 9am-3pm, 6pm-8pm");
     $(container).find("input.day").blur(function(ev) {
       this.parseHourElement(new Hours(), ev.target, { validate: true });
       return true;
@@ -332,7 +326,6 @@ var EditView = Backbone.View.extend({
       formValues.website = "http://" + formValues.website;
     }
     formValues.age = this.serializeAges();
-    formValues.required_id = formValues.required_id === 'true';
 
     var services = _.clone(formValues.services);
 
@@ -352,13 +345,6 @@ var EditView = Backbone.View.extend({
     var templateData = this.model.presentJSON();
 
     templateData.services.forEach(function(service) {
-
-      // Make "Sunday" the last day of the week
-      Hours.DAY_NAMES.push(Hours.DAY_NAMES.shift());
-      if (service.condensedHours[0] && service.condensedHours[0].day === "Sun") {
-        service.condensedHours.push(service.condensedHours.shift());
-      }
-
       service.days = Hours.DAY_NAMES.map(function(day, index) {
         return {short: day.short, long: day.long, hours: service.openHours[index].hours};
       });
