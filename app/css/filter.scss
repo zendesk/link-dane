@@ -1,4 +1,7 @@
 #filter {
+
+  margin-top: $navbar-height;
+
   button {
     @include white-button;
   }
