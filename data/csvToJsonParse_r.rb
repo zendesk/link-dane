@@ -10,7 +10,22 @@ require_relative 'parseHours'
 
 PHONE_NUMBER = /(\(\d{3}\)[ -]\d{3}-\d{4})|(\(211\))/
 PHONE_NUM_DESC = /\(\D+\)/
-
+A = /\AA\z/i
+OF = /\AOF\z/i
+TO = /\ATO\z/i
+AND = /\AAND\z/i
+THE = /\ATHE\z/i
+DE = /\ADE\z/i
+HYPHEN = /-/i
+A_HYPHEN = /\A-\z/i
+YMCA = /^YMCA/i
+UW = /^UW/i
+JFF = /^JFF/i
+WI = /\AWI\z/i
+ABRV = /((#{UW})|(#{YMCA})|(#{JFF})|(#{WI}))/
+CONJ = /(#{A})|(#{OF})|(#{TO})|(#{AND})|(#{THE})|(#{DE})|(#{HYPHEN})|(#{A_HYPHEN})/
+WORD_RANGE = /(#{ABRV})|(#{CONJ})/
+INT_WORD_RANGE = /(#{ABRV})|(\sA\s)|(\sOF\s)|(\sTO\s)|(\sAND\s)|(\sTHE\s)|(\sDE\s)|(#{HYPHEN})/
 begin
 
   ARGV << '-h' if ARGV.empty?
@@ -180,6 +195,35 @@ def parseFacility(hash)
       services << {__type: "Pointer", className: "Service", objectId: [row['AgencyID'],row['SiteID'],serviceID].join('_')}
     end
 
+    if row['Name'].match(INT_WORD_RANGE)
+      dirtyName = row['Name']
+      cleanName = dirtyName.split.each_with_index.map do |word,index|
+        case
+        when word.match(A_HYPHEN)
+          word
+        when word.match(HYPHEN)
+          word.titleize.gsub(' ', '-') if word.length > 1
+        when word.match(THE)
+          if index == 0
+            word.titleize
+          else
+            word.downcase
+          end
+        when word.match(ABRV)
+          word
+        when !word.match(WORD_RANGE)
+          word.titleize
+        when word.match(WORD_RANGE)
+          word.downcase
+        end
+      end.join(" ")
+      name = cleanName
+    else
+      name = row['Name'].titleize
+    end
+
+    debug "FacilityName: #{name}"
+
     if row['Program Contact 2'].nil? and row['Contact 1 Phone']
       parsed_c1p = row['Contact 1 Phone'].match(PHONE_NUMBER)[0].to_s.strip
       phoneNumbers = [{info:"", number: parsed_c1p}]
@@ -249,7 +293,7 @@ def parseFacility(hash)
     facilitiesJSON << {objectId: [row['AgencyID'],row['SiteID']].join('_'),
                        agencyID: row['AgencyID'],
                        siteID: row['SiteID'],
-                       name: (row['Name']).titleize,
+                       name: name,
                        categories: row['Category'].downcase,
                        address: row['Address 1'],
                        city: row['City'],
@@ -274,6 +318,15 @@ def parseService
   servicesJSON =[]
 
   CSV.foreach($options[:fileName], encoding: "ISO-8859-1", headers: true, return_headers: false) do |row|
+
+    if !row['Program Name'].nil?
+      name = row['Program Name']
+      name = name.titleize if name == name.upcase
+    else
+      name = row['Service Group Name'].titleize
+    end
+
+    debug "Service: #{name}"
 
     #HOURS
 
@@ -304,7 +357,7 @@ def parseService
                      agencyID: row['AgencyID'],
                      siteID: row['SiteID'],
                      serviceID: row['ServiceID'],
-                     name: (row['Service Group Name']).titleize,
+                     name: name,
                      category: row['Category'].downcase,
                      description: row['PROGRAM DESCRIPTION'],
                      notes: row['INTAKE PROCEDURE'],
