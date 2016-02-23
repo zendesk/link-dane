@@ -1,0 +1,29 @@
+115	UWDC63688	1	71188	Monday-Friday 8:30am-4:30pm
+261	UWDC64619	1	71996	"Monday-Thursday 9:00am-9:00pm Friday 9:00am-5:00pm Saturday 9:00am-4:00pm Sunday Closed
+305	UWDC65423	1	72865	Sunday - Saturday 5:00pm-23:59pm, 00:00am-08:00am
+307	UWDC65423	1	72867	Sunday - Saturday 5:00pm-23:59pm, 00:00am-08:00am
+360	UWDC65615	2	73122	Monday - Sunday 5:00pm-23:59pm, 00:00am-08-00am
+424	UWDC65882	1	73374	Sunday - Saturday 5:00pm-23:59pm, 00:00am-08:00am
+
+467	UWDC75380 	1 	85063	"Monday - Sunday 12:00am - 11:59pm"
+
+
+Time range not correclty detected for:
+
+360	UWDC65615	2	73122	Monday - Sunday 5:00pm-23:59pm, 00:00am-08-00am
+
+Time range was: 5:00pm-23:59pm (missing the other half)
+
+
+262 UWDC64643	1	72009	Monday-Thursday 9:00am-9:00pm; Friday 9:00am-5:00pm; Saturday 10:00am-5:00pm
+2	UWDC62857	1	70221	Tuesday-Thursday 1:00pm-3:00pm; Saturday 10:00am-12:00pm
+
+
+107	UWDC63452	1	70989	FOOD	Monday- Friday 11:30am
+nil
+
+194	UWDC64012	1	71515	FOOD	Monday-Friday 12:00pm
+nil
+
+431	UWDC65910	1	73430	FOOD	Monday-Friday at 12:00pm
+nil
