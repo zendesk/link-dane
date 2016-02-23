@@ -14,7 +14,7 @@ Documentation is available under `docs` for offline viewing or via links below:
 * [Adding an admin user in Parse](https://github.com/zendesk/link-dane/blob/master/docs/ADD_USER.md)
 * [Managing facilities and services](https://github.com/zendesk/link-dane/blob/master/docs/MANAGE.md)
 
-Link-Dane is an ongoing collaboration between [Bespoke](http://www.bespokecph.com/) and [Zendesk](http://www.zendesk.com/).
+Link-Dane is an ongoing collaboration between [United Way of Dane County](https://www.unitedwaydanecounty.org/) and [Zendesk](http://www.zendesk.com/).
 
 ### History
 
