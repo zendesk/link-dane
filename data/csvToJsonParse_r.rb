@@ -19,10 +19,11 @@ DE = /\ADE\z/i
 HYPHEN = /-/i
 A_HYPHEN = /\A-\z/i
 YMCA = /^YMCA/i
+YWCA = /^YWCA/i
 UW = /^UW/i
 JFF = /^JFF/i
 WI = /\AWI\z/i
-ABRV = /((#{UW})|(#{YMCA})|(#{JFF})|(#{WI}))/
+ABRV = /((#{UW})|(#{YMCA})|(#{JFF})|(#{WI})|(#{YWCA}))/
 CONJ = /(#{A})|(#{OF})|(#{TO})|(#{AND})|(#{THE})|(#{DE})|(#{HYPHEN})|(#{A_HYPHEN})/
 WORD_RANGE = /(#{ABRV})|(#{CONJ})/
 INT_WORD_RANGE = /(#{ABRV})|(\sA\s)|(\sOF\s)|(\sTO\s)|(\sAND\s)|(\sTHE\s)|(\sDE\s)|(#{HYPHEN})/
@@ -192,7 +193,7 @@ def parseFacility(hash)
 
     site['services'].each do |serviceID|
       debug [row['AgencyID'],row['SiteID'],serviceID].join('_')
-      services << {__type: "Pointer", className: "Service", objectId: [row['AgencyID'],row['SiteID'],serviceID].join('_')}
+      services << {__type: "Pointer", className: "Service", objectId: [row['AgencyID'],row['SiteID'],serviceID].join('s')}
     end
 
     if row['Name'].match(INT_WORD_RANGE)
@@ -290,7 +291,7 @@ def parseFacility(hash)
 
     location = {__type: "GeoPoint", latitude: site['location'][0], longitude: site['location'][1]}
 
-    facilitiesJSON << {objectId: [row['AgencyID'],row['SiteID']].join('_'),
+    facilitiesJSON << {objectId: [row['AgencyID'],row['SiteID']].join('s'),
                        agencyID: row['AgencyID'],
                        siteID: row['SiteID'],
                        name: name,
@@ -353,7 +354,7 @@ def parseService
     #   end
     # end
 
-    servicesJSON << {objectId: [row['AgencyID'],row['SiteID'],row['ServiceID']].join('_'),
+    servicesJSON << {objectId: [row['AgencyID'],row['SiteID'],row['ServiceID']].join('s'),
                      agencyID: row['AgencyID'],
                      siteID: row['SiteID'],
                      serviceID: row['ServiceID'],
@@ -364,7 +365,7 @@ def parseService
                      eligibility: row['ELIGIBILITY'],
                      openHours: hours,
                      openHoursNotes: row['Notes Program Hours'],
-                     facility: {__type: "Pointer", className: "Facility", objectId: [row['AgencyID'],row['SiteID']].join('_')}}
+                     facility: {__type: "Pointer", className: "Facility", objectId: [row['AgencyID'],row['SiteID']].join('s')}}
   end
 
   # {"category", "description", "facility": {"__type": "Pointer", "className": "Facility", "objectId": "poopeiasdlfadjf"}, "intake": "", "name", "notes", "objectId", "openHours": {"1": [[900, 1700 ] ], "2": [[900, 1700 ] ], "3": [[900, 1700 ] ], "4": [[900, 1700 ] ], "5": [[900, 1700 ] ]}}
