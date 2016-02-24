@@ -78,6 +78,11 @@
   color: #fff;
   background-color: #52000a;
 }
+
+#removeService {
+  @extend #delete_facility
+}
+
 .clear {
   clear: both;
 }
