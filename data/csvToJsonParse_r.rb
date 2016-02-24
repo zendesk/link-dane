@@ -15,6 +15,8 @@ OF = /\AOF\z/i
 TO = /\ATO\z/i
 AND = /\AAND\z/i
 THE = /\ATHE\z/i
+FOR = /\AFOR\z/i
+ON = /\AON\z/i
 DE = /\ADE\z/i
 HYPHEN = /-/i
 A_HYPHEN = /\A-\z/i
@@ -24,7 +26,7 @@ UW = /^UW/i
 JFF = /^JFF/i
 WI = /\AWI\z/i
 ABRV = /((#{UW})|(#{YMCA})|(#{JFF})|(#{WI})|(#{YWCA}))/
-CONJ = /(#{A})|(#{OF})|(#{TO})|(#{AND})|(#{THE})|(#{DE})|(#{HYPHEN})|(#{A_HYPHEN})/
+CONJ = /(#{A})|(#{OF})|(#{TO})|(#{AND})|(#{THE})|(#{DE})|(#{HYPHEN})|(#{A_HYPHEN})|(#{FOR})|(#{ON})/
 WORD_RANGE = /(#{ABRV})|(#{CONJ})/
 INT_WORD_RANGE = /(#{ABRV})|(\sA\s)|(\sOF\s)|(\sTO\s)|(\sAND\s)|(\sTHE\s)|(\sDE\s)|(#{HYPHEN})/
 begin
