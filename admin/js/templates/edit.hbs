@@ -5,20 +5,20 @@
   </div>
   <form id="facilityForm" class="form-horizontal">
     <div class="control-group">
-      <label class="control-label" for="name">Facility Name</label>
+      <label class="control-label required" for="name">Facility Name</label>
       <div class="controls">
         <input class="required" type="text" name="name" value="{{name}}">
       </div>
     </div>
 
     <div class="control-group">
-      <label class="control-label" for="address">Address</label>
+      <label class="control-label required" for="address">Address</label>
       <div class="controls">
         <input class="required hasPopover" type="text" name="address" value="{{address}}" data-trigger="hover" data-content="The address is used for both a human-readable address for the list and detail pages and calculating the map coordinates for the details page.">
       </div>
     </div>
     <div class="control-group">
-      <label class="control-label" for="city">City</label>
+      <label class="control-label required" for="city">City</label>
       <div class="controls">
         <input class="required" type="text" name="city" value="{{city}}">
       </div>
@@ -52,13 +52,13 @@
       </div>
     </div>
 
-    <div class="control-group">
+<!--     <div class="control-group">
       <label class="control-label" for="notes">Notes</label>
       <div class="controls">
         <textarea data-trigger="hover" data-content="Brief description of the facility" name="notes" class="autosize span5 hasPopover">{{notes}}</textarea>
       </div>
     </div>
-
+ -->
     <div class="control-group">
       <label class="control-label" for="gender">Gender</label>
       <div class="controls">
@@ -78,12 +78,12 @@
         <label class ="checkbox"> <input type="checkbox" name="age" id="age_S" value="S"> Senior Citizens (60+) </label>
       </div>
     </div>
-    <div class="control-group">
+<!--     <div class="control-group">
       <label class="control-label" for="required_id">ID</label>
       <div class="controls hasPopover" style="width:150px;" data-trigger="hover" data-content="Whether the identification card is mandatory">
         <label class="checkbox"> <input type="checkbox" name="required_id" value="true" {{#if required_id}}checked{{/if}}> Required </label>
       </div>
-    </div>
+    </div> -->
     <div>
       <label class="control-label">Services</label>
       <div class="controls" id="services">

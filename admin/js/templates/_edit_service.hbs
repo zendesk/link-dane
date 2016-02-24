@@ -6,7 +6,7 @@
     {{category}}
   </div>
   <div class="control-group">
-    <label for="services[][name]">Service name</label>
+    <label class="required" for="services[][name]">Service name</label>
     <input type="text" class="hasPopover" data-trigger='hover' data-content='example: "showers" or "breakfast"' name="services[][name]" value="{{name}}" class="span2 required">
   </div>
   <div class="control-group">
@@ -14,15 +14,25 @@
     <textarea class="autosize span5 hasPopover" data-trigger='hover' data-content="A brief description of the service" name="services[][description]">{{description}}</textarea>
     </div>
   <div class="control-group">
+    <label for="services[][description]">Eligibility</label>
+    <textarea class="autosize span5 hasPopover" data-trigger='hover' data-content="A brief eligibility of the service" name="services[][eligibility]">{{eligibility}}</textarea>
+    </div>
+  <div class="control-group">
     <label for="services[][notes]">Notes</label>
     <textarea class="autosize span5 hasPopover" data-trigger='hover' data-content="Further detail regarding the service" name="services[][notes]">{{notes}}</textarea>
   </div>
   <div>
-    Open Hours
+    <label class="services[][open hours]" for="open hours">Open Hours</label>
     {{> editServiceHours}}
     <br/>
-    <p>
-      <a id="removeService" href="#">Remove service</a>
+  <div class="control-group">
+    <label for="services[][notes]">Open Hours Notes</label>
+    <textarea class="autosize span5 hasPopover" data-trigger='hover' data-content="Further detail regarding the service" name="services[][openHoursNotes]">{{openHoursNotes}}</textarea>
+  </div>
+  </div>
+  <div>
+  <p>
+      <a id="removeService" class="btn-large" href="#">Remove service</a>
     </p>
   </div>
 </div>
