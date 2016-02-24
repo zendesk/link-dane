@@ -14,6 +14,10 @@
     <textarea class="autosize span5 hasPopover" data-trigger='hover' data-content="A brief description of the service" name="services[][description]">{{description}}</textarea>
     </div>
   <div class="control-group">
+    <label for="services[][description]">Eligibility</label>
+    <textarea class="autosize span5 hasPopover" data-trigger='hover' data-content="A brief eligibility of the service" name="services[][eligibility]">{{eligibility}}</textarea>
+    </div>
+  <div class="control-group">
     <label for="services[][notes]">Notes</label>
     <textarea class="autosize span5 hasPopover" data-trigger='hover' data-content="Further detail regarding the service" name="services[][notes]">{{notes}}</textarea>
   </div>
@@ -21,8 +25,14 @@
     Open Hours
     {{> editServiceHours}}
     <br/>
-    <p>
-      <a id="removeService" href="#">Remove service</a>
+  <div class="control-group">
+    <label for="services[][notes]">Open Hours Notes</label>
+    <textarea class="autosize span5 hasPopover" data-trigger='hover' data-content="Further detail regarding the service" name="services[][openHoursNotes]">{{openHoursNotes}}</textarea>
+  </div>
+  </div>
+  <div>
+  <p>
+      <a id="removeService" class="btn-large" href="#">Remove service</a>
     </p>
   </div>
 </div>
