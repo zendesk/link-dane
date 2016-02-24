@@ -54,8 +54,14 @@
 
     #preview_label {
       vertical-align: top;
+      @extend label.control-label;
     }
   }
+
+  label:not(.checkbox) {
+      @extend label.control-label;
+  }
+
 }
 
 .service-edit-row div {
@@ -64,6 +70,10 @@
 
 .service-edit-row label {
   font-color: #333;
+}
+
+label.control-label {
+  font-weight: bold;
 }
 
 #login {
@@ -85,4 +95,9 @@
 
 .clear {
   clear: both;
+}
+
+.required:after {
+  color: red;
+  content:" *";
 }
