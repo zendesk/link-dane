@@ -28,7 +28,7 @@ WI = /\AWI\z/i
 ABRV = /((#{UW})|(#{YMCA})|(#{JFF})|(#{WI})|(#{YWCA}))/
 CONJ = /(#{A})|(#{OF})|(#{TO})|(#{AND})|(#{THE})|(#{DE})|(#{HYPHEN})|(#{A_HYPHEN})|(#{FOR})|(#{ON})/
 WORD_RANGE = /(#{ABRV})|(#{CONJ})/
-INT_WORD_RANGE = /(#{ABRV})|(\sA\s)|(\sOF\s)|(\sTO\s)|(\sAND\s)|(\sTHE\s)|(\sDE\s)|(#{HYPHEN})/
+INT_WORD_RANGE = /(#{ABRV})|(\sA\s)|(\sOF\s)|(\sTO\s)|(\sAND\s)|(\sTHE\s)|(\sDE\s)|(#{HYPHEN})|(\sFOR\s)|(\sON\s)/
 begin
 
   ARGV << '-h' if ARGV.empty?
