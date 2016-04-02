@@ -105,8 +105,10 @@ Hours.prototype.parseDay = function(str) {
       interval = intervals[idx].trim();
     if ( is24HourString(interval) ) {
       result.push([0,2359]);
+    } else if (interval.match(/^close|closed/i)){
+      result.push([0,0]);
     } else {
-      interval = interval.split(/\s?-\s?/);
+      interval = intervals[idx].trim().split(/\s?-\s?/);
       if(!interval[1]) { fail(str); }
 
       times = [ timeStringToOffset(interval[0]),
@@ -225,6 +227,10 @@ function humanizeInterval(intervals) {
         intervals[0] === 0 &&
         intervals[1] === 2359 ) {
     return "24 Hours";
+  } else if ( intervals.length === 2 &&
+        intervals[0] === 0 &&
+        intervals[1] === 0 ) {
+    return;
   }
 
   return intervals.map(function(time) {

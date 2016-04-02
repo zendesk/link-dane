@@ -143,7 +143,7 @@ var EditView = Backbone.View.extend({
     options = options || {};
     var closedCheckbox = $(el).next("input.closed");
 
-    if ( closedCheckbox.prop("checked") || el.value === "" || el.value === "CLOSED" ) {
+    if ( el.value === "") {
       return;
     }
 
