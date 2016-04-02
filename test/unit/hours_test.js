@@ -55,7 +55,7 @@ describe("Hours", function() {
 
         (function() { hours.addDay("Mon", "12:00AM-11:59PM"); }).should.not.throwError(/Invalid time/);
 
-        (function() { hours.addDay("Mon", "12:00AM-12:00AM"); }).should.not.throwError(/Invalid time/);
+        (function() { hours.addDay("Mon", "12:00AM-12:00AM"); }).should.throwError(/Invalid time/);
 
         (function() { hours.addDay("Mon", "12:00AM-50PM"); }).should.throwError(/Invalid time/);
 
