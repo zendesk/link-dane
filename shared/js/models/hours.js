@@ -102,10 +102,11 @@ Hours.prototype.parseDay = function(str) {
   intervals = str.split(',');
 
   for(var idx = 0; idx < intervals.length; idx++) {
-    if ( is24HourString(intervals[idx].trim()) ) {
+      interval = intervals[idx].trim();
+    if ( is24HourString(interval) ) {
       result.push([0,2359]);
     } else {
-      interval = intervals[idx].trim().split(/\s?-\s?/);
+      interval = interval.split(/\s?-\s?/);
       if(!interval[1]) { fail(str); }
 
       times = [ timeStringToOffset(interval[0]),
