@@ -102,8 +102,11 @@ Hours.prototype.parseDay = function(str) {
   intervals = str.split(',');
 
   for(var idx = 0; idx < intervals.length; idx++) {
-    if ( is24HourString(intervals[idx].trim()) ) {
+      interval = intervals[idx].trim();
+    if ( is24HourString(interval) ) {
       result.push([0,2359]);
+    } else if (interval.match(/^close|closed/i)){
+      result.push([0,0]);
     } else {
       interval = intervals[idx].trim().split(/\s?-\s?/);
       if(!interval[1]) { fail(str); }
@@ -112,6 +115,8 @@ Hours.prototype.parseDay = function(str) {
                 timeStringToOffset(interval[1]) ];
 
       if(times[0] > 2400 || times[1] > 2400) { fail(str); }
+
+      if(times[0] === 0 && times[1] === 0) { fail(str); }
 
       if(times[0] === times[1] && times[0] !== 0) { fail(str); }
 
@@ -222,6 +227,10 @@ function humanizeInterval(intervals) {
         intervals[0] === 0 &&
         intervals[1] === 2359 ) {
     return "24 Hours";
+  } else if ( intervals.length === 2 &&
+        intervals[0] === 0 &&
+        intervals[1] === 0 ) {
+    return;
   }
 
   return intervals.map(function(time) {

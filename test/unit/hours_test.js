@@ -11,7 +11,7 @@ describe("Hours", function() {
       Sun: "9AM-6PM",
       Mon: "9AM-12PM,2PM-5PM",
       Tue: "9AM-6PM",
-      Wed: "9AM-6PM",
+      Wed: "CLOSED",
       Thu: "9AM-6PM",
       Fri: "9AM-6PM",
       Sat: "9:00AM-11:00AM,2pm-5:30pm"
@@ -26,7 +26,7 @@ describe("Hours", function() {
         0: [[900,1800]],
         1: [[900,1200], [1400,1700]],
         2: [[900,1800]],
-        3: [[900,1800]],
+        3: [[0,0]],
         4: [[900,1800]],
         5: [[900,1800]],
         6: [[900,1100], [1400, 1730]]
@@ -55,7 +55,7 @@ describe("Hours", function() {
 
         (function() { hours.addDay("Mon", "12:00AM-11:59PM"); }).should.not.throwError(/Invalid time/);
 
-        (function() { hours.addDay("Mon", "12:00AM-12:00AM"); }).should.not.throwError(/Invalid time/);
+        (function() { hours.addDay("Mon", "12:00AM-12:00AM"); }).should.throwError(/Invalid time/);
 
         (function() { hours.addDay("Mon", "12:00AM-50PM"); }).should.throwError(/Invalid time/);
 
@@ -92,10 +92,11 @@ describe("Hours", function() {
   describe("#humanize", function() {
     beforeEach(function() {
       hours = new Hours({
-        Sun: "9AM-6PM",
-        Mon: "9AM-12PM,2PM-5PM",
-        Tue: "9AM-12AM",
-        Wed: "9AM-6PM",
+        Sun: "24hr",
+        Mon: "9AM-12AM",
+        Tue: "9AM-6PM",
+        Wed: "CLOSED",
+        Thu: "9AM-6PM",
         Fri: "9AM-6PM",
         Sat: "9:00AM-11:00AM,2pm-5:30pm"
       });
@@ -104,12 +105,24 @@ describe("Hours", function() {
 
     it('converts to templatable objects', function() {
       hours.humanize().should.eql([
-        { day: 'Sunday', hours: '9am - 6pm' },
-        { day: 'Monday', hours: '9am - 12pm, 2pm - 5pm' },
-        { day: 'Tuesday', hours: '9am - 12am' },
-        { day: 'Wednesday', hours: '9am - 6pm' },
-        { day: 'Thursday', hours: null },
+        { day: 'Sunday', hours: '24 Hours' },
+        { day: 'Monday', hours: '9am - 12am' },
+        { day: 'Tuesday', hours: '9am - 6pm' },
+        { day: 'Wednesday', hours: "" },
+        { day: 'Thursday', hours: '9am - 6pm' },
         { day: 'Friday', hours: '9am - 6pm' },
+        { day: 'Saturday', hours: '9am - 11am, 2pm - 5:30pm' }
+      ]);
+    });
+
+
+    it('converts to condensed templatable objects', function() {
+      hours.humanizeCondensed().should.eql([
+        { day: 'Sunday', hours: '24 Hours' },
+        { day: 'Monday', hours: '' },
+        { day: 'Tuesday', hours: '9am - 6pm' },
+        { day: 'Wednesday', hours: '' },
+        { day: 'Thursday - Friday', hours: '9am - 6pm' },
         { day: 'Saturday', hours: '9am - 11am, 2pm - 5:30pm' }
       ]);
     });
@@ -209,7 +222,7 @@ describe("Hours", function() {
         0: [[900,1800]],
         1: [[900,1200], [1400, 1700]],
         2: [[900,1800]],
-        3: [[900,1800]],
+        3: [[0,0]],
         4: [[900,1800]],
         5: [[900,1800]],
         6: [[900, 1100], [1400,1730]]
