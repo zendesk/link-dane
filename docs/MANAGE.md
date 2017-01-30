@@ -1,6 +1,6 @@
 ## Managing Organizations, Locations, and Services
 
-Navigate to `<path to linksf instance>/admin` in your browser while Link-SF is running, and log in with the credentials that you used to create your admin user in Firebase. If you already imported Data, you should see it displayed in the list.
+Navigate to `<path to link-dane instance>/admin` in your browser while Link-Dane is running, and log in with the credentials that you used to create your admin user in Firebase. If you already imported Data, you should see it displayed in the list.
 
 ### How it's structured
 
@@ -19,7 +19,7 @@ Organizations are the top level item.  Any Organization may have one more more L
 
 #### Organizations
 
-An Organization is any non-profit or business that offers services you want to be seen on your Link-SF instance.  For example, St Anthony's Foundation, or the United Way.
+An Organization is any non-profit or business that offers services you want to be seen on your Link-Dane instance.  For example, St Anthony's Foundation, or the United Way.
 
 Organizations contain high level data that you may want to keep around such as their website and points of contact.
 
@@ -27,11 +27,11 @@ Organizations contain high level data that you may want to keep around such as t
 
 Distinct from an Organization, a Location is any physical place that you could visit.  For example, the United Way may have an East and a West location, each of which offers different services to its visitors.
 
-Locations are what visitors of your Link-SF will see listed after an initial search. They contain a name, short description of the building, and a street address.
+Locations are what visitors of your Link-Dane will see listed after an initial search. They contain a name, short description of the building, and a street address.
 
 #### Services
 
-Services are the bread and butter of your Link-SF instance.  These are the actual resources which are provided at the locations listed.  A soup kitchen, or temporary housing would be examples of individual services.
+Services are the bread and butter of your Link-Dane instance.  These are the actual resources which are provided at the locations listed.  A soup kitchen, or temporary housing would be examples of individual services.
 
 When a user visits the home page of your Link, they will first select what they are looking for (ex. Food, Housing, Hygiene, Medical, Technology), and the locations of these services will be displayed to them.
 

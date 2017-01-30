@@ -1,12 +1,12 @@
 # Setup
 
-This guide explains how to install and setup your Link-SF.
+This guide explains how to install and setup your Link-Dane.
 
 ## Prerequisites
 
 ### Accounts
 
-Link-SF is designed to be free to setup and free to run. Since hosting files is cheap, we've decided to build a [static site](https://en.wikipedia.org/wiki/Static_web_page).
+Link-Dane is designed to be free to setup and free to run. Since hosting files is cheap, we've decided to build a [static site](https://en.wikipedia.org/wiki/Static_web_page).
 
 * [Firebase](https://firebase.google.com/console):  Firebase is the only required account, and it's completely free.  It will provide everything we need to get up and running, including database storage, authentication, and hosting.
 
@@ -18,7 +18,7 @@ The following accounts are optional:
 
 ### Get the code
 
-Download the source (via [git](git@github.com:zendesk/linksf.git) or [.zip file](https://github.com/zendesk/linksf/archive/master.zip)).
+Download the source (via [git](git@github.com:zendesk/link-dane.git) or [.zip file](https://github.com/zendesk/link-dane/archive/master.zip)).
 
 ## Setup
 
@@ -28,7 +28,7 @@ If you have an existing project hosted with Parse, you can use our migration too
 
  * [Link Migrator](http://linkmigrator.herokuapp.com/)
 
-To see more about how your data is structured and what it means, read our [Management documentation](https://github.com/zendesk/linksf/blob/master/docs/MANAGE.md)
+To see more about how your data is structured and what it means, read our [Management documentation](https://github.com/zendesk/link-dane/blob/master/docs/MANAGE.md)
 
 ### Configuration
 
@@ -52,8 +52,8 @@ In the project root, you will find three configuration files:
 
   ```
   const config = {
-    title: 'Link-SF',           // Your website title
-    url: 'https://link-sf.com', // Your website URL
+    title: 'Link-Dane',           // Your website title
+    url: 'https://link-dane.co', // Your website URL
     project: 'link-sf',         // Firebase project. See README.md -> How to Deploy
     trackingID: 'UA-XXXXX-Y',   // Google Analytics Site's ID
   };
@@ -90,7 +90,7 @@ Using npm, we can install all dependencies with one command.
 
 ### Setting up your Firebase project
 
-The following steps will use Firebase Tools to authenticate and set up your local Link-SF copy in preparation to deploy.
+The following steps will use Firebase Tools to authenticate and set up your local Link-Dane copy in preparation to deploy.
 
 1. Login
 
@@ -110,7 +110,7 @@ From the project root (and with the command line tools outlined above installed)
 
 `npm start`
 
-If everything worked, you should have Link-SF open and running in your browser. If you migrated data from Parse, you should see everything show up here.  If not, you will need to add data using the administrator interface by visiting `/admin`.
+If everything worked, you should have Link-Dane open and running in your browser. If you migrated data from Parse, you should see everything show up here.  If not, you will need to add data using the administrator interface by visiting `/admin`.
 
 ### Making changes to the site
 
@@ -122,7 +122,7 @@ We use http://fontello.com to generate an icon bundle. [Here's a guide on how to
 
 ### Feedback form
 
-Link-SF uses [Formspree](https://formspree.io/) to send emails from the static site.
+Link-Dane uses [Formspree](https://formspree.io/) to send emails from the static site.
 
 If you'd like to use a feedback form:
 
