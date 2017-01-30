@@ -9,7 +9,9 @@ import Footer from './Footer'
 function Layout({ admin, children }) {
   return (
     <div className={s.body}>
-      <Navigation currentUser={admin && currentUser()} />
+      {window.location.pathname === "/" ?
+        null :
+        <Navigation currentUser={admin && currentUser()} />}
       <div className={s.center}>
         <div className={admin ? s.adminContent : s.content}>
           {children}
