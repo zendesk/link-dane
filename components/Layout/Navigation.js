@@ -50,7 +50,7 @@ class Navigation extends Component {
                 className={s.logoImg}
                 role="link"
                 src="/link-dane-logo.png"
-                alt="San Francisco website that connects homeless and low-income residents with critical and life-saving resources"
+                alt="Website serving Dane County area that connects homeless and low-income residents with critical and life-saving resources"
               />
             </Link>
           </div>
