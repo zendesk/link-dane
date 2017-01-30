@@ -155,7 +155,7 @@ const Schedule = (props) => {
     .map(index => (
       <tr key={`day-${index}`}>
         <td className={s.labelHour}>
-          <b>{DAY_ABBREVIATIONS[DAYS[index]]}</b>
+          <b>{DAY_ABBREVIATIONS[DAYS[index]]}:</b>
         </td>
         <td className={s.hour}>
           {indexToDaySchedule(index)
@@ -180,13 +180,13 @@ const Location = (props) => {
   const { services = [] } = location
   return (
     <div className={s.location}>
-      <div className={s.section}>
+      <div className={s.card}>
         <h2 className={s.name}>{location.name}</h2>
         <span className={s.label}>Welcome: </span>
           {getEligibility(getAllGendersAndAges(services))}
       </div>
-      <p className={s.title}>Services</p>
-      <div className={s.section}>
+      <div className={s.card}>
+        <h1>Services</h1>
         <div className={s.categoryIcons}>
           {relevantTaxonomies(services).map((taxonomy, index) => (
             <span key={`category-${index}`}>
@@ -197,71 +197,62 @@ const Location = (props) => {
         </div>
       </div>
       {location.physicalAddress &&
-        <div className={s.insetMap}>
-          <div className={s.map}>
-            <GoogleMap lat={location.latitude} long={location.longitude} />
-          </div>
-          <p className={s.address}>
-            {location.physicalAddress.address1}
-          </p>
-        </div>
-      }
-      {organization.phones &&
-        <div className={s.inset + ' ' + s.insetInGroup}>
-          <label className={`${s.contactLabel} ${icons.iconPhone} icon-phone`}>Call </label>
-            <div className={s.callPhone}>
-               {organization.phones.map((phone, index) => (
-                <div key={`phone-${index}`}>
-                  <a
-                    className={s.phone}
-                    href={'tel:' + phone.number.replace(/[^\d]/g, '')}
-                  >{phone.number}</a>
-                  <span className={s.phoneDepartment}>{phone.department}</span>
-                </div>
-              ))}
+        <div className={`${s.card} ${s.map}`}>
+          <a href={getMapsUrl(location)} rel="nofollow" target="_blank" title="Click to open Google Maps in a new window with directions to facility">
+            <div className={s.detailMap}>
+              <GoogleMap lat={location.latitude} long={location.longitude} />
             </div>
+            <div className={s.getDirection}>
+              <i className={`${icons.iconCompass} icon-compass`}></i>
+              <span>Get Directions</span>
+            </div>
+          </a>
         </div>
       }
-      {organization.url &&
-        <div className={s.inset + ' ' + s.insetInGroup}>
-          <label className={`${s.contactLabel} ${icons.iconLink} icon-website`}>Website </label>
-          <span className={s.websiteUrl}>
-            <a
-              className={s.website}
-              href={organization.url}
-              rel="nofollow"
-              target="_blank">
-              {organization.url}
-            </a>
-          </span>
-        </div>
-      }
-      <div className={s.inset + ' ' + s.insetInGroup}>
-        <a
-          href={getMapsUrl(location)}
-          rel="nofollow"
-          target="_blank"
-        >
-          <button>
-            <label className={`${s.directionsLabel} ${icons.iconCompass} icon-compass`}>Directions</label>
-          </button>
+      <div className={s.card}>
+        <h1>Contact Information</h1>
+        <hr />
+        {organization.phones &&
+          <div className={s.inset + ' ' + s.insetInGroup}>
+              <div className={s.callPhone}>
+                 {organization.phones.map((phone, index) => (
+                  <a href={'tel:' + phone.number.replace(/[^\d]/g, '')} key={`phone-${index}`}>
+                    <i className={`${icons.iconPhone} icon-phone`}></i>
+                    {phone.number}
+                    <span className={s.phoneDepartment}>{phone.department}</span>
+                    <label>Call Now</label>
+                  </a>
+                ))}
+              </div>
+          </div>
+        }
+        {organization.url &&
+          <a href={organization.url} className={s.inset + ' ' + s.insetInGroup}>
+            <i className={`${icons.iconLink} icon-link`}></i>
+            <span className={s.websiteUrl}>{organization.url}</span>
+            <label>Visit Website</label>
+          </a>
+        }
+        <a href={getMapsUrl(location)} rel="nofollow" target="_blank" className={s.inset + ' ' + s.insetInGroup}>
+            <i className={`${icons.iconCompass} icon-compass`}></i>
+            <span>{location.physicalAddress.address1}</span>
+            <label>Directions</label>
         </a>
       </div>
-      <ul title="Services details" className={s.servicesList}>
-        {services && Object.values(services).map((service, index) => (
-          <li key={`service-${index}`} className={s.insetServices}>
-            <div className={s.noteWrapper}>
-              <h3 className={s.serviceTitle}>{service.name}</h3>
-              <p className={s.serviceDescription}>{service.description}</p>
-              <Schedule schedules={service.schedules} />
-            </div>
-            <div className={s.notes}>
-              <label>Notes</label>
-              <p>{service.applicationProcess}</p>
-            </div>
-          </li>
-        ))}
-      </ul>
+      {services && Object.values(services).map((service, index) => (
+        <div key={`service-${index}`} className={s.card + ' ' + s.insetServices}>
+          <div className={s.serviceInset}>
+            <h3 className={s.serviceTitle}>{service.name}</h3>
+            <p className={s.serviceDescription}>{service.description}</p><br/>
+            <strong><label>Hours:</label></strong><br/>
+            <Schedule schedules={service.schedules} />
+          </div>
+          <div className={s.notes}>
+            <strong><label>Notes:</label></strong>
+            <p>{service.applicationProcess}</p>
+          </div>
+        </div>
+      ))}
     </div>
   )
 }
