@@ -18,14 +18,7 @@ const firebase = require('firebase-tools');
 const browserSync = require('browser-sync');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpackHotMiddleware = require('webpack-hot-middleware');
-
-// TODO: Update configuration settings
-const config = {
-  title: 'Link-SF',           // Your website title
-  url: 'https://link-sf.com', // Your website URL
-  project: 'link-sf',         // Firebase project. See README.md -> How to Deploy
-  trackingID: 'UA-XXXXX-Y',   // Google Analytics Site's ID
-};
+const config = require('./config');
 
 const tasks = new Map(); // The collection of automation tasks ('clean', 'build', 'publish', etc.)
 
