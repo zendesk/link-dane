@@ -62,7 +62,8 @@ const getEligibility = ({ gender, age = [] }) => {
 
 const getMapsUrl = (location) => {
   const { latitude, longitude } = location
-  return `https://maps.google.com/maps?q=loc:${latitude},${longitude}`
+  const address = location.physicalAddress.address1
+  return `https://maps.google.com?daddr=:${address}@${latitude},${longitude}`
 }
 
 const DAYS = {
