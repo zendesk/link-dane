@@ -254,7 +254,7 @@ const Location = (props) => {
             <Schedule schedules={service.schedules} />
           </div>
           {service.schedulesNote && <div className={s.schedulesNote}>
-            <i className={`${icons.iconAttention} icon-attention`}></i>
+            <i style={{color:'#DF382C', paddingRight:'5px'}} className={`${icons.iconAttention} icon-attention`}></i>
             <strong><label>Hours Notes:</label></strong>
             <p>{service.schedulesNote}</p>
           </div>}

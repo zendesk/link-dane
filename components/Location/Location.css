@@ -193,6 +193,7 @@ button {
 
 .categoryIcons span {
   padding-right: 5px;
+  color: #666;
 }
 .noteWrapper {
   padding: 20px;
@@ -215,5 +216,5 @@ button {
   padding: 15px;
   border-radius: 3px;
   background: rgba(223,56,44,.11);
-  color: #DF382C;
+  /*color: #DF382C;*/
 }
