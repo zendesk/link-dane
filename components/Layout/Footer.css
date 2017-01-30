@@ -19,3 +19,8 @@
 .nav:last-of-type {
   margin-right: 0;
 }
+
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
