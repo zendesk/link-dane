@@ -243,10 +243,21 @@ const Location = (props) => {
         <div key={`service-${index}`} className={s.card + ' ' + s.insetServices}>
           <div className={s.serviceInset}>
             <h3 className={s.serviceTitle}>{service.name}</h3>
-            <p className={s.serviceDescription}>{service.description}</p><br/>
+            <p className={s.serviceDescription}>{service.description}</p>
+          </div>
+          {service.eligibilityNote && <div className={s.eligibilityNote}>
+            <strong><label>Eligibility Notes:</label></strong>
+            <p>{service.eligibilityNote}</p>
+          </div>}
+          <div className={s.serviceInset}>
             <strong><label>Hours:</label></strong><br/>
             <Schedule schedules={service.schedules} />
           </div>
+          {service.schedulesNote && <div className={s.schedulesNote}>
+            <i className={`${icons.iconAttention} icon-attention`}></i>
+            <strong><label>Hours Notes:</label></strong>
+            <p>{service.schedulesNote}</p>
+          </div>}
           <div className={s.notes}>
             <strong><label>Notes:</label></strong>
             <p>{service.applicationProcess}</p>

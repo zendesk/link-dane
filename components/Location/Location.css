@@ -200,7 +200,20 @@ button {
 }
 
 .notes {
-  background: #EAEAEA;
+  background: #f3f3f3;
   padding: 15px;
   border-radius: 3px;
+}
+
+.eligibilityNote {
+  padding: 15px;
+  border-radius: 3px;
+  background: rgba(210,121,27,.11);
+}
+
+.schedulesNote {
+  padding: 15px;
+  border-radius: 3px;
+  background: rgba(223,56,44,.11);
+  color: #DF382C;
 }
